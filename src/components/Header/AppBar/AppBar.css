@@ -1,0 +1,25 @@
+.SearchInput {
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    outline: none; 
+    color: #AB8A7A;
+    z-index: 1;
+    margin: auto;
+    background: #F8F9FA;
+}
+
+.SearchText {
+    margin: auto;
+}
+
+.SearchInput:focus {
+    border: none;
+    border-radius: 5px;
+    outline: solid 2px #AB8A7A; 
+    color: #AB8A7A;
+    z-index: 1;
+}
+
+input::placeholder {
+    color: #AB8A7A !important;
+}
