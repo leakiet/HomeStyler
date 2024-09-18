@@ -10,7 +10,6 @@ function App() {
       {/* <div className="container-fluid"> */}
       <div className="container-fluid">
         <Header />
-        <Carausel />
         <HomePage />
         <Footer />
       </div >
