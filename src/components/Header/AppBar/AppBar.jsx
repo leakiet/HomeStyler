@@ -42,16 +42,16 @@ function NavBar() {
         <div>
           <div className="input-group flex-nowrap">
             <input type="text" className="SearchInput" placeholder="Search" aria-label="Search" aria-describedby="addon-wrapping" />
-            <span className="input-group-text SearchText" id="addon-wrapping"><i class="bi bi-search" style={{ color: '#AB8A7A' , fontSize: 11.4}}/></span>
+            <span className="input-group-text SearchText" id="addon-wrapping"><i className="bi bi-search" style={{ color: '#AB8A7A' , fontSize: 11.4}}/></span>
           </div>
           
         </div>
         <div style={{ display:'flex', alignItems:'center', gap: 5 }}>
-          <i class="bi bi-person-fill" style={{ fontSize: '24px' }} />
+          <i className="bi bi-person-fill" style={{ fontSize: '24px' }} />
           <span>Account</span>
         </div>
         <div  style={{ display:'flex', alignItems:'center', gap: 5 }}>
-          <i class="bi bi-cart-fill" style={{ fontSize: '24px' }} />
+          <i className="bi bi-cart-fill" style={{ fontSize: '24px' }} />
           <span>Cart</span>
         </div>
       </div>

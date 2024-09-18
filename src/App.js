@@ -6,12 +6,15 @@ import Carausel from "./pages/Carausel/Carausel.js";
 
 function App() {
   return (
-    <div className="container-fluid">
-    <Header />
-    <Carausel/>
-    <HomePage />
-    <Footer />
-    </div >
+    <>
+      {/* <div className="container-fluid"> */}
+      <div className="container-fluid">
+        <Header />
+        <Carausel />
+        <HomePage />
+        <Footer />
+      </div >
+    </>
   )
 }
 
