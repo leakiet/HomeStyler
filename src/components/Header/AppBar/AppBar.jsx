@@ -1,5 +1,9 @@
 import React from 'react'
 import './AppBar.css'
+import DesignStyles from './DesignStyles/DesignStyles'
+import Products from './Products/Products'
+import DesignersGallary from './DesignerGallary/DesignersGallary'
+import HomeStylerLogo from '../../../assets/HomeStylerLogo.png'
 
 function NavBar() {
   return (
@@ -8,7 +12,7 @@ function NavBar() {
       display: 'flex',
       alignItems: 'center',
       justifyContent: 'space-between',
-      fontSize: 18,
+      fontSize: 16,
       color: '#AB8A7A',
       background: '#E0D7C7',
       padding: '10px'
@@ -19,17 +23,26 @@ function NavBar() {
         justifyContent: 'space-between',
         gap: 15
       }}>
-        <div>
-          Logo + Name
+        <div style={{
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'flex-start',
+        }}>
+          <a href="#">
+            <img src={HomeStylerLogo} alt="logo" width="55px" />
+          </a>
+          <a href="#">
+            <span style={{ fontSize: '26px', }}>Home Styler</span>
+          </a>
         </div>
         <div>
-          Design Styles
+          <DesignStyles />
         </div>
         <div>
-          Designers Gallary
+          <DesignersGallary />
         </div>
         <div>
-          Products
+          <Products />
         </div>
       </div>
 
@@ -42,17 +55,21 @@ function NavBar() {
         <div>
           <div className="input-group flex-nowrap">
             <input type="text" className="SearchInput" placeholder="Search" aria-label="Search" aria-describedby="addon-wrapping" />
-            <span className="input-group-text SearchText" id="addon-wrapping"><i class="bi bi-search" style={{ color: '#AB8A7A' , fontSize: 11.4}}/></span>
+            <span className="input-group-text SearchText" id="addon-wrapping"><i class="bi bi-search" style={{ color: '#AB8A7A', fontSize: 9.0 }} /></span>
           </div>
-          
+
         </div>
-        <div style={{ display:'flex', alignItems:'center', gap: 5 }}>
-          <i class="bi bi-person-fill" style={{ fontSize: '24px' }} />
-          <span>Account</span>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 5 }}>
+          <a href='#'>
+            <i class="bi bi-person-fill" style={{ fontSize: '20px' }} />
+          </a>
+          <a href='#'>Account</a>
         </div>
-        <div  style={{ display:'flex', alignItems:'center', gap: 5 }}>
-          <i class="bi bi-cart-fill" style={{ fontSize: '24px' }} />
-          <span>Cart</span>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 5 }}>
+          <a href="#">
+            <i class="bi bi-cart-fill" style={{ fontSize: '20px' }} />
+          </a>
+          <a href='#'>Cart</a>
         </div>
       </div>
 

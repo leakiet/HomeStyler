@@ -7,7 +7,7 @@ function TopBar() {
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'space-between',
-            fontSize: 18,
+            fontSize: 16,
             background: '#73868A' ,
             padding: '10px'
         }}>
