@@ -1,0 +1,13 @@
+.top-bar{
+    margin: 3px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-bar-list .top-bar-item{
+    color: black;
+    text-decoration: none;
+    margin: 3px;
+    padding-left: 5px;
+    display: inline-block;
+}
