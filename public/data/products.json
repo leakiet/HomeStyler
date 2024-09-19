@@ -1130,180 +1130,182 @@
       "totalReviews": 14
     }
   },
-  {
-    "id": 36,
-    "name": "Floor lamps3",
-    "style": ["Living Room", "Bedroom", "Elegant lock style"],
-    "cate1": "Lighting",
-    "cate2": "Floor lamps1",
-    "description": "A stylish and versatile floor lamp for any room.",
-    "quantity": 25,
-    "price": 199.99,
-    "image": [
-      "../IMAGES/PRODUCTS/LIGHTING/FLOOR_LAMPS/p7.jpg",
-      "../IMAGES/PRODUCTS/LIGHTING/FLOOR_LAMPS/p8.jpg",
-      "../IMAGES/PRODUCTS/LIGHTING/FLOOR_LAMPS/p9.jpg"
-    ],
-    "reviews": [
-      {
-        "userId": 1,
-        "userName": "James Turner",
-        "stars": 4,
-        "comment": "Looks great, but the assembly was tricky."
-      },
-      {
-        "userId": 2,
-        "userName": "Samantha Clark",
-        "stars": 5,
-        "comment": "Absolutely love it! Stylish and functional."
+  [
+    {
+      "id": 36,
+      "name": "Floor lamps Model X",
+      "style": ["Living Room", "Bedroom", "Elegant lock style"],
+      "cate1": "Lighting",
+      "cate2": "Floor lamps",
+      "description": "A sleek floor lamp designed to illuminate every corner of your home.",
+      "quantity": 15,
+      "price": 189.99,
+      "image": [
+        "../IMAGES/PRODUCTS/LIGHTING/FLOOR_LAMPS/p7.jpg",
+        "../IMAGES/PRODUCTS/LIGHTING/FLOOR_LAMPS/p8.jpg",
+        "../IMAGES/PRODUCTS/LIGHTING/FLOOR_LAMPS/p9.jpg"
+      ],
+      "reviews": [
+        {
+          "userId": 1,
+          "userName": "David Johnson",
+          "stars": 4,
+          "comment": "Good value for the price, but the assembly instructions were unclear."
+        },
+        {
+          "userId": 2,
+          "userName": "Emily Rogers",
+          "stars": 5,
+          "comment": "Beautiful lamp! Fits perfectly in my living room."
+        }
+      ],
+      "rating": {
+        "averageStars": 4.5,
+        "totalReviews": 6
       }
-    ],
-    "rating": {
-      "averageStars": 4.5,
-      "totalReviews": 8
-    }
-  },
-  {
-    "id": 37,
-    "name": "Outdoor lighting1",
-    "style": ["Contemporary style"],
-    "cate1": "Lighting",
-    "cate2": "Outdoor lighting",
-    "description": "A modern outdoor light perfect for illuminating your garden.",
-    "quantity": 30,
-    "price": 349.99,
-    "image": [
-      "../IMAGES/PRODUCTS/LIGHTING/OUTDOOR_LIGHTING/p1.jpg",
-      "../IMAGES/PRODUCTS/LIGHTING/OUTDOOR_LIGHTING/p2.jpg",
-      "../IMAGES/PRODUCTS/LIGHTING/OUTDOOR_LIGHTING/p3.jpg"
-    ],
-    "reviews": [
-      {
-        "userId": 3,
-        "userName": "Lucas Evans",
-        "stars": 5,
-        "comment": "Fantastic light for outdoor use. Bright and durable!"
-      },
-      {
-        "userId": 4,
-        "userName": "Olivia Davis",
-        "stars": 4,
-        "comment": "Great lighting but a bit expensive."
+    },
+    {
+      "id": 37,
+      "name": "Outdoor lighting Elite",
+      "style": ["Contemporary style"],
+      "cate1": "Lighting",
+      "cate2": "Outdoor lighting",
+      "description": "An elegant lighting fixture that enhances outdoor spaces with modern charm.",
+      "quantity": 28,
+      "price": 329.99,
+      "image": [
+        "../IMAGES/PRODUCTS/LIGHTING/OUTDOOR_LIGHTING/p1.jpg",
+        "../IMAGES/PRODUCTS/LIGHTING/OUTDOOR_LIGHTING/p2.jpg",
+        "../IMAGES/PRODUCTS/LIGHTING/OUTDOOR_LIGHTING/p3.jpg"
+      ],
+      "reviews": [
+        {
+          "userId": 3,
+          "userName": "Sophia Anderson",
+          "stars": 5,
+          "comment": "Absolutely love it! It really brightens up the yard."
+        },
+        {
+          "userId": 4,
+          "userName": "Benjamin Cooper",
+          "stars": 4,
+          "comment": "Looks great but could be brighter."
+        }
+      ],
+      "rating": {
+        "averageStars": 4.5,
+        "totalReviews": 8
       }
-    ],
-    "rating": {
-      "averageStars": 4.5,
-      "totalReviews": 12
-    }
-  },
-  {
-    "id": 38,
-    "name": "Outdoor lighting2",
-    "style": ["Contemporary style"],
-    "cate1": "Lighting",
-    "cate2": "Outdoor lighting",
-    "description": "Elegant outdoor lighting suitable for any patio.",
-    "quantity": 20,
-    "price": 279.99,
-    "image": [
-      "../IMAGES/PRODUCTS/LIGHTING/OUTDOOR_LIGHTING/p4.jpg",
-      "../IMAGES/PRODUCTS/LIGHTING/OUTDOOR_LIGHTING/p5.jpg",
-      "../IMAGES/PRODUCTS/LIGHTING/OUTDOOR_LIGHTING/p6.jpg"
-    ],
-    "reviews": [
-      {
-        "userId": 5,
-        "userName": "Ella Johnson",
-        "stars": 4,
-        "comment": "Stylish and works well, but installation instructions could be clearer."
-      },
-      {
-        "userId": 6,
-        "userName": "Mason Lee",
-        "stars": 5,
-        "comment": "Beautiful lighting. Perfect for evening gatherings."
+    },
+    {
+      "id": 38,
+      "name": "Outdoor lighting Prestige",
+      "style": ["Contemporary style"],
+      "cate1": "Lighting",
+      "cate2": "Outdoor lighting",
+      "description": "A durable and modern outdoor lighting solution for patios and gardens.",
+      "quantity": 18,
+      "price": 259.99,
+      "image": [
+        "../IMAGES/PRODUCTS/LIGHTING/OUTDOOR_LIGHTING/p4.jpg",
+        "../IMAGES/PRODUCTS/LIGHTING/OUTDOOR_LIGHTING/p5.jpg",
+        "../IMAGES/PRODUCTS/LIGHTING/OUTDOOR_LIGHTING/p6.jpg"
+      ],
+      "reviews": [
+        {
+          "userId": 5,
+          "userName": "Grace Kelly",
+          "stars": 4,
+          "comment": "Stylish, but it needs professional installation."
+        },
+        {
+          "userId": 6,
+          "userName": "Daniel Wright",
+          "stars": 5,
+          "comment": "Perfect for outdoor dining areas, very stylish."
+        }
+      ],
+      "rating": {
+        "averageStars": 4.5,
+        "totalReviews": 9
       }
-    ],
-    "rating": {
-      "averageStars": 4.5,
-      "totalReviews": 10
-    }
-  },
-  {
-    "id": 39,
-    "name": "Outdoor lighting3",
-    "style": ["Contemporary style"],
-    "cate1": "Lighting",
-    "cate2": "Outdoor lighting",
-    "description": "Modern and sleek outdoor light with adjustable features.",
-    "quantity": 15,
-    "price": 319.99,
-    "image": [
-      "../IMAGES/PRODUCTS/LIGHTING/OUTDOOR_LIGHTING/p7.jpg",
-      "../IMAGES/PRODUCTS/LIGHTING/OUTDOOR_LIGHTING/p8.jpg",
-      "../IMAGES/PRODUCTS/LIGHTING/OUTDOOR_LIGHTING/p9.jpg"
-    ],
-    "reviews": [
-      {
-        "userId": 7,
-        "userName": "Liam Harris",
-        "stars": 5,
-        "comment": "Excellent outdoor light. Provides great illumination."
-      },
-      {
-        "userId": 8,
-        "userName": "Ava Martinez",
-        "stars": 4,
-        "comment": "Very stylish, but installation took longer than expected."
+    },
+    {
+      "id": 39,
+      "name": "Outdoor lighting Prime",
+      "style": ["Contemporary style"],
+      "cate1": "Lighting",
+      "cate2": "Outdoor lighting",
+      "description": "A modern outdoor lighting fixture with customizable brightness.",
+      "quantity": 12,
+      "price": 299.99,
+      "image": [
+        "../IMAGES/PRODUCTS/LIGHTING/OUTDOOR_LIGHTING/p7.jpg",
+        "../IMAGES/PRODUCTS/LIGHTING/OUTDOOR_LIGHTING/p8.jpg",
+        "../IMAGES/PRODUCTS/LIGHTING/OUTDOOR_LIGHTING/p9.jpg"
+      ],
+      "reviews": [
+        {
+          "userId": 7,
+          "userName": "Oliver Thompson",
+          "stars": 5,
+          "comment": "Great light, easy to adjust and looks amazing."
+        },
+        {
+          "userId": 8,
+          "userName": "Lily Scott",
+          "stars": 4,
+          "comment": "Beautiful light but took longer to install than expected."
+        }
+      ],
+      "rating": {
+        "averageStars": 4.5,
+        "totalReviews": 7
       }
-    ],
-    "rating": {
-      "averageStars": 4.5,
-      "totalReviews": 9
-    }
-  },
-  {
-    "id": 40,
-    "name": "Table lamps1",
-    "style": ["Kitchen", "Living Room"],
-    "cate1": "Lighting",
-    "cate2": "Table lamps",
-    "description": "A modern table lamp with adjustable brightness.",
-    "quantity": 18,
-    "price": 219.99,
-    "image": [
-      "../IMAGES/PRODUCTS/LIGHTING/TABLE_LAMPS/p1.jpg",
-      "../IMAGES/PRODUCTS/LIGHTING/TABLE_LAMPS/p2.jpg",
-      "../IMAGES/PRODUCTS/LIGHTING/TABLE_LAMPS/p3.jpg"
-    ],
-    "reviews": [
-      {
-        "userId": 9,
-        "userName": "Ethan Brown",
-        "stars": 4,
-        "comment": "Great lamp for the living room. Adjustability is a plus."
-      },
-      {
-        "userId": 10,
-        "userName": "Sophia Wilson",
-        "stars": 5,
-        "comment": "Perfect size and style for my kitchen table."
+    },
+    {
+      "id": 40,
+      "name": "Table lamps Classic",
+      "style": ["Kitchen", "Living Room"],
+      "cate1": "Lighting",
+      "cate2": "Table lamps",
+      "description": "A timeless table lamp with adjustable light intensity for versatile use.",
+      "quantity": 20,
+      "price": 199.99,
+      "image": [
+        "../IMAGES/PRODUCTS/LIGHTING/TABLE_LAMPS/p1.jpg",
+        "../IMAGES/PRODUCTS/LIGHTING/TABLE_LAMPS/p2.jpg",
+        "../IMAGES/PRODUCTS/LIGHTING/TABLE_LAMPS/p3.jpg"
+      ],
+      "reviews": [
+        {
+          "userId": 9,
+          "userName": "Jack Martin",
+          "stars": 4,
+          "comment": "Good quality, but the cord is a bit short."
+        },
+        {
+          "userId": 10,
+          "userName": "Amelia Walker",
+          "stars": 5,
+          "comment": "Perfect for reading, love the brightness control."
+        }
+      ],
+      "rating": {
+        "averageStars": 4.5,
+        "totalReviews": 10
       }
-    ],
-    "rating": {
-      "averageStars": 4.5,
-      "totalReviews": 11
     }
-  },
+  ],
   {
     "id": 41,
-    "name": "Table lamps2",
+    "name": "Glamor Lamp",
     "style": ["Kitchen", "Living Room"],
     "cate1": "Lighting",
     "cate2": "Table lamps",
-    "description": "Elegant table lamp with a sleek design.",
-    "quantity": 22,
-    "price": 249.99,
+    "description": "A dazzling lamp with an ornate design that brightens up any room.",
+    "quantity": 15,
+    "price": 199.99,
     "image": [
       "../IMAGES/PRODUCTS/LIGHTING/TABLE_LAMPS/p4.jpg",
       "../IMAGES/PRODUCTS/LIGHTING/TABLE_LAMPS/p5.jpg",
@@ -1311,115 +1313,16 @@
     ],
     "reviews": [
       {
-        "userId": 11,
-        "userName": "Mia Taylor",
+        "userId": 21,
+        "userName": "Alice Cooper",
         "stars": 5,
-        "comment": "Beautiful lamp. Adds a touch of elegance to my living room."
+        "comment": "The perfect lamp for my study. Love the design!"
       },
       {
-        "userId": 12,
-        "userName": "Noah Anderson",
+        "userId": 22,
+        "userName": "Bob Brown",
         "stars": 4,
-        "comment": "Good quality, but a bit pricey."
-      }
-    ],
-    "rating": {
-      "averageStars": 4.5,
-      "totalReviews": 13
-    }
-  },
-  {
-    "id": 42,
-    "name": "Table lamps3",
-    "style": ["Kitchen", "Living Room"],
-    "cate1": "Lighting",
-    "cate2": "Table lamps",
-    "description": "A stylish and functional table lamp for any space.",
-    "quantity": 20,
-    "price": 239.99,
-    "image": [
-      "../IMAGES/PRODUCTS/LIGHTING/TABLE_LAMPS/p7.jpg",
-      "../IMAGES/PRODUCTS/LIGHTING/TABLE_LAMPS/p8.jpg",
-      "../IMAGES/PRODUCTS/LIGHTING/TABLE_LAMPS/p9.jpg"
-    ],
-    "reviews": [
-      {
-        "userId": 13,
-        "userName": "Jacob Lewis",
-        "stars": 4,
-        "comment": "Nice design, works well in my kitchen."
-      },
-      {
-        "userId": 14,
-        "userName": "Emily Harris",
-        "stars": 5,
-        "comment": "Excellent lamp. Matches perfectly with my decor."
-      }
-    ],
-    "rating": {
-      "averageStars": 4.5,
-      "totalReviews": 10
-    }
-  },
-  {
-    "id": 43,
-    "name": "Wall lights1",
-    "style": ["Kitchen", "Living Room"],
-    "cate1": "Lighting",
-    "cate2": "Wall light",
-    "description": "Sleek wall light ideal for adding a touch of modern style.",
-    "quantity": 16,
-    "price": 159.99,
-    "image": [
-      "../IMAGES/PRODUCTS/LIGHTING/WALL_LIGHTS/p1.jpg",
-      "../IMAGES/PRODUCTS/LIGHTING/WALL_LIGHTS/p2.jpg",
-      "../IMAGES/PRODUCTS/LIGHTING/WALL_LIGHTS/p3.jpg"
-    ],
-    "reviews": [
-      {
-        "userId": 15,
-        "userName": "Aiden King",
-        "stars": 5,
-        "comment": "Fantastic wall light. Perfect for adding ambiance."
-      },
-      {
-        "userId": 16,
-        "userName": "Isabella Scott",
-        "stars": 4,
-        "comment": "Great quality, but installation was a bit challenging."
-      }
-    ],
-    "rating": {
-      "averageStars": 4.5,
-      "totalReviews": 9
-    }
-  },
-  {
-    "id": 44,
-    "name": "Wall lights2",
-    "style": ["Kitchen", "Living Room"],
-    "cate1": "Lighting",
-    "cate2": "Wall light",
-    "description": "Contemporary wall light with a modern design.",
-    "quantity": 12,
-    "price": 189.99,
-    "image": [
-      "../IMAGES/PRODUCTS/LIGHTING/WALL_LIGHTS/p4.jpg",
-      "../IMAGES/PRODUCTS/LIGHTING/WALL_LIGHTS/p5.jpg",
-      "../IMAGES/PRODUCTS/LIGHTING/WALL_LIGHTS/p6.jpg"
-    ],
-    "reviews": [
-      {
-        "userId": 17,
-        "userName": "Daniel Martinez",
-        "stars": 5,
-        "comment": "Looks great in my living room. Easy to install."
-      },
-      {
-        "userId": 18,
-        "userName": "Sophia Wilson",
-        "stars": 4,
-        "comment": "Nice light, but it took a while to get it up."
+        "comment": "Stylish but a bit smaller than expected."
       }
     ],
     "rating": {
@@ -1428,14 +1331,113 @@
     }
   },
   {
-    "id": 45,
-    "name": "Wall lights3",
+    "id": 42,
+    "name": "Luminous Glow",
+    "style": ["Kitchen", "Living Room"],
+    "cate1": "Lighting",
+    "cate2": "Table lamps",
+    "description": "A contemporary lamp that provides a warm and inviting glow.",
+    "quantity": 18,
+    "price": 219.99,
+    "image": [
+      "../IMAGES/PRODUCTS/LIGHTING/TABLE_LAMPS/p7.jpg",
+      "../IMAGES/PRODUCTS/LIGHTING/TABLE_LAMPS/p8.jpg",
+      "../IMAGES/PRODUCTS/LIGHTING/TABLE_LAMPS/p9.jpg"
+    ],
+    "reviews": [
+      {
+        "userId": 23,
+        "userName": "Carla Green",
+        "stars": 4,
+        "comment": "Beautiful lamp, though the assembly was tricky."
+      },
+      {
+        "userId": 24,
+        "userName": "David Lee",
+        "stars": 5,
+        "comment": "Great quality and perfect for my living room."
+      }
+    ],
+    "rating": {
+      "averageStars": 4.5,
+      "totalReviews": 9
+    }
+  },
+  {
+    "id": 43,
+    "name": "Modern Gleam",
     "style": ["Kitchen", "Living Room"],
     "cate1": "Lighting",
     "cate2": "Wall light",
-    "description": "Elegant wall light with a unique design.",
-    "quantity": 14,
-    "price": 199.99,
+    "description": "Sleek wall light perfect for enhancing any modern interior.",
+    "quantity": 10,
+    "price": 139.99,
+    "image": [
+      "../IMAGES/PRODUCTS/LIGHTING/WALL_LIGHTS/p1.jpg",
+      "../IMAGES/PRODUCTS/LIGHTING/WALL_LIGHTS/p2.jpg",
+      "../IMAGES/PRODUCTS/LIGHTING/WALL_LIGHTS/p3.jpg"
+    ],
+    "reviews": [
+      {
+        "userId": 27,
+        "userName": "James Black",
+        "stars": 5,
+        "comment": "An excellent wall light. Adds a perfect touch to my living space."
+      },
+      {
+        "userId": 28,
+        "userName": "Olivia White",
+        "stars": 4,
+        "comment": "High quality, but the installation instructions were unclear."
+      }
+    ],
+    "rating": {
+      "averageStars": 4.5,
+      "totalReviews": 6
+    }
+  },
+  {
+    "id": 44,
+    "name": "Urban Shine",
+    "style": ["Kitchen", "Living Room"],
+    "cate1": "Lighting",
+    "cate2": "Wall light",
+    "description": "Contemporary wall light with an elegant touch for modern spaces.",
+    "quantity": 8,
+    "price": 179.99,
+    "image": [
+      "../IMAGES/PRODUCTS/LIGHTING/WALL_LIGHTS/p4.jpg",
+      "../IMAGES/PRODUCTS/LIGHTING/WALL_LIGHTS/p5.jpg",
+      "../IMAGES/PRODUCTS/LIGHTING/WALL_LIGHTS/p6.jpg"
+    ],
+    "reviews": [
+      {
+        "userId": 29,
+        "userName": "Liam Davis",
+        "stars": 5,
+        "comment": "Great addition to my living room. Easy to set up and looks fantastic."
+      },
+      {
+        "userId": 30,
+        "userName": "Emma Clark",
+        "stars": 4,
+        "comment": "Lovely light, but shipping took longer than expected."
+      }
+    ],
+    "rating": {
+      "averageStars": 4.5,
+      "totalReviews": 5
+    }
+  },
+  {
+    "id": 45,
+    "name": "Elegant Beam",
+    "style": ["Kitchen", "Living Room"],
+    "cate1": "Lighting",
+    "cate2": "Wall light",
+    "description": "An exquisite wall light with a distinctive design to enhance your decor.",
+    "quantity": 12,
+    "price": 209.99,
     "image": [
       "../IMAGES/PRODUCTS/LIGHTING/WALL_LIGHTS/p7.jpg",
       "../IMAGES/PRODUCTS/LIGHTING/WALL_LIGHTS/p8.jpg",
@@ -1443,32 +1445,32 @@
     ],
     "reviews": [
       {
-        "userId": 19,
-        "userName": "Mia Harris",
+        "userId": 31,
+        "userName": "Noah Adams",
         "stars": 5,
-        "comment": "Amazing design and quality. Highly recommended!"
+        "comment": "Stunning design and high-quality finish. Very pleased with this purchase."
       },
       {
-        "userId": 20,
-        "userName": "Ethan Johnson",
+        "userId": 32,
+        "userName": "Sophia Lewis",
         "stars": 4,
-        "comment": "Very stylish, but a bit pricey."
+        "comment": "Beautiful light, though a bit on the pricier side."
       }
     ],
     "rating": {
       "averageStars": 4.5,
-      "totalReviews": 11
+      "totalReviews": 7
     }
   },
   {
     "id": 46,
-    "name": "Curtains and blinds1",
+    "name": "Classic Elegance Curtains",
     "style": ["Kitchen", "Living Room"],
     "cate1": "Decor",
     "cate2": "Curtains and blinds",
-    "description": "Elegant curtains perfect for any room.",
-    "quantity": 8,
-    "price": 89.99,
+    "description": "Sophisticated curtains that add a timeless charm to any room.",
+    "quantity": 10,
+    "price": 79.99,
     "image": [
       "../IMAGES/PRODUCTS/DECOR/CURTAINS_AND_BLINDS/p1.jpg",
       "../IMAGES/PRODUCTS/DECOR/CURTAINS_AND_BLINDS/p2.jpg",
@@ -1476,32 +1478,32 @@
     ],
     "reviews": [
       {
-        "userId": 21,
-        "userName": "Emma Williams",
+        "userId": 31,
+        "userName": "Lily Adams",
         "stars": 4,
-        "comment": "Looks great, but the fabric could be softer."
+        "comment": "Lovely curtains, but the fabric could be softer."
       },
       {
-        "userId": 22,
-        "userName": "Noah Brown",
+        "userId": 32,
+        "userName": "Ethan Brown",
         "stars": 3,
-        "comment": "Good value for the price, but had some issues with the size."
+        "comment": "Decent quality for the price, though sizing was slightly off."
       }
     ],
     "rating": {
       "averageStars": 3.5,
-      "totalReviews": 15
+      "totalReviews": 13
     }
   },
   {
     "id": 47,
-    "name": "Curtains and blinds2",
+    "name": "Modern Chic Curtains",
     "style": ["Kitchen", "Living Room"],
     "cate1": "Decor",
     "cate2": "Curtains and blinds",
-    "description": "High-quality curtains with a modern touch.",
-    "quantity": 12,
-    "price": 109.99,
+    "description": "High-quality curtains with a sleek, modern aesthetic.",
+    "quantity": 14,
+    "price": 99.99,
     "image": [
       "../IMAGES/PRODUCTS/DECOR/CURTAINS_AND_BLINDS/p4.jpg",
       "../IMAGES/PRODUCTS/DECOR/CURTAINS_AND_BLINDS/p5.jpg",
@@ -1509,32 +1511,32 @@
     ],
     "reviews": [
       {
-        "userId": 23,
-        "userName": "Sophia Miller",
+        "userId": 33,
+        "userName": "Ava Johnson",
         "stars": 5,
-        "comment": "Absolutely love these curtains. They fit perfectly and look amazing!"
+        "comment": "These curtains are perfect! They fit well and look fantastic."
       },
       {
-        "userId": 24,
-        "userName": "Liam Wilson",
+        "userId": 34,
+        "userName": "Mason Lee",
         "stars": 4,
-        "comment": "Great quality, but delivery took longer than expected."
+        "comment": "Great quality, although delivery was delayed."
       }
     ],
     "rating": {
       "averageStars": 4.5,
-      "totalReviews": 18
+      "totalReviews": 15
     }
   },
   {
     "id": 48,
-    "name": "Curtains and blinds3",
+    "name": "Stylish Drapes",
     "style": ["Kitchen", "Living Room"],
     "cate1": "Decor",
     "cate2": "Curtains and blinds",
-    "description": "Stylish and durable curtains for any room.",
-    "quantity": 6,
-    "price": 119.99,
+    "description": "Trendy and durable curtains ideal for any living space.",
+    "quantity": 7,
+    "price": 109.99,
     "image": [
       "../IMAGES/PRODUCTS/DECOR/CURTAINS_AND_BLINDS/p7.jpg",
       "../IMAGES/PRODUCTS/DECOR/CURTAINS_AND_BLINDS/p8.jpg",
@@ -1542,32 +1544,32 @@
     ],
     "reviews": [
       {
-        "userId": 25,
-        "userName": "Olivia Johnson",
+        "userId": 35,
+        "userName": "Charlotte Wilson",
         "stars": 4,
-        "comment": "Nice design and good quality, but a bit pricey."
+        "comment": "Nice design and durable fabric, though a bit on the expensive side."
       },
       {
-        "userId": 26,
-        "userName": "Jackson Moore",
+        "userId": 36,
+        "userName": "James Taylor",
         "stars": 3,
-        "comment": "The curtains are okay, but the color was not as expected."
+        "comment": "The curtains are fine, but the color was not as expected."
       }
     ],
     "rating": {
       "averageStars": 3.5,
-      "totalReviews": 12
+      "totalReviews": 10
     }
   },
   {
     "id": 49,
-    "name": "Cushions and throws1",
+    "name": "Cozy Comfort Cushions",
     "style": ["Kitchen", "Living Room"],
     "cate1": "Decor",
     "cate2": "Cushions and throws",
-    "description": "Comfortable cushions that add a cozy touch.",
-    "quantity": 15,
-    "price": 49.99,
+    "description": "Soft and inviting cushions that bring warmth to any space.",
+    "quantity": 18,
+    "price": 39.99,
     "image": [
       "../IMAGES/PRODUCTS/DECOR/CUSHIONS_AND_THROWS/p1.jpg",
       "../IMAGES/PRODUCTS/DECOR/CUSHIONS_AND_THROWS/p2.jpg",
@@ -1575,32 +1577,32 @@
     ],
     "reviews": [
       {
-        "userId": 27,
-        "userName": "Mia Davis",
+        "userId": 37,
+        "userName": "Sophie White",
         "stars": 5,
-        "comment": "Perfect cushions for my sofa. Very comfortable and stylish."
+        "comment": "Perfect for my sofa! Very comfortable and stylish."
       },
       {
-        "userId": 28,
-        "userName": "Aiden White",
+        "userId": 38,
+        "userName": "Oliver Harris",
         "stars": 4,
-        "comment": "Nice quality, but the colors didn't match my decor as well as I hoped."
+        "comment": "Good quality cushions, though the colors didn’t match exactly."
       }
     ],
     "rating": {
       "averageStars": 4.5,
-      "totalReviews": 20
+      "totalReviews": 22
     }
   },
   {
     "id": 50,
-    "name": "Cushions and throws2",
+    "name": "Luxurious Throw Pillows",
     "style": ["Kitchen", "Living Room"],
     "cate1": "Decor",
     "cate2": "Cushions and throws",
-    "description": "Soft and luxurious cushions for your home.",
-    "quantity": 20,
-    "price": 59.99,
+    "description": "Luxurious and plush cushions that elevate your home decor.",
+    "quantity": 25,
+    "price": 54.99,
     "image": [
       "../IMAGES/PRODUCTS/DECOR/CUSHIONS_AND_THROWS/p4.jpg",
       "../IMAGES/PRODUCTS/DECOR/CUSHIONS_AND_THROWS/p5.jpg",
@@ -1608,26 +1610,26 @@
     ],
     "reviews": [
       {
-        "userId": 29,
-        "userName": "Emily Martinez",
+        "userId": 39,
+        "userName": "Lily Brown",
         "stars": 5,
-        "comment": "Love these cushions! They are so soft and add a great touch to my living room."
+        "comment": "These pillows are so soft and add a perfect touch to my living room!"
       },
       {
-        "userId": 30,
-        "userName": "Lucas Hernandez",
+        "userId": 40,
+        "userName": "Ethan Davis",
         "stars": 4,
-        "comment": "Good quality, but the price is a bit high."
+        "comment": "High quality, but a bit pricey."
       }
     ],
     "rating": {
       "averageStars": 4.5,
-      "totalReviews": 25
+      "totalReviews": 28
     }
   },
   {
     "id": 51,
-    "name": "Cushions and throws3",
+    "name": "Decorative Cushions and Throws",
     "style": ["Kitchen", "Living Room"],
     "cate1": "Decor",
     "cate2": "Cushions and throws",
@@ -1660,7 +1662,7 @@
   },
   {
     "id": 52,
-    "name": "Rugs and carpets1",
+    "name": "Plush Rugs and Carpets",
     "style": ["Kitchen", "Living Room"],
     "cate1": "Decor",
     "cate2": "Rugs and carpets",
@@ -1693,7 +1695,7 @@
   },
   {
     "id": 53,
-    "name": "Rugs and carpets2",
+    "name": "Elegant Rugs and Carpets",
     "style": ["Kitchen", "Living Room"],
     "cate1": "Decor",
     "cate2": "Rugs and carpets",
@@ -1726,7 +1728,7 @@
   },
   {
     "id": 54,
-    "name": "Rugs and carpets3",
+    "name": "Durable Rugs and Carpets",
     "style": ["Kitchen", "Living Room"],
     "cate1": "Decor",
     "cate2": "Rugs and carpets",
@@ -1759,7 +1761,7 @@
   },
   {
     "id": 55,
-    "name": "Vases and plant pots1",
+    "name": "Elegant Vases and Plant Pots",
     "style": ["Kitchen", "Living Room"],
     "cate1": "Decor",
     "cate2": "Vases and plant pots",
@@ -1792,11 +1794,11 @@
   },
   {
     "id": 56,
-    "name": "Vases and plant pots2",
+    "name": "Modern Vases and Plant Pots",
     "style": ["Kitchen", "Living Room"],
     "cate1": "Decor",
-    "cate2": "Vases and plant Pots",
-    "descripton": "A comfortable living room sofa.",
+    "cate2": "Vases and plant pots",
+    "description": "A comfortable living room sofa.",
     "quantity": 10,
     "price": 299.99,
     "image": [
@@ -1804,7 +1806,6 @@
       "../IMAGES/PRODUCTS/DECOR/VASES_AND_PLANTS_POTS/p5.jpg",
       "../IMAGES/PRODUCTS/DECOR/VASES_AND_PLANTS_POTS/p6.jpg"
     ],
-
     "reviews": [
       {
         "userId": 3,
@@ -1826,11 +1827,11 @@
   },
   {
     "id": 57,
-    "name": "Vases and plant pots3",
+    "name": "Classic Vases and Plant Pots",
     "style": ["Kitchen", "Living Room"],
     "cate1": "Decor",
-    "cate2": "Vases and plant Pots",
-    "descripton": "A comfortable living room sofa.",
+    "cate2": "Vases and plant pots",
+    "description": "A comfortable living room sofa.",
     "quantity": 10,
     "price": 299.99,
     "image": [
@@ -1838,7 +1839,6 @@
       "../IMAGES/PRODUCTS/DECOR/VASES_AND_PLANTS_POTS/p8.jpg",
       "../IMAGES/PRODUCTS/DECOR/VASES_AND_PLANTS_POTS/p9.jpg"
     ],
-
     "reviews": [
       {
         "userId": 3,
@@ -1860,11 +1860,11 @@
   },
   {
     "id": 58,
-    "name": "Wall art and mirrors1",
+    "name": "Artistic Wall Art and Mirrors",
     "style": ["Kitchen", "Living Room"],
     "cate1": "Decor",
     "cate2": "Wall art and mirrors",
-    "descripton": "A comfortable living room sofa.",
+    "description": "A comfortable living room sofa.",
     "quantity": 10,
     "price": 299.99,
     "image": [
@@ -1872,7 +1872,6 @@
       "../IMAGES/PRODUCTS/DECOR/WALL_ART_AND_MIRRORS/p2.jpg",
       "../IMAGES/PRODUCTS/DECOR/WALL_ART_AND_MIRRORS/p3.jpg"
     ],
-
     "reviews": [
       {
         "userId": 3,
@@ -1894,11 +1893,11 @@
   },
   {
     "id": 59,
-    "name": "Wall art and mirrors2",
+    "name": "Modern Wall Art and Mirrors",
     "style": ["Kitchen", "Living Room"],
     "cate1": "Decor",
     "cate2": "Wall art and mirrors",
-    "descripton": "A comfortable living room sofa.",
+    "description": "A comfortable living room sofa.",
     "quantity": 10,
     "price": 299.99,
     "image": [
@@ -1906,7 +1905,6 @@
       "../IMAGES/PRODUCTS/DECOR/WALL_ART_AND_MIRRORS/p5.jpg",
       "../IMAGES/PRODUCTS/DECOR/WALL_ART_AND_MIRRORS/p6.jpg"
     ],
-
     "reviews": [
       {
         "userId": 3,
@@ -1928,11 +1926,11 @@
   },
   {
     "id": 60,
-    "name": "Wall art and mirrors3",
+    "name": "Vintage Wall Art and Mirrors",
     "style": ["Kitchen", "Living Room"],
     "cate1": "Decor",
     "cate2": "Wall art and mirrors",
-    "descripton": "A comfortable living room sofa.",
+    "description": "A comfortable living room sofa.",
     "quantity": 10,
     "price": 299.99,
     "image": [
@@ -1940,7 +1938,6 @@
       "../IMAGES/PRODUCTS/DECOR/WALL_ART_AND_MIRRORS/p8.jpg",
       "../IMAGES/PRODUCTS/DECOR/WALL_ART_AND_MIRRORS/p9.jpg"
     ],
-
     "reviews": [
       {
         "userId": 3,
@@ -1962,512 +1959,497 @@
   },
   {
     "id": 61,
-    "name": "Bathroom sinks1",
+    "name": "Elegant Bathroom Sink",
     "style": ["Bathroom"],
     "cate1": "Bathroom",
     "cate2": "Bathroom sinks",
-    "descripton": "A comfortable living room sofa.",
-    "quantity": 10,
-    "price": 299.99,
+    "description": "A sleek and modern bathroom sink with a stylish design.",
+    "quantity": 8,
+    "price": 179.99,
     "image": [
       "../IMAGES/PRODUCTS/BATHROOM/BATHROOM_SINKS/p1.jpg",
       "../IMAGES/PRODUCTS/BATHROOM/BATHROOM_SINKS/p2.jpg",
       "../IMAGES/PRODUCTS/BATHROOM/BATHROOM_SINKS/p3.jpg"
     ],
-
     "reviews": [
       {
-        "userId": 3,
-        "userName": "Alice Smith",
-        "stars": 5,
-        "comment": "So comfy, I love it!"
+        "userId": 5,
+        "userName": "Jessica Lee",
+        "stars": 4,
+        "comment": "Great sink, looks fantastic in my bathroom!"
       },
       {
-        "userId": 4,
-        "userName": "Bob Johnson",
-        "stars": 3,
-        "comment": "Good but could be better."
+        "userId": 6,
+        "userName": "Michael Brown",
+        "stars": 4,
+        "comment": "Good quality, but installation was a bit tricky."
       }
     ],
     "rating": {
       "averageStars": 4.0,
-      "totalReviews": 35
+      "totalReviews": 12
     }
   },
   {
     "id": 62,
-    "name": "Bathroom sinks2",
+    "name": "Classic Bathroom Sink",
     "style": ["Bathroom"],
     "cate1": "Bathroom",
     "cate2": "Bathroom sinks",
-    "descripton": "A comfortable living room sofa.",
-    "quantity": 10,
-    "price": 299.99,
+    "description": "A classic bathroom sink with a timeless design.",
+    "quantity": 7,
+    "price": 159.99,
     "image": [
       "../IMAGES/PRODUCTS/BATHROOM/BATHROOM_SINKS/p4.jpg",
       "../IMAGES/PRODUCTS/BATHROOM/BATHROOM_SINKS/p5.jpg",
       "../IMAGES/PRODUCTS/BATHROOM/BATHROOM_SINKS/p6.jpg"
     ],
-
     "reviews": [
       {
-        "userId": 3,
-        "userName": "Alice Smith",
+        "userId": 5,
+        "userName": "Jessica Lee",
         "stars": 5,
-        "comment": "So comfy, I love it!"
+        "comment": "Perfect for my classic bathroom setup!"
       },
       {
-        "userId": 4,
-        "userName": "Bob Johnson",
-        "stars": 3,
-        "comment": "Good but could be better."
+        "userId": 6,
+        "userName": "Michael Brown",
+        "stars": 4,
+        "comment": "Solid product, worth the price."
       }
     ],
     "rating": {
-      "averageStars": 4.0,
-      "totalReviews": 35
+      "averageStars": 4.5,
+      "totalReviews": 8
     }
   },
   {
     "id": 63,
-    "name": "Bathroom sinks3",
+    "name": "Modern Bathroom Sink",
     "style": ["Bathroom"],
     "cate1": "Bathroom",
     "cate2": "Bathroom sinks",
-    "descripton": "A comfortable living room sofa.",
-    "quantity": 10,
-    "price": 299.99,
+    "description": "A modern sink with clean lines and contemporary style.",
+    "quantity": 9,
+    "price": 189.99,
     "image": [
       "../IMAGES/PRODUCTS/BATHROOM/BATHROOM_SINKS/p7.jpg",
       "../IMAGES/PRODUCTS/BATHROOM/BATHROOM_SINKS/p8.jpg",
       "../IMAGES/PRODUCTS/BATHROOM/BATHROOM_SINKS/p9.jpg"
     ],
-
     "reviews": [
       {
-        "userId": 3,
-        "userName": "Alice Smith",
-        "stars": 5,
-        "comment": "So comfy, I love it!"
+        "userId": 5,
+        "userName": "Jessica Lee",
+        "stars": 4,
+        "comment": "Looks great, just as described."
       },
       {
-        "userId": 4,
-        "userName": "Bob Johnson",
+        "userId": 6,
+        "userName": "Michael Brown",
         "stars": 3,
-        "comment": "Good but could be better."
+        "comment": "Nice design but a bit overpriced."
       }
     ],
     "rating": {
-      "averageStars": 4.0,
-      "totalReviews": 35
+      "averageStars": 3.5,
+      "totalReviews": 15
     }
   },
   {
     "id": 64,
-    "name": "Mirrors and medicine cabinets1",
+    "name": "Contemporary Mirror",
     "style": ["Bathroom"],
     "cate1": "Bathroom",
     "cate2": "Mirrors and medicine cabinets",
-    "descripton": "A comfortable living room sofa.",
-    "quantity": 10,
-    "price": 299.99,
+    "description": "A contemporary mirror that adds elegance to any bathroom.",
+    "quantity": 6,
+    "price": 129.99,
     "image": [
       "../IMAGES/PRODUCTS/BATHROOM/MIRRORS_AND_MEDICINE_CABINETS/p1.jpg",
       "../IMAGES/PRODUCTS/BATHROOM/MIRRORS_AND_MEDICINE_CABINETS/p2.jpg",
       "../IMAGES/PRODUCTS/BATHROOM/MIRRORS_AND_MEDICINE_CABINETS/p3.jpg"
     ],
-
     "reviews": [
       {
-        "userId": 3,
-        "userName": "Alice Smith",
+        "userId": 7,
+        "userName": "Emily Davis",
         "stars": 5,
-        "comment": "So comfy, I love it!"
+        "comment": "Looks amazing, very pleased with the quality."
       },
       {
-        "userId": 4,
-        "userName": "Bob Johnson",
-        "stars": 3,
-        "comment": "Good but could be better."
+        "userId": 8,
+        "userName": "David Wilson",
+        "stars": 4,
+        "comment": "Great mirror, but the frame could be sturdier."
       }
     ],
     "rating": {
-      "averageStars": 4.0,
-      "totalReviews": 35
+      "averageStars": 4.5,
+      "totalReviews": 10
     }
   },
   {
     "id": 65,
-    "name": "Mirrors and medicine cabinets2",
+    "name": "Elegant Mirror Cabinet",
     "style": ["Bathroom"],
     "cate1": "Bathroom",
     "cate2": "Mirrors and medicine cabinets",
-    "descripton": "A comfortable living room sofa.",
-    "quantity": 10,
-    "price": 299.99,
+    "description": "An elegant mirror cabinet with ample storage space.",
+    "quantity": 5,
+    "price": 199.99,
     "image": [
       "../IMAGES/PRODUCTS/BATHROOM/MIRRORS_AND_MEDICINE_CABINETS/p4.jpg",
       "../IMAGES/PRODUCTS/BATHROOM/MIRRORS_AND_MEDICINE_CABINETS/p5.jpg",
       "../IMAGES/PRODUCTS/BATHROOM/MIRRORS_AND_MEDICINE_CABINETS/p6.jpg"
     ],
-
     "reviews": [
       {
-        "userId": 3,
-        "userName": "Alice Smith",
-        "stars": 5,
-        "comment": "So comfy, I love it!"
+        "userId": 7,
+        "userName": "Emily Davis",
+        "stars": 4,
+        "comment": "Very functional and stylish."
       },
       {
-        "userId": 4,
-        "userName": "Bob Johnson",
-        "stars": 3,
-        "comment": "Good but could be better."
+        "userId": 8,
+        "userName": "David Wilson",
+        "stars": 5,
+        "comment": "Perfect for organizing my bathroom essentials."
       }
     ],
     "rating": {
-      "averageStars": 4.0,
-      "totalReviews": 35
+      "averageStars": 4.5,
+      "totalReviews": 9
     }
   },
   {
     "id": 66,
-    "name": "Mirrors and medicine cabinets3",
+    "name": "Minimalist Mirror Cabinet",
     "style": ["Bathroom"],
     "cate1": "Bathroom",
     "cate2": "Mirrors and medicine cabinets",
-    "descripton": "A comfortable living room sofa.",
-    "quantity": 10,
-    "price": 299.99,
+    "description": "A minimalist mirror cabinet with a sleek design.",
+    "quantity": 4,
+    "price": 149.99,
     "image": [
       "../IMAGES/PRODUCTS/BATHROOM/MIRRORS_AND_MEDICINE_CABINETS/p7.jpg",
       "../IMAGES/PRODUCTS/BATHROOM/MIRRORS_AND_MEDICINE_CABINETS/p8.jpg",
       "../IMAGES/PRODUCTS/BATHROOM/MIRRORS_AND_MEDICINE_CABINETS/p9.jpg"
     ],
-
     "reviews": [
       {
-        "userId": 3,
-        "userName": "Alice Smith",
-        "stars": 5,
-        "comment": "So comfy, I love it!"
+        "userId": 7,
+        "userName": "Emily Davis",
+        "stars": 3,
+        "comment": "Good design but a bit too small."
       },
       {
-        "userId": 4,
-        "userName": "Bob Johnson",
-        "stars": 3,
-        "comment": "Good but could be better."
+        "userId": 8,
+        "userName": "David Wilson",
+        "stars": 4,
+        "comment": "Nice cabinet, fits well in my bathroom."
       }
     ],
     "rating": {
-      "averageStars": 4.0,
-      "totalReviews": 35
+      "averageStars": 3.5,
+      "totalReviews": 8
     }
   },
   {
     "id": 67,
-    "name": "Showers and bathtubs1",
+    "name": "Luxury Shower",
     "style": ["Bathroom"],
     "cate1": "Bathroom",
     "cate2": "Showers and bathtubs",
-    "descripton": "A comfortable living room sofa.",
-    "quantity": 10,
-    "price": 299.99,
+    "description": "A luxury shower system with multiple settings for a perfect bath experience.",
+    "quantity": 6,
+    "price": 349.99,
     "image": [
       "../IMAGES/PRODUCTS/BATHROOM/SHOWERS_AND_BATHTUBS/p1.jpg",
       "../IMAGES/PRODUCTS/BATHROOM/SHOWERS_AND_BATHTUBS/p2.jpg",
       "../IMAGES/PRODUCTS/BATHROOM/SHOWERS_AND_BATHTUBS/p3.jpg"
     ],
-
     "reviews": [
       {
-        "userId": 3,
-        "userName": "Alice Smith",
+        "userId": 9,
+        "userName": "Sophia Martinez",
         "stars": 5,
-        "comment": "So comfy, I love it!"
+        "comment": "Amazing shower, feels like a spa experience!"
       },
       {
-        "userId": 4,
-        "userName": "Bob Johnson",
-        "stars": 3,
-        "comment": "Good but could be better."
+        "userId": 10,
+        "userName": "John Lee",
+        "stars": 4,
+        "comment": "Great performance, but installation was complex."
       }
     ],
     "rating": {
-      "averageStars": 4.0,
-      "totalReviews": 35
+      "averageStars": 4.5,
+      "totalReviews": 14
     }
   },
   {
     "id": 68,
-    "name": "Showers and bathtubs2",
+    "name": "Standard Shower",
     "style": ["Bathroom"],
     "cate1": "Bathroom",
     "cate2": "Showers and bathtubs",
-    "descripton": "A comfortable living room sofa.",
-    "quantity": 10,
-    "price": 299.99,
+    "description": "A standard shower with reliable performance and easy installation.",
+    "quantity": 8,
+    "price": 249.99,
     "image": [
       "../IMAGES/PRODUCTS/BATHROOM/SHOWERS_AND_BATHTUBS/p4.jpg",
       "../IMAGES/PRODUCTS/BATHROOM/SHOWERS_AND_BATHTUBS/p5.jpg",
       "../IMAGES/PRODUCTS/BATHROOM/SHOWERS_AND_BATHTUBS/p6.jpg"
     ],
-
     "reviews": [
       {
-        "userId": 3,
-        "userName": "Alice Smith",
-        "stars": 5,
-        "comment": "So comfy, I love it!"
+        "userId": 9,
+        "userName": "Sophia Martinez",
+        "stars": 4,
+        "comment": "Good value for the price."
       },
       {
-        "userId": 4,
-        "userName": "Bob Johnson",
+        "userId": 10,
+        "userName": "John Lee",
         "stars": 3,
-        "comment": "Good but could be better."
+        "comment": "Functional, but the water pressure could be better."
       }
     ],
     "rating": {
-      "averageStars": 4.0,
-      "totalReviews": 35
+      "averageStars": 3.5,
+      "totalReviews": 11
     }
   },
   {
     "id": 69,
-    "name": "Showers and bathtubs3",
+    "name": "Comfort Bathtub",
     "style": ["Bathroom"],
     "cate1": "Bathroom",
     "cate2": "Showers and bathtubs",
-    "descripton": "A comfortable living room sofa.",
-    "quantity": 10,
-    "price": 299.99,
+    "description": "A comfortable bathtub designed for relaxation and ease.",
+    "quantity": 7,
+    "price": 289.99,
     "image": [
       "../IMAGES/PRODUCTS/BATHROOM/SHOWERS_AND_BATHTUBS/p7.jpg",
       "../IMAGES/PRODUCTS/BATHROOM/SHOWERS_AND_BATHTUBS/p8.jpg",
       "../IMAGES/PRODUCTS/BATHROOM/SHOWERS_AND_BATHTUBS/p9.jpg"
     ],
-
     "reviews": [
       {
-        "userId": 3,
-        "userName": "Alice Smith",
+        "userId": 9,
+        "userName": "Sophia Martinez",
         "stars": 5,
-        "comment": "So comfy, I love it!"
+        "comment": "Best bathtub ever, very comfortable!"
       },
       {
-        "userId": 4,
-        "userName": "Bob Johnson",
-        "stars": 3,
-        "comment": "Good but could be better."
+        "userId": 10,
+        "userName": "John Lee",
+        "stars": 4,
+        "comment": "Good size and comfort, though a bit pricey."
       }
     ],
     "rating": {
-      "averageStars": 4.0,
-      "totalReviews": 35
+      "averageStars": 4.5,
+      "totalReviews": 13
     }
   },
   {
     "id": 70,
-    "name": "Toilets and bidets1",
+    "name": "Classic White Toilet",
     "style": ["Bathroom"],
     "cate1": "Bathroom",
     "cate2": "Toilets and bidets",
-    "descripton": "A comfortable living room sofa.",
-    "quantity": 10,
-    "price": 299.99,
+    "description": "A classic white toilet with a sleek design and efficient flush mechanism.",
+    "quantity": 15,
+    "price": 249.99,
     "image": [
       "../IMAGES/PRODUCTS/BATHROOM/TOILETS_AND_BIDETS/p1.jpg",
       "../IMAGES/PRODUCTS/BATHROOM/TOILETS_AND_BIDETS/p2.jpg",
       "../IMAGES/PRODUCTS/BATHROOM/TOILETS_AND_BIDETS/p3.jpg"
     ],
-
     "reviews": [
       {
-        "userId": 3,
-        "userName": "Alice Smith",
+        "userId": 11,
+        "userName": "Ella Smith",
         "stars": 5,
-        "comment": "So comfy, I love it!"
+        "comment": "Works perfectly and looks great in my bathroom!"
       },
       {
-        "userId": 4,
-        "userName": "Bob Johnson",
-        "stars": 3,
-        "comment": "Good but could be better."
+        "userId": 12,
+        "userName": "Liam Johnson",
+        "stars": 4,
+        "comment": "Good quality, but installation instructions were unclear."
       }
     ],
     "rating": {
-      "averageStars": 4.0,
-      "totalReviews": 35
+      "averageStars": 4.5,
+      "totalReviews": 20
     }
   },
   {
     "id": 71,
-    "name": "Toilets and bidets2",
+    "name": "Elegant Bidet",
     "style": ["Bathroom"],
     "cate1": "Bathroom",
     "cate2": "Toilets and bidets",
-    "descripton": "A comfortable living room sofa.",
-    "quantity": 10,
+    "description": "An elegant bidet with a modern design and easy-to-use controls.",
+    "quantity": 12,
     "price": 299.99,
     "image": [
       "../IMAGES/PRODUCTS/BATHROOM/TOILETS_AND_BIDETS/p4.jpg",
       "../IMAGES/PRODUCTS/BATHROOM/TOILETS_AND_BIDETS/p5.jpg",
       "../IMAGES/PRODUCTS/BATHROOM/TOILETS_AND_BIDETS/p6.jpg"
     ],
-
     "reviews": [
       {
-        "userId": 3,
-        "userName": "Alice Smith",
+        "userId": 13,
+        "userName": "Ava Brown",
         "stars": 5,
-        "comment": "So comfy, I love it!"
+        "comment": "A luxurious addition to my bathroom!"
       },
       {
-        "userId": 4,
-        "userName": "Bob Johnson",
-        "stars": 3,
-        "comment": "Good but could be better."
+        "userId": 14,
+        "userName": "Noah Davis",
+        "stars": 4,
+        "comment": "High quality, though a bit pricey."
       }
     ],
     "rating": {
-      "averageStars": 4.0,
-      "totalReviews": 35
+      "averageStars": 4.5,
+      "totalReviews": 15
     }
   },
   {
     "id": 72,
-    "name": "Toilets and bidets3",
+    "name": "Compact Bidet",
     "style": ["Bathroom"],
     "cate1": "Bathroom",
     "cate2": "Toilets and bidets",
-    "descripton": "A comfortable living room sofa.",
-    "quantity": 10,
-    "price": 299.99,
+    "description": "A compact bidet ideal for smaller bathrooms with high functionality.",
+    "quantity": 8,
+    "price": 219.99,
     "image": [
       "../IMAGES/PRODUCTS/BATHROOM/TOILETS_AND_BIDETS/p7.jpg",
       "../IMAGES/PRODUCTS/BATHROOM/TOILETS_AND_BIDETS/p8.jpg",
       "../IMAGES/PRODUCTS/BATHROOM/TOILETS_AND_BIDETS/p9.jpg"
     ],
-
     "reviews": [
       {
-        "userId": 3,
-        "userName": "Alice Smith",
-        "stars": 5,
-        "comment": "So comfy, I love it!"
+        "userId": 15,
+        "userName": "Mia Wilson",
+        "stars": 4,
+        "comment": "Great for smaller spaces, very functional."
       },
       {
-        "userId": 4,
-        "userName": "Bob Johnson",
+        "userId": 16,
+        "userName": "Ethan White",
         "stars": 3,
-        "comment": "Good but could be better."
+        "comment": "Good product but lacks some features."
       }
     ],
     "rating": {
-      "averageStars": 4.0,
-      "totalReviews": 35
+      "averageStars": 3.5,
+      "totalReviews": 10
     }
   },
   {
     "id": 73,
-    "name": "Vanties and cabinets1",
+    "name": "Modern Vanity Set",
     "style": ["Bathroom"],
     "cate1": "Bathroom",
-    "cate2": "Vanties and cabinets",
-    "descripton": "A comfortable living room sofa.",
-    "quantity": 10,
-    "price": 299.99,
+    "cate2": "Vanities and cabinets",
+    "description": "A modern vanity set with ample storage and a sleek finish.",
+    "quantity": 5,
+    "price": 399.99,
     "image": [
       "../IMAGES/PRODUCTS/BATHROOM/VANITIES_AND_CABINETS/p1.jpg",
       "../IMAGES/PRODUCTS/BATHROOM/VANITIES_AND_CABINETS/p2.jpg",
       "../IMAGES/PRODUCTS/BATHROOM/VANITIES_AND_CABINETS/p3.jpg"
     ],
-
     "reviews": [
       {
-        "userId": 3,
-        "userName": "Alice Smith",
+        "userId": 17,
+        "userName": "Isabella Martinez",
         "stars": 5,
-        "comment": "So comfy, I love it!"
+        "comment": "Perfect addition to my bathroom, very stylish."
       },
       {
-        "userId": 4,
-        "userName": "Bob Johnson",
-        "stars": 3,
-        "comment": "Good but could be better."
+        "userId": 18,
+        "userName": "James Taylor",
+        "stars": 4,
+        "comment": "Great design, but the assembly was challenging."
       }
     ],
     "rating": {
-      "averageStars": 4.0,
-      "totalReviews": 35
+      "averageStars": 4.5,
+      "totalReviews": 12
     }
   },
   {
     "id": 74,
-    "name": "Vanties and cabinets2",
+    "name": "Elegant Bathroom Cabinet",
     "style": ["Bathroom"],
     "cate1": "Bathroom",
-    "cate2": "Vanties and cabinets",
-    "descripton": "A comfortable living room sofa.",
-    "quantity": 10,
-    "price": 299.99,
+    "cate2": "Vanities and cabinets",
+    "description": "An elegant bathroom cabinet with a luxurious finish and ample space.",
+    "quantity": 6,
+    "price": 349.99,
     "image": [
       "../IMAGES/PRODUCTS/BATHROOM/VANITIES_AND_CABINETS/p4.jpg",
       "../IMAGES/PRODUCTS/BATHROOM/VANITIES_AND_CABINETS/p5.jpg",
       "../IMAGES/PRODUCTS/BATHROOM/VANITIES_AND_CABINETS/p6.jpg"
     ],
-
     "reviews": [
       {
-        "userId": 3,
-        "userName": "Alice Smith",
+        "userId": 19,
+        "userName": "Charlotte Garcia",
         "stars": 5,
-        "comment": "So comfy, I love it!"
+        "comment": "Beautiful and functional, fits perfectly in my bathroom."
       },
       {
-        "userId": 4,
-        "userName": "Bob Johnson",
-        "stars": 3,
-        "comment": "Good but could be better."
+        "userId": 20,
+        "userName": "Benjamin Anderson",
+        "stars": 4,
+        "comment": "Very elegant, though a bit expensive."
       }
     ],
     "rating": {
-      "averageStars": 4.0,
-      "totalReviews": 35
+      "averageStars": 4.5,
+      "totalReviews": 9
     }
   },
   {
     "id": 75,
-    "name": "Vanties and cabinets3",
+    "name": "Compact Vanity Unit",
     "style": ["Bathroom"],
     "cate1": "Bathroom",
-    "cate2": "Vanties and cabinets",
-    "descripton": "A comfortable living room sofa.",
-    "quantity": 10,
-    "price": 299.99,
+    "cate2": "Vanities and cabinets",
+    "description": "A compact vanity unit that maximizes space and style.",
+    "quantity": 7,
+    "price": 279.99,
     "image": [
       "../IMAGES/PRODUCTS/BATHROOM/VANITIES_AND_CABINETS/p7.jpg",
       "../IMAGES/PRODUCTS/BATHROOM/VANITIES_AND_CABINETS/p8.jpg",
       "../IMAGES/PRODUCTS/BATHROOM/VANITIES_AND_CABINETS/p9.jpg"
     ],
-
     "reviews": [
       {
-        "userId": 3,
-        "userName": "Alice Smith",
-        "stars": 5,
-        "comment": "So comfy, I love it!"
+        "userId": 21,
+        "userName": "Amelia Clark",
+        "stars": 4,
+        "comment": "Compact and stylish, ideal for smaller bathrooms."
       },
       {
-        "userId": 4,
-        "userName": "Bob Johnson",
+        "userId": 22,
+        "userName": "Alexander Lewis",
         "stars": 3,
-        "comment": "Good but could be better."
+        "comment": "Good quality but not as durable as I expected."
       }
     ],
     "rating": {
-      "averageStars": 4.0,
-      "totalReviews": 35
+      "averageStars": 3.5,
+      "totalReviews": 8
     }
   }
 ]
