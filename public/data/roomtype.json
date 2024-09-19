@@ -1,13 +1,13 @@
 [
   {
     "id": 1,
-    "name": "Modern Blue L Shaped Kitchen Design with Marble Countertops",
+    "name": "Oceanview L-Shaped Kitchen Delight",
     "image": "IMAGES/KITCHEN/p1.avif",
     "type": "Kitchen",
     "layout": "L-Shape Kitchen Design",
     "style": "Modern",
     "size": "12x10 feet",
-    "colour": ["Base unit: Kingfisher Blue", "Wall unit: Kingfisher Blue"],
+    "colour": ["Base unit: Deep Sea Blue", "Wall unit: Deep Sea Blue"],
     "shutterFinishs": [
       "Base unit: Laminate with suede finish",
       "Wall unit: Laminate with suede finish"
@@ -19,17 +19,17 @@
       "Profile lighting under wall cabinets to light up the countertop",
       "Gola profile handle for a seamless cabinet look"
     ],
-    "idealFor": "Medium families "
+    "idealFor": "Medium families"
   },
   {
     "id": 2,
-    "name": "Modern Blue L Shaped Kitchen Design with Marble Countertops",
+    "name": "Sapphire L-Shaped Kitchen Experience",
     "image": "IMAGES/KITCHEN/p2.avif",
     "type": "Kitchen",
     "layout": "L-Shape Kitchen Design",
     "style": "Modern",
     "size": "12x10 feet",
-    "colour": ["Base unit: Kingfisher Blue", "Wall unit: Kingfisher Blue"],
+    "colour": ["Base unit: Deep Sea Blue", "Wall unit: Deep Sea Blue"],
     "shutterFinishs": [
       "Base unit: Laminate with suede finish",
       "Wall unit: Laminate with suede finish"
@@ -41,17 +41,17 @@
       "Profile lighting under wall cabinets to light up the countertop",
       "Gola profile handle for a seamless cabinet look"
     ],
-    "idealFor": "Medium families "
+    "idealFor": "Medium families"
   },
   {
     "id": 3,
-    "name": "Modern Blue L Shaped Kitchen Design with Marble Countertops",
+    "name": "Azure L-Shaped Culinary Haven",
     "image": "IMAGES/KITCHEN/p3.avif",
     "type": "Kitchen",
     "layout": "L-Shape Kitchen Design",
     "style": "Modern",
     "size": "12x10 feet",
-    "colour": ["Base unit: Kingfisher Blue", "Wall unit: Kingfisher Blue"],
+    "colour": ["Base unit: Deep Sea Blue", "Wall unit: Deep Sea Blue"],
     "shutterFinishs": [
       "Base unit: Laminate with suede finish",
       "Wall unit: Laminate with suede finish"
@@ -63,17 +63,17 @@
       "Profile lighting under wall cabinets to light up the countertop",
       "Gola profile handle for a seamless cabinet look"
     ],
-    "idealFor": "Medium families "
+    "idealFor": "Medium families"
   },
   {
     "id": 4,
-    "name": "Modern Blue L Shaped Kitchen Design with Marble Countertops",
+    "name": "Cerulean L-Shaped Kitchen Elegance",
     "image": "IMAGES/KITCHEN/p4.avif",
     "type": "Kitchen",
     "layout": "L-Shape Kitchen Design",
     "style": "Modern",
     "size": "12x10 feet",
-    "colour": ["Base unit: Kingfisher Blue", "Wall unit: Kingfisher Blue"],
+    "colour": ["Base unit: Deep Sea Blue", "Wall unit: Deep Sea Blue"],
     "shutterFinishs": [
       "Base unit: Laminate with suede finish",
       "Wall unit: Laminate with suede finish"
@@ -85,17 +85,17 @@
       "Profile lighting under wall cabinets to light up the countertop",
       "Gola profile handle for a seamless cabinet look"
     ],
-    "idealFor": "Medium families "
+    "idealFor": "Medium families"
   },
   {
     "id": 5,
-    "name": "Modern Blue L Shaped Kitchen Design with Marble Countertops",
+    "name": "Sky Blue L-Shaped Kitchen Dream",
     "image": "IMAGES/KITCHEN/p5.avif",
     "type": "Kitchen",
     "layout": "L-Shape Kitchen Design",
     "style": "Modern",
     "size": "12x10 feet",
-    "colour": ["Base unit: Kingfisher Blue", "Wall unit: Kingfisher Blue"],
+    "colour": ["Base unit: Deep Sea Blue", "Wall unit: Deep Sea Blue"],
     "shutterFinishs": [
       "Base unit: Laminate with suede finish",
       "Wall unit: Laminate with suede finish"
@@ -107,17 +107,17 @@
       "Profile lighting under wall cabinets to light up the countertop",
       "Gola profile handle for a seamless cabinet look"
     ],
-    "idealFor": "Medium families "
+    "idealFor": "Medium families"
   },
   {
     "id": 6,
-    "name": "Modern Blue L Shaped Living room Design with Marble Countertops",
+    "name": "Coastal L-Shaped Living Room Retreat",
     "image": "IMAGES/LIVING_ROOM/p1.avif",
     "type": "Living room",
     "layout": "L-Shape Living room Design",
     "style": "Modern",
     "size": "12x10 feet",
-    "colour": ["Base unit: Kingfisher Blue", "Wall unit: Kingfisher Blue"],
+    "colour": ["Base unit: Deep Sea Blue", "Wall unit: Deep Sea Blue"],
     "shutterFinishs": [
       "Base unit: Laminate with suede finish",
       "Wall unit: Laminate with suede finish"
@@ -129,17 +129,17 @@
       "Profile lighting under wall cabinets to light up the countertop",
       "Gola profile handle for a seamless cabinet look"
     ],
-    "idealFor": "Medium families "
+    "idealFor": "Medium families"
   },
   {
     "id": 7,
-    "name": "Modern Blue L Shaped Living room Design with Marble Countertops",
+    "name": "Nautical L-Shaped Living Room Bliss",
     "image": "IMAGES/LIVING_ROOM/p2.avif",
     "type": "Living room",
     "layout": "L-Shape Living room Design",
     "style": "Modern",
     "size": "12x10 feet",
-    "colour": ["Base unit: Kingfisher Blue", "Wall unit: Kingfisher Blue"],
+    "colour": ["Base unit: Deep Sea Blue", "Wall unit: Deep Sea Blue"],
     "shutterFinishs": [
       "Base unit: Laminate with suede finish",
       "Wall unit: Laminate with suede finish"
@@ -151,17 +151,17 @@
       "Profile lighting under wall cabinets to light up the countertop",
       "Gola profile handle for a seamless cabinet look"
     ],
-    "idealFor": "Medium families "
+    "idealFor": "Medium families"
   },
   {
     "id": 8,
-    "name": "Modern Blue L Shaped Living room Design with Marble Countertops",
+    "name": "Maritime L-Shaped Living Room Style",
     "image": "IMAGES/LIVING_ROOM/p3.avif",
     "type": "Living room",
     "layout": "L-Shape Living room Design",
     "style": "Modern",
     "size": "12x10 feet",
-    "colour": ["Base unit: Kingfisher Blue", "Wall unit: Kingfisher Blue"],
+    "colour": ["Base unit: Deep Sea Blue", "Wall unit: Deep Sea Blue"],
     "shutterFinishs": [
       "Base unit: Laminate with suede finish",
       "Wall unit: Laminate with suede finish"
@@ -173,17 +173,17 @@
       "Profile lighting under wall cabinets to light up the countertop",
       "Gola profile handle for a seamless cabinet look"
     ],
-    "idealFor": "Medium families "
+    "idealFor": "Medium families"
   },
   {
     "id": 9,
-    "name": "Modern Blue L Shaped Living room Design with Marble Countertops",
+    "name": "Seaside L-Shaped Living Room Vision",
     "image": "IMAGES/LIVING_ROOM/p4.avif",
     "type": "Living room",
     "layout": "L-Shape Living room Design",
     "style": "Modern",
     "size": "12x10 feet",
-    "colour": ["Base unit: Kingfisher Blue", "Wall unit: Kingfisher Blue"],
+    "colour": ["Base unit: Deep Sea Blue", "Wall unit: Deep Sea Blue"],
     "shutterFinishs": [
       "Base unit: Laminate with suede finish",
       "Wall unit: Laminate with suede finish"
@@ -195,17 +195,17 @@
       "Profile lighting under wall cabinets to light up the countertop",
       "Gola profile handle for a seamless cabinet look"
     ],
-    "idealFor": "Medium families "
+    "idealFor": "Medium families"
   },
   {
     "id": 10,
-    "name": "Modern Blue L Shaped Living room Design with Marble Countertops",
+    "name": "Bayview L-Shaped Living Room Delight",
     "image": "IMAGES/LIVING_ROOM/p5.avif",
     "type": "Living room",
     "layout": "L-Shape Living room Design",
     "style": "Modern",
     "size": "12x10 feet",
-    "colour": ["Base unit: Kingfisher Blue", "Wall unit: Kingfisher Blue"],
+    "colour": ["Base unit: Deep Sea Blue", "Wall unit: Deep Sea Blue"],
     "shutterFinishs": [
       "Base unit: Laminate with suede finish",
       "Wall unit: Laminate with suede finish"
@@ -217,14 +217,14 @@
       "Profile lighting under wall cabinets to light up the countertop",
       "Gola profile handle for a seamless cabinet look"
     ],
-    "idealFor": "Medium families "
+    "idealFor": "Medium families"
   },
   {
     "id": 11,
-    "name": "Modern Blue L Shaped Bed room Design with Marble Countertops",
+    "name": "Azure L-Shaped Bedroom Oasis with Marble Accents",
     "image": "IMAGES/BED_ROOM/p1.avif",
-    "type": "Bed room",
-    "layout": "L-Shape Bed room Design",
+    "type": "Bedroom",
+    "layout": "L-Shape Bedroom Design",
     "style": "Modern",
     "size": "12x10 feet",
     "colour": ["Base unit: Kingfisher Blue", "Wall unit: Kingfisher Blue"],
@@ -239,14 +239,14 @@
       "Profile lighting under wall cabinets to light up the countertop",
       "Gola profile handle for a seamless cabinet look"
     ],
-    "idealFor": "Medium families "
+    "idealFor": "Medium families"
   },
   {
     "id": 12,
-    "name": "Modern Blue L Shaped Bed room Design with Marble Countertops",
+    "name": "Cerulean L-Shaped Bedroom Retreat with Marble Touch",
     "image": "IMAGES/BED_ROOM/p2.avif",
-    "type": "Bed room",
-    "layout": "L-Shape Bed room Design",
+    "type": "Bedroom",
+    "layout": "L-Shape Bedroom Design",
     "style": "Modern",
     "size": "12x10 feet",
     "colour": ["Base unit: Kingfisher Blue", "Wall unit: Kingfisher Blue"],
@@ -261,14 +261,14 @@
       "Profile lighting under wall cabinets to light up the countertop",
       "Gola profile handle for a seamless cabinet look"
     ],
-    "idealFor": "Medium families "
+    "idealFor": "Medium families"
   },
   {
     "id": 13,
-    "name": "Modern Blue L Shaped Bed room Design with Marble Countertops",
+    "name": "Sapphire L-Shaped Bedroom Haven with Marble Features",
     "image": "IMAGES/BED_ROOM/p3.avif",
-    "type": "Bed room",
-    "layout": "L-Shape Bed room Design",
+    "type": "Bedroom",
+    "layout": "L-Shape Bedroom Design",
     "style": "Modern",
     "size": "12x10 feet",
     "colour": ["Base unit: Kingfisher Blue", "Wall unit: Kingfisher Blue"],
@@ -283,14 +283,14 @@
       "Profile lighting under wall cabinets to light up the countertop",
       "Gola profile handle for a seamless cabinet look"
     ],
-    "idealFor": "Medium families "
+    "idealFor": "Medium families"
   },
   {
     "id": 14,
-    "name": "Modern Blue L Shaped Bed room Design with Marble Countertops",
+    "name": "Sky Blue L-Shaped Bedroom Elegance with Marble Surfaces",
     "image": "IMAGES/BED_ROOM/p4.avif",
-    "type": "Bed room",
-    "layout": "L-Shape Bed room Design",
+    "type": "Bedroom",
+    "layout": "L-Shape Bedroom Design",
     "style": "Modern",
     "size": "12x10 feet",
     "colour": ["Base unit: Kingfisher Blue", "Wall unit: Kingfisher Blue"],
@@ -305,14 +305,14 @@
       "Profile lighting under wall cabinets to light up the countertop",
       "Gola profile handle for a seamless cabinet look"
     ],
-    "idealFor": "Medium families "
+    "idealFor": "Medium families"
   },
   {
     "id": 15,
-    "name": "Modern Blue L Shaped Bed room Design with Marble Countertops",
+    "name": "Navy L-Shaped Bedroom Design with Marble Accents",
     "image": "IMAGES/BED_ROOM/p5.avif",
-    "type": "Bed room",
-    "layout": "L-Shape Bed room Design",
+    "type": "Bedroom",
+    "layout": "L-Shape Bedroom Design",
     "style": "Modern",
     "size": "12x10 feet",
     "colour": ["Base unit: Kingfisher Blue", "Wall unit: Kingfisher Blue"],
@@ -327,14 +327,14 @@
       "Profile lighting under wall cabinets to light up the countertop",
       "Gola profile handle for a seamless cabinet look"
     ],
-    "idealFor": "Medium families "
+    "idealFor": "Medium families"
   },
   {
     "id": 16,
-    "name": "Modern Blue L Shaped Bath room Design with Marble Countertops",
+    "name": "Teal L-Shaped Bathroom Escape with Marble Elements",
     "image": "IMAGES/BATH_ROOM/p1.avif",
-    "type": "Bath room",
-    "layout": "L-Shape Bath room Design",
+    "type": "Bathroom",
+    "layout": "L-Shape Bathroom Design",
     "style": "Modern",
     "size": "12x10 feet",
     "colour": ["Base unit: Kingfisher Blue", "Wall unit: Kingfisher Blue"],
@@ -349,14 +349,14 @@
       "Profile lighting under wall cabinets to light up the countertop",
       "Gola profile handle for a seamless cabinet look"
     ],
-    "idealFor": "Medium families "
+    "idealFor": "Medium families"
   },
   {
     "id": 17,
-    "name": "Modern Blue L Shaped Bath room Design with Marble Countertops",
+    "name": "Turquoise L-Shaped Bathroom Retreat with Marble Finishes",
     "image": "IMAGES/BATH_ROOM/p2.avif",
-    "type": "Bath room",
-    "layout": "L-Shape Bath room Design",
+    "type": "Bathroom",
+    "layout": "L-Shape Bathroom Design",
     "style": "Modern",
     "size": "12x10 feet",
     "colour": ["Base unit: Kingfisher Blue", "Wall unit: Kingfisher Blue"],
@@ -371,14 +371,14 @@
       "Profile lighting under wall cabinets to light up the countertop",
       "Gola profile handle for a seamless cabinet look"
     ],
-    "idealFor": "Medium families "
+    "idealFor": "Medium families"
   },
   {
     "id": 18,
-    "name": "Modern Blue L Shaped Bath room Design with Marble Countertops",
+    "name": "Cyan L-Shaped Bathroom Style with Marble Details",
     "image": "IMAGES/BATH_ROOM/p3.avif",
-    "type": "Bath room",
-    "layout": "L-Shape Bath room Design",
+    "type": "Bathroom",
+    "layout": "L-Shape Bathroom Design",
     "style": "Modern",
     "size": "12x10 feet",
     "colour": ["Base unit: Kingfisher Blue", "Wall unit: Kingfisher Blue"],
@@ -393,14 +393,14 @@
       "Profile lighting under wall cabinets to light up the countertop",
       "Gola profile handle for a seamless cabinet look"
     ],
-    "idealFor": "Medium families "
+    "idealFor": "Medium families"
   },
   {
     "id": 19,
-    "name": "Modern Blue L Shaped Bath room Design with Marble Countertops",
+    "name": "Mint Green L-Shaped Bathroom Sanctuary with Marble",
     "image": "IMAGES/BATH_ROOM/p4.avif",
-    "type": "Bath room",
-    "layout": "L-Shape Bath room Design",
+    "type": "Bathroom",
+    "layout": "L-Shape Bathroom Design",
     "style": "Modern",
     "size": "12x10 feet",
     "colour": ["Base unit: Kingfisher Blue", "Wall unit: Kingfisher Blue"],
@@ -415,11 +415,11 @@
       "Profile lighting under wall cabinets to light up the countertop",
       "Gola profile handle for a seamless cabinet look"
     ],
-    "idealFor": "Medium families "
+    "idealFor": "Medium families"
   },
   {
     "id": 20,
-    "name": "Modern Blue L Shaped Contemporary Design with Marble Countertops",
+    "name": "Emerald L-Shaped Contemporary Bathroom Design with Marble Touch",
     "image": "IMAGES/BATH_ROOM/p5.avif",
     "type": "Contemporary",
     "layout": "L-Shape Contemporary Design",
@@ -437,11 +437,11 @@
       "Profile lighting under wall cabinets to light up the countertop",
       "Gola profile handle for a seamless cabinet look"
     ],
-    "idealFor": "Medium families "
+    "idealFor": "Medium families"
   },
   {
     "id": 21,
-    "name": "Modern Blue L Shaped Contemporary Design with Marble Countertops",
+    "name": "Cobalt L-Shaped Contemporary Design with Marble Countertops",
     "image": "IMAGES/CONTEMPORARY_STYLE/p1.avif",
     "type": "Contemporary",
     "layout": "L-Shape Contemporary Design",
@@ -459,11 +459,11 @@
       "Profile lighting under wall cabinets to light up the countertop",
       "Gola profile handle for a seamless cabinet look"
     ],
-    "idealFor": "Medium families "
+    "idealFor": "Medium families"
   },
   {
     "id": 22,
-    "name": "Modern Blue L Shaped Contemporary Design with Marble Countertops",
+    "name": "Indigo L-Shaped Contemporary Design with Marble Countertops",
     "image": "IMAGES/CONTEMPORARY_STYLE/p2.avif",
     "type": "Contemporary",
     "layout": "L-Shape Contemporary Design",
@@ -481,11 +481,11 @@
       "Profile lighting under wall cabinets to light up the countertop",
       "Gola profile handle for a seamless cabinet look"
     ],
-    "idealFor": "Medium families "
+    "idealFor": "Medium families"
   },
   {
     "id": 23,
-    "name": "Modern Blue L Shaped Contemporary Design with Marble Countertops",
+    "name": "Navy Blue L-Shaped Contemporary Design with Marble Countertops",
     "image": "IMAGES/CONTEMPORARY_STYLE/p3.avif",
     "type": "Contemporary",
     "layout": "L-Shape Contemporary Design",
@@ -503,11 +503,11 @@
       "Profile lighting under wall cabinets to light up the countertop",
       "Gola profile handle for a seamless cabinet look"
     ],
-    "idealFor": "Medium families "
+    "idealFor": "Medium families"
   },
   {
     "id": 24,
-    "name": "Modern Blue L Shaped Contemporary Design with Marble Countertops",
+    "name": "Teal L-Shaped Contemporary Design with Marble Countertops",
     "image": "IMAGES/CONTEMPORARY_STYLE/p4.avif",
     "type": "Contemporary",
     "layout": "L-Shape Contemporary Design",
@@ -525,11 +525,11 @@
       "Profile lighting under wall cabinets to light up the countertop",
       "Gola profile handle for a seamless cabinet look"
     ],
-    "idealFor": "Medium families "
+    "idealFor": "Medium families"
   },
   {
     "id": 25,
-    "name": "Modern Blue L Shaped Contemporary Design with Marble Countertops",
+    "name": "Cerulean L-Shaped Contemporary Design with Marble Countertops",
     "image": "IMAGES/CONTEMPORARY_STYLE/p5.avif",
     "type": "Contemporary",
     "layout": "L-Shape Contemporary Design",
@@ -547,14 +547,14 @@
       "Profile lighting under wall cabinets to light up the countertop",
       "Gola profile handle for a seamless cabinet look"
     ],
-    "idealFor": "Medium families "
+    "idealFor": "Medium families"
   },
   {
     "id": 26,
-    "name": "Modern Blue L Shaped Elegant lock style Design with Marble Countertops",
+    "name": "Azure L-Shaped Elegant Lock Style Design with Marble Countertops",
     "image": "IMAGES/ELEGANT_LOCK_STYLE/p1.avif",
-    "type": "Elegant lock style",
-    "layout": "L-Shape Elegant lock style Design",
+    "type": "Elegant Lock Style",
+    "layout": "L-Shape Elegant Lock Style Design",
     "style": "Modern",
     "size": "12x10 feet",
     "colour": ["Base unit: Kingfisher Blue", "Wall unit: Kingfisher Blue"],
@@ -569,14 +569,14 @@
       "Profile lighting under wall cabinets to light up the countertop",
       "Gola profile handle for a seamless cabinet look"
     ],
-    "idealFor": "Medium families "
+    "idealFor": "Medium families"
   },
   {
     "id": 27,
-    "name": "Modern Blue L Shaped Elegant lock style Design with Marble Countertops",
+    "name": "Sapphire L-Shaped Elegant Lock Style Design with Marble Countertops",
     "image": "IMAGES/ELEGANT_LOCK_STYLE/p2.avif",
-    "type": "Elegant lock style",
-    "layout": "L-Shape Elegant lock style Design",
+    "type": "Elegant Lock Style",
+    "layout": "L-Shape Elegant Lock Style Design",
     "style": "Modern",
     "size": "12x10 feet",
     "colour": ["Base unit: Kingfisher Blue", "Wall unit: Kingfisher Blue"],
@@ -591,14 +591,14 @@
       "Profile lighting under wall cabinets to light up the countertop",
       "Gola profile handle for a seamless cabinet look"
     ],
-    "idealFor": "Medium families "
+    "idealFor": "Medium families"
   },
   {
     "id": 28,
-    "name": "Modern Blue L Shaped Elegant lock style Design with Marble Countertops",
+    "name": "Turquoise L-Shaped Elegant Lock Style Design with Marble Countertops",
     "image": "IMAGES/ELEGANT_LOCK_STYLE/p3.avif",
-    "type": "Elegant lock style",
-    "layout": "L-Shape Elegant lock style Design",
+    "type": "Elegant Lock Style",
+    "layout": "L-Shape Elegant Lock Style Design",
     "style": "Modern",
     "size": "12x10 feet",
     "colour": ["Base unit: Kingfisher Blue", "Wall unit: Kingfisher Blue"],
@@ -613,14 +613,14 @@
       "Profile lighting under wall cabinets to light up the countertop",
       "Gola profile handle for a seamless cabinet look"
     ],
-    "idealFor": "Medium families "
+    "idealFor": "Medium families"
   },
   {
     "id": 29,
-    "name": "Modern Blue L Shaped Elegant lock style Design with Marble Countertops",
+    "name": "Mint L-Shaped Elegant Lock Style Design with Marble Countertops",
     "image": "IMAGES/ELEGANT_LOCK_STYLE/p4.avif",
-    "type": "Elegant lock style",
-    "layout": "L-Shape Elegant lock style Design",
+    "type": "Elegant Lock Style",
+    "layout": "L-Shape Elegant Lock Style Design",
     "style": "Modern",
     "size": "12x10 feet",
     "colour": ["Base unit: Kingfisher Blue", "Wall unit: Kingfisher Blue"],
@@ -635,14 +635,14 @@
       "Profile lighting under wall cabinets to light up the countertop",
       "Gola profile handle for a seamless cabinet look"
     ],
-    "idealFor": "Medium families "
+    "idealFor": "Medium families"
   },
   {
     "id": 30,
-    "name": "Modern Blue L Shaped Elegant lock style Design with Marble Countertops",
+    "name": "Emerald L-Shaped Elegant Lock Style Design with Marble Countertops",
     "image": "IMAGES/ELEGANT_LOCK_STYLE/p5.avif",
-    "type": "Elegant lock style",
-    "layout": "L-Shape Elegant lock style Design",
+    "type": "Elegant Lock Style",
+    "layout": "L-Shape Elegant Lock Style Design",
     "style": "Modern",
     "size": "12x10 feet",
     "colour": ["Base unit: Kingfisher Blue", "Wall unit: Kingfisher Blue"],
@@ -657,6 +657,6 @@
       "Profile lighting under wall cabinets to light up the countertop",
       "Gola profile handle for a seamless cabinet look"
     ],
-    "idealFor": "Medium families "
+    "idealFor": "Medium families"
   }
 ]

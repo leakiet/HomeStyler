@@ -17,9 +17,9 @@ function App() {
         <Header />
         {/* <FreeQuote/> */}
         {/* <HomePage /> */}
-        <DesignDetail/>
+        {/* <DesignDetail /> */}
         <HomePage />
-        <StyleDetail/>
+        {/* <StyleDetail /> */}
         {/* <DesignStyles/> */}
         <Footer />
       </div >
