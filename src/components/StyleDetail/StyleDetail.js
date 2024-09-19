@@ -14,7 +14,7 @@ function StyleDetail() {
                     </div>
                     <div className='star-rating'>
                     <h4>Star Rating</h4>
-                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    <i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i>
                     </div>
                     <div className='sd-list-item-detail'>
                         <div className='item-design-detail'>
@@ -84,7 +84,7 @@ function StyleDetail() {
                 </div>
             </div>
             <div className='sd-btn-gfq'>
-                <button type="button" class="btn btn-danger rounded-pill">Get free quote</button>
+                <button type="button" className="btn btn-danger rounded-pill">Get free quote</button>
             </div>
         </div>
     );
