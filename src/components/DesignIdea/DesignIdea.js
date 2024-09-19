@@ -12,7 +12,7 @@ function DesignIdea(props) {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch("data/designStyle.json");
+                const response = await fetch("data/roomtype.json");
                 const data = await response.json();
                 setDesignStyles(data);
             } catch (err) {
@@ -47,7 +47,7 @@ function DesignIdea(props) {
                         <div className='di-text'>
                             <div className='di-title'>
                                 <h4>
-                                {(designStyle.name) ? designStyle.name : "No name available"}
+                                    {(designStyle.name) ? designStyle.name : "No name available"}
                                 </h4>
                             </div>
                             <div className='di-discription'>
