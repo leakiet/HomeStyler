@@ -4,7 +4,7 @@ import Footer from "./components/Footer/Footer.jsx"
 import DesignStyles from "./pages/DesignStyles/DesignStyles.jsx";
 import HomePage from "./pages/HomePage/HomePage.jsx";
 import FreeQuote from "./components/FreeQuote/FreeQuote.js";
-import StyleDetail from "./components/StyleDetail/StyleDetail.js";
+import DesignDetail from "./pages/DesignDetail/DesignDetail.js";
 
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
         <Header />
         {/* <FreeQuote/> */}
         {/* <HomePage /> */}
-        <StyleDetail/>
+        <DesignDetail/>
         {/* <DesignStyles/> */}
         <Footer />
       </div >
