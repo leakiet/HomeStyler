@@ -23,3 +23,16 @@
 input::placeholder {
     color: #AB8A7A !important;
 }
+
+.btnDropdown a {
+    text-decoration: none;
+    color: #AB8A7A;
+}
+
+a {
+    text-decoration: none;
+    color: #AB8A7A;
+}
+.btnDropdown a:hover {
+    color: hsl(26, 40%, 39%);
+}
