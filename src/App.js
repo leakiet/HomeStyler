@@ -21,6 +21,10 @@ function App() {
         {/* <DesignDetail/> */}
         <HomePage />
         {/* <DesignIdea/> */}
+        {/* <DesignDetail /> */}
+        <HomePage />
+        {/* <StyleDetail /> */}
+        {/* <DesignStyles/> */}
         <Footer />
       </div >
     </>
