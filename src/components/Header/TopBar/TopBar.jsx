@@ -6,9 +6,7 @@ function TopBar() {
     return (
         <div className='top-bar'>
             <div className='top-bar-list'>
-                <div className='top-bar-item'>
                     Welcome to Home Styler
-                </div>
             </div>
 
             <div className='top-bar-list'>

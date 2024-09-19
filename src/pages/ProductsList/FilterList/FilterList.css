@@ -1,0 +1,9 @@
+.filter-wrapper h3 {
+    text-align: center;
+}
+
+.filter-wrapper {
+    padding: 20px;
+    margin: 10px;
+    border-right: 1px solid silver;
+}

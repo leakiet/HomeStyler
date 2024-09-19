@@ -31,3 +31,8 @@
 .card{
     transition: 0.5s;
 }
+
+.title{
+    margin-top: 40px;
+    text-align: center;
+}

@@ -6,6 +6,12 @@ function TypeInterio(props) {
     const array =[1,2,3,4]
 
     return (
+        <>
+        <div className='title'>
+        <h2>One-stop shop for all things interiors</h2>
+        <p>Be it end-to-end interiors, renovation or modular solutions, we have it all for your home or office.
+          With a wide range of furniture & decor, we have your back from start to finish.</p>
+        </div>
         <div className='container-card'>
             {array.map((e, index)=>(
             <div className="card" key={index}>
@@ -18,6 +24,7 @@ function TypeInterio(props) {
             </div>
             ))}
         </div>
+        </>
     );
 }
 

@@ -4,6 +4,7 @@ import DesignStyles from './DesignStyles/DesignStyles'
 import Products from './Products/Products'
 import DesignersGallary from './DesignerGallary/DesignersGallary'
 import HomeStylerLogo from '../../../assets/HomeStylerLogo.png'
+import { Link } from 'react-router-dom'
 
 function NavBar() {
   return (
@@ -13,27 +14,28 @@ function NavBar() {
       alignItems: 'center',
       justifyContent: 'space-between',
       fontSize: 16,
-      color: '#AB8A7A',
-      background: '#E0D7C7',
-      padding: '10px'
+      color: '#73868A ',
+      padding: '10px',
+      borderBottom: '1px solid #73868A',
     }}>
       <div style={{
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'space-between',
-        gap: 15
+        gap: 30
       }}>
         <div style={{
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'flex-start',
+          marginRight: 30
         }}>
-          <a href="#">
+          <Link to="/">
             <img src={HomeStylerLogo} alt="logo" width="55px" />
-          </a>
-          <a href="#">
+          </Link>
+          <Link to="/">
             <span style={{ fontSize: '26px', }}>Home Styler</span>
-          </a>
+          </Link>
         </div>
         <div>
           <DesignStyles />
@@ -46,18 +48,12 @@ function NavBar() {
         </div>
       </div>
 
-      <div style={{
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'space-between',
-        gap: 10
-      }}>
+      <div className='AppBar-right' >
         <div>
           <div className="input-group flex-nowrap">
             <input type="text" className="SearchInput" placeholder="Search" aria-label="Search" aria-describedby="addon-wrapping" />
-            <span className="input-group-text SearchText" id="addon-wrapping"><i class="bi bi-search" style={{ color: '#AB8A7A', fontSize: 9.0 }} /></span>
+            <span className="input-group-text SearchText" id="addon-wrapping"><i class="bi bi-search" style={{ color: '#73868A', fontSize: 9.0, cursor:'pointer' }} /></span>
           </div>
-
         </div>
         <div style={{ display: 'flex', alignItems: 'center', gap: 5 }}>
           <a href='#'>
