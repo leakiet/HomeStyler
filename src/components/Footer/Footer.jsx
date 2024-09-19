@@ -4,7 +4,7 @@ import './Footer.css'
 function Footer() {
   return (
     <>
-      <footer className="bg-body-tertiary text-center">
+      <footer className="text-center footer-wrapper">
         <div className="container p-4">
           <section className="mb-4">
             {/* Facebook */}
@@ -14,7 +14,7 @@ function Footer() {
               href="#!"
               role="button"
             >
-              <i className="fab fa-facebook-f" />
+              <i className="bi bi-facebook fs-1" ></i>
             </a>
             {/* Twitter */}
             <a
@@ -23,7 +23,7 @@ function Footer() {
               href="#!"
               role="button"
             >
-              <i className="fab fa-twitter" />
+              <i className="bi bi-twitter fs-1" />
             </a>
             {/* Google */}
             <a
@@ -32,7 +32,7 @@ function Footer() {
               href="#!"
               role="button"
             >
-              <i className="fab fa-google" />
+              <i className="bi bi-google fs-1" />
             </a>
             {/* Instagram */}
             <a
@@ -41,25 +41,7 @@ function Footer() {
               href="#!"
               role="button"
             >
-              <i className="fab fa-instagram" />
-            </a>
-            {/* Linkedin */}
-            <a
-              data-mdb-ripple-init=""
-              className="btn btn-outline btn-floating m-1"
-              href="#!"
-              role="button"
-            >
-              <i className="fab fa-linkedin-in" />
-            </a>
-            {/* Github */}
-            <a
-              data-mdb-ripple-init=""
-              className="btn btn-outline btn-floating m-1"
-              href="#!"
-              role="button"
-            >
-              <i className="fab fa-github" />
+              <i className="bi bi-instagram fs-1" />
             </a>
           </section>
           {/* Section: Social media */}

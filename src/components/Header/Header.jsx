@@ -4,10 +4,10 @@ import TopBar from './TopBar/TopBar'
 
 function Header() {
   return (
-    <div>
+    <>
       <TopBar />
       <AppBar />
-    </div>
+    </>
   )
 }
 
