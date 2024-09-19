@@ -1,0 +1,85 @@
+.inspiration-item-top {
+  margin-top: 3%;
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr;
+}
+
+.container-inspiration-list {
+  display: flex;
+}
+
+.image-text {
+  color: white;
+  background-color: rgb(0, 0, 0, 0.5);
+  padding: 1px 5px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 15px;
+  left: 30px;
+}
+
+.inspiration-item-image {
+  position: relative;
+}
+
+.container-inspiration {
+  margin-top: 4%;
+  max-width: 92%;
+  margin-left: 4%;
+}
+
+.inspiration-item-bottom {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+}
+
+.inspiration-item-top img {
+  object-fit: cover; 
+  border-radius: 20px;
+}
+.inspiration-item-bottom img {
+  object-fit: cover; 
+  margin-top: 8px;
+  border-radius: 12px;
+}
+
+.inspiration-item-top .img-top-1 {
+  width: 99%;
+  height: 300px;
+}
+
+.inspiration-item-top .img-top-2 {
+  width: 97%;
+  height: 300px;
+}
+
+.inspiration-item-top .img-top-3 {
+  width: 98%;
+  height: 300px;
+}
+
+.inspiration-list {
+  max-width: 100%;
+}
+
+.inspiration-title {
+  margin: 15px auto;
+}
+
+.inspiration-item-bottom {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+}
+
+.inspiration-item-bottom .img-bottom-1 {
+  width: 98%;
+  height: 300px;
+}
+.inspiration-item-bottom .img-bottom-2 {
+  width: 99%;
+  height: 300px;
+}
+.inspiration-item-bottom .img-bottom-3 {
+  width: 98%;
+  height: 300px;
+}

@@ -1,0 +1,86 @@
+
+
+
+/* .fq-form-input-item{
+  margin: 10px 10px;
+} */
+
+.fq-form-input-item .form-check input{
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  margin-top: 11px;
+}
+
+.fq-form-input-item .form-check label{
+  margin: 10px auto;
+}
+
+.fq-form-input-item{
+  margin: 2% auto;
+}
+
+.container-freequote{
+  display: flex;
+  justify-content: center;
+  margin: 50px auto;
+}
+
+.fq-form{
+  background-color: rgb(252, 232, 207);
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  padding: 4%;
+  max-width: 40%;
+  max-height: 700px;
+}
+
+.fq-img img{
+  max-width: 100%;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.fq-form-title{
+  max-width: 90%;
+  margin: 0 auto;
+}
+.fq-form-title h3{
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+.fq-form-title p{
+  padding-bottom: 3%;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.fq-form-input-item button{
+  padding: 15px;
+  margin: 0 auto;
+  display: block;
+}
+
+.fq-form-input-item .submit-item p{
+  margin-top: 20px;
+  text-align: center;
+  word-wrap: break-word;
+}
+.fq-form-input-item .submit-item{
+  margin-left: 15%;
+  max-width: 70%;
+}

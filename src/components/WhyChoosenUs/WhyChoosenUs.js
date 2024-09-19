@@ -49,7 +49,7 @@ function WhyChoosenUs(props) {
                         <div className='wcs-container-card'>
                             <div className='wcs-card'>
                                 <div className='wcs-card-icon'>
-                                    <i class="bi bi-archive-fill"></i>
+                                    <i className="bi bi-archive-fill"></i>
                                 </div>
                                 <div className='wcs-card-text'>
                                     <p>146 quality checks</p>
