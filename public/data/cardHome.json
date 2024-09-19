@@ -1,26 +1,26 @@
 [
-    {
-        "id": 1,
-        "name": "Modernist",
-        "image": "IMAGES/LIVING_ROOM/lr-21-1718085726-vrgTb.avif",
-        "discription": "A person who values innovation and progress"
-    },
-    {
-        "id": 2,
-        "name": "Traditionalist",
-        "image": "IMAGES/LIVING_ROOM/lr16-1716277320-z6EYw.avif",
-        "discription": "A person who values customs and heritage"
-    },
-    {
-        "id": 3,
-        "name": "Minimalist",
-        "image": "IMAGES/LIVING_ROOM/lr19-1716791918-jGYtH.avif",
-        "discription": "A person who values simplicity and clarity"
-    },
-    {
-        "id": 4,
-        "name": "Retro",
-        "image": "IMAGES/LIVING_ROOM/lr20-1716791915-d2TC2.avif",
-        "discription": "A person who values nostalgia and vintage style"
-    }
+  {
+    "id": 1,
+    "name": "LIVING ROOM",
+    "image": "../IMAGES/LIVING_ROOM/p1.avif",
+    "discription": "A person who values innovation and progress"
+  },
+  {
+    "id": 2,
+    "name": "BEDROOM",
+    "image": "../IMAGES/BED_ROOM/p1.avif",
+    "discription": "A person who values customs and heritage"
+  },
+  {
+    "id": 3,
+    "name": "BATHROOM",
+    "image": "../IMAGES/BATH_ROOM/p1.avif",
+    "discription": "A person who values simplicity and clarity"
+  },
+  {
+    "id": 4,
+    "name": "KITCHEN",
+    "image": "../IMAGES/KITCHEN/p1.avif",
+    "discription": "A person who values nostalgia and vintage style"
+  }
 ]
