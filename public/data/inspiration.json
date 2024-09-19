@@ -1,90 +1,90 @@
 [
-    {
-        "item": {
-            "top": [
-                {
-                    "image": "IMAGES/BATH_ROOM/bathroom-372-1719225972-Jgxn2.avif",
-                    "label": "Bath Room",
-                    "typeSize": 1,
-                    "designId": "design001_top1"
-                },
-                {
-                    "image": "IMAGES/BED_ROOM/mbr-9-1721373719-vKUaG.avif",
-                    "label": "Bed Room",
-                    "typeSize": 2,
-                    "designId": "design002_top2"
-                },
-                {
-                    "image": "IMAGES/CONTEMPORARY_STYLE/f-31-1720606650-JGtsu.avif",
-                    "label": "Contemporary Style",
-                    "typeSize": 1,
-                    "designId": "design003_top3"
-                }
-            ],
-            "bottom": [
-                {
-                    "image": "IMAGES/KITCHEN/ki-76-1719575434-eD74j.avif",
-                    "label": "Kitchen Morden",
-                    "typeSize": 2,
-                    "designId": "design001_bottom1"
-                },
-                {
-                    "image": "IMAGES/LIVING_ROOM/lr16-1716277320-z6EYw.avif",
-                    "label": "Living Room",
-                    "typeSize": 1,
-                    "designId": "design002_bottom2"
-                },
-                {
-                    "image": "IMAGES/BATH_ROOM/br-21-1718970996-qgGu6.avif",
-                    "label": "Bath Room Morden",
-                    "typeSize": 2,
-                    "designId": "design003_bottom3"
-                }
-            ]
+  {
+    "item": {
+      "top": [
+        {
+          "image": "IMAGES/BATH_ROOM/p1.avif",
+          "label": "Bath Room",
+          "typeSize": 1,
+          "designId": "design001_top1"
+        },
+        {
+          "image": "IMAGES/BED_ROOM/mbr-9-1721373719-vKUaG.avif",
+          "label": "Bed Room",
+          "typeSize": 2,
+          "designId": "design002_top2"
+        },
+        {
+          "image": "IMAGES/CONTEMPORARY_STYLE/f-31-1720606650-JGtsu.avif",
+          "label": "Contemporary Style",
+          "typeSize": 1,
+          "designId": "design003_top3"
         }
-    },
-    {
-        "item": {
-            "top": [
-                {
-                    "image": "IMAGES/BED_ROOM/mbr-22-1-1718971159-Bj4YG.avif",
-                    "label": "Bed Room Classic",
-                    "typeSize": 1,
-                    "designId": "design004_top1"
-                },
-                {
-                    "image": "IMAGES/CONTEMPORARY_STYLE/f32-1720778536-jy6Ht.avif",
-                    "label": "Contemporary Style Classic",
-                    "typeSize": 2,
-                    "designId": "design005_top2"
-                },
-                {
-                    "image": "IMAGES/CONTEMPORARY_STYLE/fc22-2-1720778361-MvxGn.avif",
-                    "label": "Elegant Lock Style Classic",
-                    "typeSize": 1,
-                    "designId": "design006_top3"
-                }
-            ],
-            "bottom": [
-                {
-                    "image": "IMAGES/LIVING_ROOM/lr20-1716791915-d2TC2.avif",
-                    "label": "Living Room Morden",
-                    "typeSize": 2,
-                    "designId": "design004_bottom1"
-                },
-                {
-                    "image": "IMAGES/KITCHEN/kitchen-408-1720075351-wRYfx.avif",
-                    "label": "Kitchen Classic",
-                    "typeSize": 1,
-                    "designId": "design005_bottom2"
-                },
-                {
-                    "image": "IMAGES/ELEGANT_LOCK_STYLE/ki77-1719575432-W5uin.avif",
-                    "label": "Elegant Lock Style Morden",
-                    "typeSize": 2,
-                    "designId": "design006_bottom3"
-                }
-            ]
+      ],
+      "bottom": [
+        {
+          "image": "IMAGES/KITCHEN/ki-76-1719575434-eD74j.avif",
+          "label": "Kitchen Morden",
+          "typeSize": 2,
+          "designId": "design001_bottom1"
+        },
+        {
+          "image": "IMAGES/LIVING_ROOM/lr16-1716277320-z6EYw.avif",
+          "label": "Living Room",
+          "typeSize": 1,
+          "designId": "design002_bottom2"
+        },
+        {
+          "image": "IMAGES/BATH_ROOM/br-21-1718970996-qgGu6.avif",
+          "label": "Bath Room Morden",
+          "typeSize": 2,
+          "designId": "design003_bottom3"
         }
+      ]
     }
+  },
+  {
+    "item": {
+      "top": [
+        {
+          "image": "IMAGES/BED_ROOM/mbr-22-1-1718971159-Bj4YG.avif",
+          "label": "Bed Room Classic",
+          "typeSize": 1,
+          "designId": "design004_top1"
+        },
+        {
+          "image": "IMAGES/CONTEMPORARY_STYLE/f32-1720778536-jy6Ht.avif",
+          "label": "Contemporary Style Classic",
+          "typeSize": 2,
+          "designId": "design005_top2"
+        },
+        {
+          "image": "IMAGES/CONTEMPORARY_STYLE/fc22-2-1720778361-MvxGn.avif",
+          "label": "Elegant Lock Style Classic",
+          "typeSize": 1,
+          "designId": "design006_top3"
+        }
+      ],
+      "bottom": [
+        {
+          "image": "IMAGES/LIVING_ROOM/lr20-1716791915-d2TC2.avif",
+          "label": "Living Room Morden",
+          "typeSize": 2,
+          "designId": "design004_bottom1"
+        },
+        {
+          "image": "IMAGES/KITCHEN/kitchen-408-1720075351-wRYfx.avif",
+          "label": "Kitchen Classic",
+          "typeSize": 1,
+          "designId": "design005_bottom2"
+        },
+        {
+          "image": "IMAGES/ELEGANT_LOCK_STYLE/ki77-1719575432-W5uin.avif",
+          "label": "Elegant Lock Style Morden",
+          "typeSize": 2,
+          "designId": "design006_bottom3"
+        }
+      ]
+    }
+  }
 ]
