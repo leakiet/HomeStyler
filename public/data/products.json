@@ -1,0 +1,512 @@
+[
+  {
+    "id": 1,
+    "name": "Sofa1",
+    "style": ["Living Room"],
+    "cate1": "Furniture",
+    "cate2": "Sofas and couches",
+    "descripton": "A comfortable living room sofa.",
+    "quantity": 10,
+    "price": 299.99,
+    "image": [
+      "../IMAGES/PRODUCTS/FURNITURE/SOFAS_AND_COUCHES/p1.jpg",
+      "../IMAGES/PRODUCTS/FURNITURE/SOFAS_AND_COUCHES/p2.jpg",
+      "../IMAGES/PRODUCTS/FURNITURE/SOFAS_AND_COUCHES/p3.jpg"
+    ],
+
+    "reviews": [
+      {
+        "userId": 3,
+        "userName": "Alice Smith",
+        "stars": 5,
+        "comment": "So comfy, I love it!"
+      },
+      {
+        "userId": 4,
+        "userName": "Bob Johnson",
+        "stars": 3,
+        "comment": "Good but could be better."
+      }
+    ],
+    "rating": {
+      "averageStars": 4.0,
+      "totalReviews": 35
+    }
+  },
+  {
+    "id": 2,
+    "name": "sofa2",
+    "style": ["Living room"],
+    "cate1": "Furniture",
+    "cate2": "Sofas and couches",
+    "descripton": "A comfortable living room sofa.",
+    "quantity": 10,
+    "price": 299.99,
+    "image": [
+      "../IMAGES/PRODUCTS/FURNITURE/SOFAS_AND_COUCHES/p4.jpg",
+      "../IMAGES/PRODUCTS/FURNITURE/SOFAS_AND_COUCHES/p5.jpg",
+      "../IMAGES/PRODUCTS/FURNITURE/SOFAS_AND_COUCHES/p6.jpg"
+    ],
+
+    "reviews": [
+      {
+        "userId": 3,
+        "userName": "Alice Smith",
+        "stars": 5,
+        "comment": "So comfy, I love it!"
+      },
+      {
+        "userId": 4,
+        "userName": "Bob Johnson",
+        "stars": 3,
+        "comment": "Good but could be better."
+      }
+    ],
+    "rating": {
+      "averageStars": 4.0,
+      "totalReviews": 35
+    }
+  },
+  {
+    "id": 3,
+    "name": "Sofa3",
+    "style": ["Living room"],
+    "cate1": "Furniture",
+    "cate2": "Sofas and couches",
+    "descripton": "A comfortable living room sofa.",
+    "quantity": 10,
+    "price": 299.99,
+    "image": [
+      "../IMAGES/PRODUCTS/FURNITURE/SOFAS_AND_COUCHES/p7.jpg",
+      "../IMAGES/PRODUCTS/FURNITURE/SOFAS_AND_COUCHES/p8.jpg",
+      "../IMAGES/PRODUCTS/FURNITURE/SOFAS_AND_COUCHES/p9.jpg"
+    ],
+
+    "reviews": [
+      {
+        "userId": 3,
+        "userName": "Alice Smith",
+        "stars": 5,
+        "comment": "So comfy, I love it!"
+      },
+      {
+        "userId": 4,
+        "userName": "Bob Johnson",
+        "stars": 3,
+        "comment": "Good but could be better."
+      }
+    ],
+    "rating": {
+      "averageStars": 4.0,
+      "totalReviews": 35
+    }
+  },
+  {
+    "id": 4,
+    "name": "Bed1",
+    "style": ["Bedroom"],
+    "cate1": "Furniture",
+    "cate2": "Beds and matresses",
+    "descripton": "A comfortable living room sofa.",
+    "quantity": 10,
+    "price": 299.99,
+    "image": [
+      "../IMAGES/PRODUCTS/FURNITURE/BEDS_AND_MATRESSES/p1.jpg",
+      "../IMAGES/PRODUCTS/FURNITURE/BEDS_AND_MATRESSES/p2.jpg",
+      "../IMAGES/PRODUCTS/FURNITURE/BEDS_AND_MATRESSES/p3.jpg"
+    ],
+
+    "reviews": [
+      {
+        "userId": 3,
+        "userName": "Alice Smith",
+        "stars": 5,
+        "comment": "So comfy, I love it!"
+      },
+      {
+        "userId": 4,
+        "userName": "Bob Johnson",
+        "stars": 3,
+        "comment": "Good but could be better."
+      }
+    ],
+    "rating": {
+      "averageStars": 4.0,
+      "totalReviews": 35
+    }
+  },
+  {
+    "id": 5,
+    "name": "Bed2",
+    "style": ["Bedroom"],
+    "cate1": "Furniture",
+    "cate2": "Beds and matresses",
+    "descripton": "A comfortable living room sofa.",
+    "quantity": 10,
+    "price": 299.99,
+    "image": [
+      "../IMAGES/PRODUCTS/FURNITURE/BEDS_AND_MATRESSES/p4.jpg",
+      "../IMAGES/PRODUCTS/FURNITURE/BEDS_AND_MATRESSES/p5.jpg",
+      "../IMAGES/PRODUCTS/FURNITURE/BEDS_AND_MATRESSES/p6.jpg"
+    ],
+
+    "reviews": [
+      {
+        "userId": 3,
+        "userName": "Alice Smith",
+        "stars": 5,
+        "comment": "So comfy, I love it!"
+      },
+      {
+        "userId": 4,
+        "userName": "Bob Johnson",
+        "stars": 3,
+        "comment": "Good but could be better."
+      }
+    ],
+    "rating": {
+      "averageStars": 4.0,
+      "totalReviews": 35
+    }
+  },
+  {
+    "id": 6,
+    "name": "Bed3",
+    "style": ["Bedroom"],
+    "cate1": "Furniture",
+    "cate2": "Beds and matresses",
+    "descripton": "A comfortable living room sofa.",
+    "quantity": 10,
+    "price": 299.99,
+    "image": [
+      "../IMAGES/PRODUCTS/FURNITURE/BEDS_AND_MATRESSES/p7.jpg",
+      "../IMAGES/PRODUCTS/FURNITURE/BEDS_AND_MATRESSES/p8.jpg",
+      "../IMAGES/PRODUCTS/FURNITURE/BEDS_AND_MATRESSES/p9.jpg"
+    ],
+
+    "reviews": [
+      {
+        "userId": 3,
+        "userName": "Alice Smith",
+        "stars": 5,
+        "comment": "So comfy, I love it!"
+      },
+      {
+        "userId": 4,
+        "userName": "Bob Johnson",
+        "stars": 3,
+        "comment": "Good but could be better."
+      }
+    ],
+    "rating": {
+      "averageStars": 4.0,
+      "totalReviews": 35
+    }
+  },
+  {
+    "id": 7,
+    "name": "Chair1",
+    "style": ["Bedroom"],
+    "cate1": "Furniture",
+    "cate2": "Chairs and recliners",
+    "descripton": "A comfortable living room sofa.",
+    "quantity": 10,
+    "price": 299.99,
+    "image": [
+      "../IMAGES/PRODUCTS/FURNITURE/CHAIRS_AND_RECLINERS/p1.jpg",
+      "../IMAGES/PRODUCTS/FURNITURE/CHAIRS_AND_RECLINERS/p2.jpg",
+      "../IMAGES/PRODUCTS/FURNITURE/CHAIRS_AND_RECLINERS/p3.jpg"
+    ],
+
+    "reviews": [
+      {
+        "userId": 3,
+        "userName": "Alice Smith",
+        "stars": 5,
+        "comment": "So comfy, I love it!"
+      },
+      {
+        "userId": 4,
+        "userName": "Bob Johnson",
+        "stars": 3,
+        "comment": "Good but could be better."
+      }
+    ],
+    "rating": {
+      "averageStars": 4.0,
+      "totalReviews": 35
+    }
+  },
+  {
+    "id": 8,
+    "name": "Chair2",
+    "style": ["Bedroom"],
+    "cate1": "Furniture",
+    "cate2": "Chairs and recliners",
+    "descripton": "A comfortable living room sofa.",
+    "quantity": 10,
+    "price": 299.99,
+    "image": [
+      "../IMAGES/PRODUCTS/FURNITURE/CHAIRS_AND_RECLINERS/p4.jpg",
+      "../IMAGES/PRODUCTS/FURNITURE/CHAIRS_AND_RECLINERS/p5.jpg",
+      "../IMAGES/PRODUCTS/FURNITURE/CHAIRS_AND_RECLINERS/p6.jpg"
+    ],
+
+    "reviews": [
+      {
+        "userId": 3,
+        "userName": "Alice Smith",
+        "stars": 5,
+        "comment": "So comfy, I love it!"
+      },
+      {
+        "userId": 4,
+        "userName": "Bob Johnson",
+        "stars": 3,
+        "comment": "Good but could be better."
+      }
+    ],
+    "rating": {
+      "averageStars": 4.0,
+      "totalReviews": 35
+    }
+  },
+  {
+    "id": 9,
+    "name": "Chair3",
+    "style": ["Bedroom"],
+    "cate1": "Furniture",
+    "cate2": "Chairs and recliners",
+    "descripton": "A comfortable living room sofa.",
+    "quantity": 10,
+    "price": 299.99,
+    "image": [
+      "../IMAGES/PRODUCTS/FURNITURE/CHAIRS_AND_RECLINERS/p7.jpg",
+      "../IMAGES/PRODUCTS/FURNITURE/CHAIRS_AND_RECLINERS/p8.jpg",
+      "../IMAGES/PRODUCTS/FURNITURE/CHAIRS_AND_RECLINERS/p9.jpg"
+    ],
+
+    "reviews": [
+      {
+        "userId": 3,
+        "userName": "Alice Smith",
+        "stars": 5,
+        "comment": "So comfy, I love it!"
+      },
+      {
+        "userId": 4,
+        "userName": "Bob Johnson",
+        "stars": 3,
+        "comment": "Good but could be better."
+      }
+    ],
+    "rating": {
+      "averageStars": 4.0,
+      "totalReviews": 35
+    }
+  },
+  {
+    "id": 10,
+    "name": "Storage1",
+    "style": ["Kitchen", "Bedroom"],
+    "cate1": "Furniture",
+    "cate2": "Storage",
+    "descripton": "A comfortable living room sofa.",
+    "quantity": 10,
+    "price": 299.99,
+    "image": [
+      "../IMAGES/PRODUCTS/FURNITURE/STORAGE/p1.jpg",
+      "../IMAGES/PRODUCTS/FURNITURE/STORAGE/p2.jpg",
+      "../IMAGES/PRODUCTS/FURNITURE/STORAGE/p3.jpg"
+    ],
+
+    "reviews": [
+      {
+        "userId": 3,
+        "userName": "Alice Smith",
+        "stars": 5,
+        "comment": "So comfy, I love it!"
+      },
+      {
+        "userId": 4,
+        "userName": "Bob Johnson",
+        "stars": 3,
+        "comment": "Good but could be better."
+      }
+    ],
+    "rating": {
+      "averageStars": 4.0,
+      "totalReviews": 35
+    }
+  },
+  {
+    "id": 11,
+    "name": "Storage2",
+    "style": ["Kitchen", "Bedroom"],
+    "cate1": "Furniture",
+    "cate2": "Storage",
+    "descripton": "A comfortable living room sofa.",
+    "quantity": 10,
+    "price": 299.99,
+    "image": [
+      "../IMAGES/PRODUCTS/FURNITURE/STORAGE/p4.jpg",
+      "../IMAGES/PRODUCTS/FURNITURE/STORAGE/p5.jpg",
+      "../IMAGES/PRODUCTS/FURNITURE/STORAGE/p6.jpg"
+    ],
+
+    "reviews": [
+      {
+        "userId": 3,
+        "userName": "Alice Smith",
+        "stars": 5,
+        "comment": "So comfy, I love it!"
+      },
+      {
+        "userId": 4,
+        "userName": "Bob Johnson",
+        "stars": 3,
+        "comment": "Good but could be better."
+      }
+    ],
+    "rating": {
+      "averageStars": 4.0,
+      "totalReviews": 35
+    }
+  },
+  {
+    "id": 12,
+    "name": "Storage3",
+    "style": ["Kitchen", "Bedroom"],
+    "cate1": "Furniture",
+    "cate2": "Storage",
+    "descripton": "A comfortable living room sofa.",
+    "quantity": 10,
+    "price": 299.99,
+    "image": [
+      "../IMAGES/PRODUCTS/FURNITURE/STORAGE/p7.jpg",
+      "../IMAGES/PRODUCTS/FURNITURE/STORAGE/p8.jpg",
+      "../IMAGES/PRODUCTS/FURNITURE/STORAGE/p9.jpg"
+    ],
+
+    "reviews": [
+      {
+        "userId": 3,
+        "userName": "Alice Smith",
+        "stars": 5,
+        "comment": "So comfy, I love it!"
+      },
+      {
+        "userId": 4,
+        "userName": "Bob Johnson",
+        "stars": 3,
+        "comment": "Good but could be better."
+      }
+    ],
+    "rating": {
+      "averageStars": 4.0,
+      "totalReviews": 35
+    }
+  },
+  {
+    "id": 13,
+    "name": "Tables1",
+    "style": ["Kitchen", "Bedroom"],
+    "cate1": "Furniture",
+    "cate2": "Tables",
+    "descripton": "A comfortable living room sofa.",
+    "quantity": 10,
+    "price": 299.99,
+    "image": [
+      "../IMAGES/PRODUCTS/FURNITURE/TABLES/p1.jpg",
+      "../IMAGES/PRODUCTS/FURNITURE/TABLES/p2.jpg",
+      "../IMAGES/PRODUCTS/FURNITURE/TABLES/p3.jpg"
+    ],
+
+    "reviews": [
+      {
+        "userId": 3,
+        "userName": "Alice Smith",
+        "stars": 5,
+        "comment": "So comfy, I love it!"
+      },
+      {
+        "userId": 4,
+        "userName": "Bob Johnson",
+        "stars": 3,
+        "comment": "Good but could be better."
+      }
+    ],
+    "rating": {
+      "averageStars": 4.0,
+      "totalReviews": 35
+    }
+  },
+  {
+    "id": 14,
+    "name": "Storage3",
+    "style": ["Kitchen", "Bedroom"],
+    "cate1": "Furniture",
+    "cate2": "Storage",
+    "descripton": "A comfortable living room sofa.",
+    "quantity": 10,
+    "price": 299.99,
+    "image": [
+      "../IMAGES/PRODUCTS/FURNITURE/STORAGE/p7.jpg",
+      "../IMAGES/PRODUCTS/FURNITURE/STORAGE/p8.jpg",
+      "../IMAGES/PRODUCTS/FURNITURE/STORAGE/p9.jpg"
+    ],
+
+    "reviews": [
+      {
+        "userId": 3,
+        "userName": "Alice Smith",
+        "stars": 5,
+        "comment": "So comfy, I love it!"
+      },
+      {
+        "userId": 4,
+        "userName": "Bob Johnson",
+        "stars": 3,
+        "comment": "Good but could be better."
+      }
+    ],
+    "rating": {
+      "averageStars": 4.0,
+      "totalReviews": 35
+    }
+  },
+  {
+    "id": 15,
+    "name": "Storage3",
+    "style": ["Kitchen", "Bedroom"],
+    "cate1": "Furniture",
+    "cate2": "Storage",
+    "descripton": "A comfortable living room sofa.",
+    "quantity": 10,
+    "price": 299.99,
+    "image": [
+      "../IMAGES/PRODUCTS/FURNITURE/STORAGE/p7.jpg",
+      "../IMAGES/PRODUCTS/FURNITURE/STORAGE/p8.jpg",
+      "../IMAGES/PRODUCTS/FURNITURE/STORAGE/p9.jpg"
+    ],
+
+    "reviews": [
+      {
+        "userId": 3,
+        "userName": "Alice Smith",
+        "stars": 5,
+        "comment": "So comfy, I love it!"
+      },
+      {
+        "userId": 4,
+        "userName": "Bob Johnson",
+        "stars": 3,
+        "comment": "Good but could be better."
+      }
+    ],
+    "rating": {
+      "averageStars": 4.0,
+      "totalReviews": 35
+    }
+  }
+]
