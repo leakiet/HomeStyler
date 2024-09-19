@@ -15,7 +15,7 @@ function App() {
       <div className="container-fluid">
         <Header />
         {/* <FreeQuote/> */}
-        {/* <HomePage /> */}
+        <HomePage />
         <StyleDetail/>
         {/* <DesignStyles/> */}
         <Footer />
