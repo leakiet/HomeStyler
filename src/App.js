@@ -5,6 +5,8 @@ import DesignStyles from "./pages/DesignStyles/DesignStyles.jsx";
 import HomePage from "./pages/HomePage/HomePage.jsx";
 import FreeQuote from "./components/FreeQuote/FreeQuote.js";
 import DesignDetail from "./pages/DesignDetail/DesignDetail.js";
+import StyleDetail from "./components/StyleDetail/StyleDetail.js";
+import { Routes } from "react-router-dom";
 
 
 function App() {
@@ -16,6 +18,8 @@ function App() {
         {/* <FreeQuote/> */}
         {/* <HomePage /> */}
         <DesignDetail/>
+        <HomePage />
+        <StyleDetail/>
         {/* <DesignStyles/> */}
         <Footer />
       </div >
