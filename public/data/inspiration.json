@@ -3,70 +3,40 @@
     "item": {
       "top": [
         {
-<<<<<<< Updated upstream
-          "image": "IMAGES/BATH_ROOM/p1.avif",
-          "label": "Bath Room",
-=======
           "image": "../IMAGES/LIVING_ROOM/p5.avif",
           "label": "Living room 5",
->>>>>>> Stashed changes
           "typeSize": 1,
           "designId": "design001_top1"
         },
         {
-<<<<<<< Updated upstream
-          "image": "IMAGES/BED_ROOM/mbr-9-1721373719-vKUaG.avif",
-          "label": "Bed Room",
-=======
           "image": "../IMAGES/LIVING_ROOM/p4.avif",
           "label": "Living room 4",
->>>>>>> Stashed changes
           "typeSize": 2,
           "designId": "design002_top2"
         },
         {
-<<<<<<< Updated upstream
-          "image": "IMAGES/CONTEMPORARY_STYLE/f-31-1720606650-JGtsu.avif",
-          "label": "Contemporary Style",
-=======
           "image": "../IMAGES/LIVING_ROOM/p3.avif",
           "label": "Living room 3",
->>>>>>> Stashed changes
           "typeSize": 1,
           "designId": "design003_top3"
         }
       ],
       "bottom": [
         {
-<<<<<<< Updated upstream
-          "image": "IMAGES/KITCHEN/ki-76-1719575434-eD74j.avif",
-          "label": "Kitchen Morden",
-=======
           "image": "../IMAGES/LIVING_ROOM/p2.avif",
           "label": "Living room 2",
->>>>>>> Stashed changes
           "typeSize": 2,
           "designId": "design001_bottom1"
         },
         {
-<<<<<<< Updated upstream
-          "image": "IMAGES/LIVING_ROOM/lr16-1716277320-z6EYw.avif",
-          "label": "Living Room",
-=======
           "image": "../IMAGES/LIVING_ROOM/p1.avif",
           "label": "Living room 1",
->>>>>>> Stashed changes
           "typeSize": 1,
           "designId": "design002_bottom2"
         },
         {
-<<<<<<< Updated upstream
-          "image": "IMAGES/BATH_ROOM/br-21-1718970996-qgGu6.avif",
-          "label": "Bath Room Morden",
-=======
           "image": "../IMAGES/CONTEMPORARY_STYLE/p1.avif",
           "label": "Contemporary 1",
->>>>>>> Stashed changes
           "typeSize": 2,
           "designId": "design003_bottom3"
         }
@@ -77,77 +47,45 @@
     "item": {
       "top": [
         {
-<<<<<<< Updated upstream
-          "image": "IMAGES/BED_ROOM/mbr-22-1-1718971159-Bj4YG.avif",
-          "label": "Bed Room Classic",
-=======
           "image": "https://m.media-amazon.com/images/I/41TZoCiRdkL._AC_UF894,1000_QL80_.jpg",
           "label": "Label Top 4",
->>>>>>> Stashed changes
           "typeSize": 1,
           "designId": "design004_top1"
         },
         {
-<<<<<<< Updated upstream
-          "image": "IMAGES/CONTEMPORARY_STYLE/f32-1720778536-jy6Ht.avif",
-          "label": "Contemporary Style Classic",
-=======
           "image": "https://media-cdn-v2.laodong.vn/Storage/newsportal/2019/4/13/727763/Tram-Anh-7.jpg",
           "label": "Label Top 5",
->>>>>>> Stashed changes
           "typeSize": 2,
           "designId": "design005_top2"
         },
         {
-<<<<<<< Updated upstream
-          "image": "IMAGES/CONTEMPORARY_STYLE/fc22-2-1720778361-MvxGn.avif",
-          "label": "Elegant Lock Style Classic",
-=======
           "image": "https://m.media-amazon.com/images/I/41TZoCiRdkL._AC_UF894,1000_QL80_.jpg",
           "label": "Label Top 6",
->>>>>>> Stashed changes
           "typeSize": 1,
           "designId": "design006_top3"
         }
       ],
       "bottom": [
         {
-<<<<<<< Updated upstream
-          "image": "IMAGES/LIVING_ROOM/lr20-1716791915-d2TC2.avif",
-          "label": "Living Room Morden",
-=======
           "image": "https://media-cdn-v2.laodong.vn/Storage/newsportal/2019/4/13/727763/Tram-Anh-7.jpg",
           "label": "Electronics",
->>>>>>> Stashed changes
           "typeSize": 2,
           "designId": "design004_bottom1"
         },
         {
-<<<<<<< Updated upstream
-          "image": "IMAGES/KITCHEN/kitchen-408-1720075351-wRYfx.avif",
-          "label": "Kitchen Classic",
-=======
           "image": "https://m.media-amazon.com/images/I/41TZoCiRdkL._AC_UF894,1000_QL80_.jpg",
           "label": "Appliances",
->>>>>>> Stashed changes
           "typeSize": 1,
           "designId": "design005_bottom2"
         },
         {
-<<<<<<< Updated upstream
-          "image": "IMAGES/ELEGANT_LOCK_STYLE/ki77-1719575432-W5uin.avif",
-          "label": "Elegant Lock Style Morden",
-=======
           "image": "https://media-cdn-v2.laodong.vn/Storage/newsportal/2019/4/13/727763/Tram-Anh-7.jpg",
           "label": "Clothing",
->>>>>>> Stashed changes
           "typeSize": 2,
           "designId": "design006_bottom3"
         }
       ]
     }
-<<<<<<< Updated upstream
-=======
   },
   {
     "item": {
@@ -280,6 +218,5 @@
         }
       ]
     }
->>>>>>> Stashed changes
   }
 ]
