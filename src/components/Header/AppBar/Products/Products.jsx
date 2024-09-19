@@ -12,7 +12,7 @@ function Products() {
             <div className="dropdown btnDropdown">
                 <a className="dropdown-toggle" data-bs-auto-close='outside' href="#"
                     role="button" data-bs-toggle="dropdown" aria-expanded="false"> Products </a>
-                <ul class="dropdown-menu">
+                <ul className="dropdown-menu">
                     <Furniture />
                     <Kitchen />
                     <Lighting />

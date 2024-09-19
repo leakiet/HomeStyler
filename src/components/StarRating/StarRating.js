@@ -54,7 +54,7 @@ function StarRating(props) {
                     className='sr-item-input'
                 />
                 <div className='sr-item-btn'>
-                    <button type="button" class="btn btn-primary ">Submit</button>
+                    <button type="button" className="btn btn-primary ">Submit</button>
                 </div>
             </div>
         </div>

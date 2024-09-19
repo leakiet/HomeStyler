@@ -1,25 +1,29 @@
 import React from 'react';
 import './designIdea.css'
 
-function DesignIdea(props) {
-    const array = [
-        {
-            "image": 'https://images.pexels.com/photos/1624496/pexels-photo-1624496.jpeg?auto=compress&cs=tinysrgb&w=600'
-        },
-        {
-            "image": 'https://images.pexels.com/photos/33109/fall-autumn-red-season.jpg?auto=compress&cs=tinysrgb&w=600'
-        },
-        {
-            "image": 'https://images.pexels.com/photos/33045/lion-wild-africa-african.jpg?auto=compress&cs=tinysrgb&w=600'
-        },
-        {
-            "image": 'https://images.pexels.com/photos/50594/sea-bay-waterfront-beach-50594.jpeg?auto=compress&cs=tinysrgb&w=600'
-        },
-        {
-            "image": 'https://images.pexels.com/photos/937980/pexels-photo-937980.jpeg?auto=compress&cs=tinysrgb&w=600'
-        }
+import { useEffect, useState } from 'react'
 
-    ]
+
+function DesignIdea(props) {
+
+    const [designStyles, setDesignStyles] = useState([])
+
+
+    useEffect(() => {
+        const fetchData = async () => {
+            try {
+                const response = await fetch("data/designStyle.json");
+                const data = await response.json();
+                setDesignStyles(data);
+            } catch (err) {
+                console.log(err);
+            }
+        };
+        fetchData();
+    }, []);
+
+
+
     return (
         <div className='container-designidea'>
             <div className='designidea-title'>
@@ -29,36 +33,37 @@ function DesignIdea(props) {
             </div>
 
             <div className='container-designidea-card'>
-                {array.map((e, index) =>(
-                <div className='di-card' key={index}>
-                    <div className='di-image'>
-                        <span className='di-love-image'><i className="bi bi-heart-fill"></i></span>
-                        <img src={e.image} alt='img' />
-                    
-                    </div>
-                    <div className='di-text'>
-                        <div className='di-title'>
-                            <h4>
-                            Modern Open Kitchen Design with Quartz Countertop and Backsplash
-                            </h4>
-                        </div>
-                        <div className='di-discription'>
-                            size: 12x10 feet
-                        </div>
-                    </div>
-                    <div className='di-btn'>
-                        <button className='di-consultation btn btn-danger rounded-pill'>
-                            book free consultation
-                        </button>
-                        <button className='di-getquote btn btn-light rounded-pill'>
-                            get quote
-                        </button>
-                    </div>
+                {designStyles.map((designStyle, index) => (
+                    <div className='di-card' key={index}>
+                        <div className='di-image'>
+                            <span className='di-love-image'><i className="bi bi-heart-fill"></i></span>
+                            {designStyle.image ? (
+                                <img src={designStyle.image} alt={designStyle.name} />
+                            ) : (
+                                <p>No image available</p>
+                            )}
 
-                </div>
-
-               
-                ))} 
+                        </div>
+                        <div className='di-text'>
+                            <div className='di-title'>
+                                <h4>
+                                {(designStyle.name) ? designStyle.name : "No name available"}
+                                </h4>
+                            </div>
+                            <div className='di-discription'>
+                                size:  {(designStyle.size) ? designStyle.size : "No size available"}
+                            </div>
+                        </div>
+                        <div className='di-btn'>
+                            <button className='di-consultation btn btn-danger rounded-pill'>
+                                book free consultation
+                            </button>
+                            <button className='di-getquote btn btn-light rounded-pill'>
+                                get quote
+                            </button>
+                        </div>
+                    </div>
+                ))}
             </div>
         </div>
     );

@@ -1,0 +1,127 @@
+[
+    {
+        "id": 1,
+        "name": "Modern Blue L Shaped Kitchen Design with Marble Countertops",
+        "image": "IMAGES/KITCHEN/ki-58-1719575460-RGloP.avif",
+        "type": "Kitchen",
+        "layout": "L-Shape Kitchen Design",
+        "style": "Modern",
+        "size": "12x10 feet",
+        "colour": [
+            "Base unit: Kingfisher Blue",
+            "Wall unit: Kingfisher Blue"
+        ],
+        "shutterFinishs": [
+            "Base unit: Laminate with suede finish",
+            "Wall unit: Laminate with suede finish"
+        ],
+        "countertopMaterial": "Marble",
+        "storageFeatures": "Storage cabinets with drawers, open shelves and tall unit",
+        "specialFeatures": [
+            "Soft-close drawers",
+            "Profile lighting under wall cabinets to light up the countertop",
+            "Gola profile handle for a seamless cabinet look"
+        ],
+        "idealFor": "Medium families "
+    },
+    {
+        "id": 2,
+        "name": "Modern Blue L Shaped Kitchen Design with Marble Countertops",
+        "image": "IMAGES/KITCHEN/ki-74-1719575437-IoeYP.avif",
+        "type": "Kitchen",
+        "layout": "L-Shape Kitchen Design",
+        "style": "Modern",
+        "size": "12x10 feet",
+        "colour": [
+            "Base unit: Kingfisher Blue",
+            "Wall unit: Kingfisher Blue"
+        ],
+        "shutterFinishs": [
+            "Base unit: Laminate with suede finish",
+            "Wall unit: Laminate with suede finish"
+        ],
+        "countertopMaterial": "Marble",
+        "storageFeatures": "Storage cabinets with drawers, open shelves and tall unit",
+        "specialFeatures": [
+            "Soft-close drawers",
+            "Profile lighting under wall cabinets to light up the countertop",
+            "Gola profile handle for a seamless cabinet look"
+        ],
+        "idealFor": "Medium families "
+    },
+    {
+        "id": 3,
+        "name": "Modern Blue L Shaped Kitchen Design with Marble Countertops",
+        "image": "IMAGES/KITCHEN/ki-76-1719575434-eD74j.avif",
+        "type": "Kitchen",
+        "layout": "L-Shape Kitchen Design",
+        "style": "Modern",
+        "size": "12x10 feet",
+        "colour": [
+            "Base unit: Kingfisher Blue",
+            "Wall unit: Kingfisher Blue"
+        ],
+        "shutterFinishs": [
+            "Base unit: Laminate with suede finish",
+            "Wall unit: Laminate with suede finish"
+        ],
+        "countertopMaterial": "Marble",
+        "storageFeatures": "Storage cabinets with drawers, open shelves and tall unit",
+        "specialFeatures": [
+            "Soft-close drawers",
+            "Profile lighting under wall cabinets to light up the countertop",
+            "Gola profile handle for a seamless cabinet look"
+        ],
+        "idealFor": "Medium families "
+    },
+    {
+        "id": 4,
+        "name": "Modern Blue L Shaped Kitchen Design with Marble Countertops",
+        "image": "IMAGES/KITCHEN/ki77-1719575432-W5uin.avif",
+        "type": "Kitchen",
+        "layout": "L-Shape Kitchen Design",
+        "style": "Modern",
+        "size": "12x10 feet",
+        "colour": [
+            "Base unit: Kingfisher Blue",
+            "Wall unit: Kingfisher Blue"
+        ],
+        "shutterFinishs": [
+            "Base unit: Laminate with suede finish",
+            "Wall unit: Laminate with suede finish"
+        ],
+        "countertopMaterial": "Marble",
+        "storageFeatures": "Storage cabinets with drawers, open shelves and tall unit",
+        "specialFeatures": [
+            "Soft-close drawers",
+            "Profile lighting under wall cabinets to light up the countertop",
+            "Gola profile handle for a seamless cabinet look"
+        ],
+        "idealFor": "Medium families "
+    },
+    {
+        "id": 5,
+        "name": "Modern Blue L Shaped Kitchen Design with Marble Countertops",
+        "image": "IMAGES/KITCHEN/kitchen-408-1720075351-wRYfx.avif",
+        "type": "Kitchen",
+        "layout": "L-Shape Kitchen Design",
+        "style": "Modern",
+        "size": "12x20 feet",
+        "colour": [
+            "Base unit: Kingfisher Blue",
+            "Wall unit: Kingfisher Blue"
+        ],
+        "shutterFinishs": [
+            "Base unit: Laminate with suede finish",
+            "Wall unit: Laminate with suede finish"
+        ],
+        "countertopMaterial": "Marble",
+        "storageFeatures": "Storage cabinets with drawers, open shelves and tall unit",
+        "specialFeatures": [
+            "Soft-close drawers",
+            "Profile lighting under wall cabinets to light up the countertop",
+            "Gola profile handle for a seamless cabinet look"
+        ],
+        "idealFor": "Medium families "
+    }
+]

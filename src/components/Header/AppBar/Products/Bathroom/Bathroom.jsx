@@ -3,11 +3,11 @@ import React from 'react'
 function Bathroom() {
     return (
         <>
-            <li class="dropdown dropend">
-                <a class="dropdown-item dropdown-toggle" href="#"
+            <li className="dropdown dropend">
+                <a className="dropdown-item dropdown-toggle" href="#"
                     data-bs-auto-close='outside'
                     data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Bathroom</a>
-                <ul class="dropdown-menu">
+                <ul className="dropdown-menu">
                     <li><a className="dropdown-item" href="#">Vanities and Cabinets </a></li>
                     <li><a className="dropdown-item" href="#">Showers and Bathtubs</a></li>
                     <li><a className="dropdown-item" href="#">Toilets and Bidets</a></li>

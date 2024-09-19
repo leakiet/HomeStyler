@@ -3,11 +3,11 @@ import React from 'react'
 function Kitchen() {
   return (
     <>
-    <li class="dropdown dropend">
-        <a class="dropdown-item dropdown-toggle" href="#"
+    <li className="dropdown dropend">
+        <a className="dropdown-item dropdown-toggle" href="#"
             data-bs-auto-close='outside'
             data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Kitchen</a>
-        <ul class="dropdown-menu">
+        <ul className="dropdown-menu">
             <li><a className="dropdown-item" href="#">Cabinets and Pantries</a></li>
             <li><a className="dropdown-item" href="#">Countertops</a></li>
             <li><a className="dropdown-item" href="#">Sinks and Faucets</a></li>

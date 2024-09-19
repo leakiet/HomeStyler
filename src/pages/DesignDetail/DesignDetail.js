@@ -4,11 +4,12 @@ import StarRating from '../../components/StarRating/StarRating';
 import CommentDesign from '../../components/CommentDesign/CommentDesign';
 
 function DesignDetail(props) {
+    
     return (
         <div>
-            <StyleDetail/>
+            <StyleDetail id={1}/>
             <StarRating/>
-            <CommentDesign/>
+            <CommentDesign id={1}/>
         </div>
     );
 }
