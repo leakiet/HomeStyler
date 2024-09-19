@@ -7,6 +7,7 @@ import FreeQuote from "./components/FreeQuote/FreeQuote.js";
 import DesignDetail from "./pages/DesignDetail/DesignDetail.js";
 import StyleDetail from "./components/StyleDetail/StyleDetail.js";
 import { Routes } from "react-router-dom";
+import DesignIdea from "./components/DesignIdea/DesignIdea.js";
 
 
 function App() {
@@ -17,10 +18,11 @@ function App() {
         <Header />
         {/* <FreeQuote/> */}
         {/* <HomePage /> */}
-        <DesignDetail/>
+        {/* <DesignDetail/> */}
         <HomePage />
-        <StyleDetail/>
+        {/* <StyleDetail/> */}
         {/* <DesignStyles/> */}
+        {/* <DesignIdea/> */}
         <Footer />
       </div >
     </>

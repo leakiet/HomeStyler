@@ -1,79 +1,130 @@
 import React from 'react';
 import './styledetail.css'
+import { useEffect, useState } from 'react'
 
-function StyleDetail() {
+
+function StyleDetail(props) {
+
+    const [designStyles, setDesignStyles] = useState([])
+
+
+    useEffect(() => {
+        const fetchData = async () => {
+            try {
+                const response = await fetch("data/designStyle.json");
+                const data = await response.json();
+                const foundStyle = data.find(item => item.id === props.id);
+
+                if (foundStyle) {
+                    setDesignStyles(foundStyle);
+                }
+            } catch (err) {
+                console.log(err);
+            }
+        };
+        fetchData();
+    }, [props.id]);
+
+    const handleGet = () => {
+        console.log(designStyles)
+    }
+
+
+
     return (
         <div className='container-styledetail'>
             <div className='container-detail-list'>
                 <div className='sd-image-detail'>
-                    <img src='https://images.livspace-cdn.com/w:1440/dpr:1/plain/https://d3gq2merok8n5r.cloudfront.net/abhinav/ond-1634120396-Obfdc/amj-2024-1711965337-VsMIK/kitchen-1711966833-sXfwY/ki77-1719575432-W5uin.jpg' alt='' />
+                    {designStyles.image && designStyles.image.length > 0 ? (
+                        <img src={designStyles.image} alt={designStyles.name} />
+                    ) : (
+                        <p>No image available</p>
+                    )}
                 </div>
                 <div className='sd-list-item'>
                     <div className='sd-list-item-title'>
-                        <h2>Mid Century Living Room Design With Green and Grey Sofas</h2>
+                        <h2>{designStyles.name}</h2>
                     </div>
                     <div className='star-rating'>
-                    <h4>Star Rating</h4>
-                    <i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i>
+                        <h4>Star Rating</h4>
+                        <i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i>
                     </div>
                     <div className='sd-list-item-detail'>
                         <div className='item-design-detail'>
-                            <p>Kitchen Design Details:</p>
+                            <p><span> {(designStyles.type) ? designStyles.type : "No layout available"}</span> Design Details:</p>
+                        </div>
+                        <div className='item-text'>
+                            <div className='item-title'>
+                                Layout:
+                            </div>
+                            <p>
+                                {(designStyles.layout) ? designStyles.layout : "No layout available"}
+                            </p>
+                        </div>
+                        <div className='item-text'>
+                            <div className='item-title'>
+                                Room Dimension:
+                            </div>
+                            <p>
+                            {(designStyles.size) ? designStyles.size : "No size available"}
+                            </p>
                         </div>
                         <div className='item-text'>
                             <div className='item-title'>
                                 Style:
                             </div>
                             <p>
-                                Mid-century Modern
+                            {(designStyles.style) ? designStyles.style : "No style available"}
+                            </p>
+                        </div>
+                        <div className='item-text-list'>
+                            <div className='item-title-list'>
+                                Colour:
+                            </div>
+                            {designStyles.colour && designStyles.colour.map((corlor, index) => (
+                                <p key={index}> - {corlor}</p>
+                            ))}
+                        </div>
+                        <div className='item-text-list'>
+                            <div className='item-title-list'>
+                                Shutter finish:
+                            </div>
+                            {designStyles.shutterFinishs && designStyles.shutterFinishs.map((shutterFinish, index) => (
+                                <p key={index}> - {shutterFinish}</p>
+                            ))}
+                        </div>
+                        <div className='item-text'>
+                            <div className='item-title'>
+                                Countertop Material:
+                            </div>
+                            <p>
+                                {(designStyles.countertopMaterial) ? designStyles.countertopMaterial : "No Countertop Material available"}
                             </p>
                         </div>
                         <div className='item-text'>
                             <div className='item-title'>
-                                Room Dimension:
+                                Storage Features:
                             </div>
                             <p>
-                                Mid-century Modern
+                                {(designStyles.storageFeatures) ? designStyles.storageFeatures : "No Storage Features available"}
                             </p>
                         </div>
-                        <div className='item-text'>
-                            <div className='item-title'>
-                                Room Dimension:
+                        <div className='item-text-list'>
+                            <div className='item-title-list'>
+                                Special Features:
                             </div>
-                            <p>
-                                Mid-century Modern
-                            </p>
-                        </div>
-                        <div className='item-text'>
-                            <div className='item-title'>
-                                Room Dimension:
-                            </div>
-                            <p>
-                                Mid-century Modern
-                            </p>
-                        </div>
-                        <div className='item-text'>
-                            <div className='item-title'>
-                                Room Dimension:
-                            </div>
-                            <p>
-                                Mid-century Modern
-                            </p>
-                        </div>
-                        <div className='item-text'>
-                            <div className='item-title'>
-                                Room Dimension:
-                            </div>
-                            <p>
-                                Mid-century Modern
-                            </p>
+                            {designStyles.specialFeatures && designStyles.specialFeatures.map((specialFeature, index) => (
+                                <p key={index}> - {specialFeature}</p>
+                            ))}
                         </div>
                         <div className='item-size-design'>
                             <div className='sd-size-title'>
                                 Size:
                             </div>
                             <div className='sd-text'>
-                                12x10 feet
+                                <p>
+                                    {(designStyles.size) ? designStyles.size : "No size available"}
+                                </p>
                             </div>
                         </div>
                         <div className='item-description'>
@@ -84,7 +135,7 @@ function StyleDetail() {
                 </div>
             </div>
             <div className='sd-btn-gfq'>
-                <button type="button" className="btn btn-danger rounded-pill">Get free quote</button>
+                <button type="button" className="btn btn-danger rounded-pill" onClick={handleGet}>Get free quote</button>
             </div>
         </div>
     );

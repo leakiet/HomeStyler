@@ -3,40 +3,40 @@
         "item": {
             "top": [
                 {
-                    "image": "images/inspiration/bathroom-d-1669044076-ZlOfj.avif",
-                    "label": "Label Top 1",
+                    "image": "IMAGES/BATH_ROOM/bathroom-372-1719225972-Jgxn2.avif",
+                    "label": "Bath Room",
                     "typeSize": 1,
                     "designId": "design001_top1"
                 },
                 {
-                    "image": "https://m.media-amazon.com/images/I/41TZoCiRdkL._AC_UF894,1000_QL80_.jpg",
-                    "label": "Label Top 2",
+                    "image": "IMAGES/BED_ROOM/mbr-9-1721373719-vKUaG.avif",
+                    "label": "Bed Room",
                     "typeSize": 2,
                     "designId": "design002_top2"
                 },
                 {
-                    "image": "https://media-cdn-v2.laodong.vn/Storage/newsportal/2019/4/13/727763/Tram-Anh-7.jpg",
-                    "label": "Label Top 3",
+                    "image": "IMAGES/CONTEMPORARY_STYLE/f-31-1720606650-JGtsu.avif",
+                    "label": "Contemporary Style",
                     "typeSize": 1,
                     "designId": "design003_top3"
                 }
             ],
             "bottom": [
                 {
-                    "image": "https://m.media-amazon.com/images/I/41TZoCiRdkL._AC_UF894,1000_QL80_.jpg",
-                    "label": "Food",
+                    "image": "IMAGES/KITCHEN/ki-76-1719575434-eD74j.avif",
+                    "label": "Kitchen Morden",
                     "typeSize": 2,
                     "designId": "design001_bottom1"
                 },
                 {
-                    "image": "https://media-cdn-v2.laodong.vn/Storage/newsportal/2019/4/13/727763/Tram-Anh-7.jpg",
-                    "label": "Furniture",
+                    "image": "IMAGES/LIVING_ROOM/lr16-1716277320-z6EYw.avif",
+                    "label": "Living Room",
                     "typeSize": 1,
                     "designId": "design002_bottom2"
                 },
                 {
-                    "image": "https://m.media-amazon.com/images/I/41TZoCiRdkL._AC_UF894,1000_QL80_.jpg",
-                    "label": "Decor",
+                    "image": "IMAGES/BATH_ROOM/br-21-1718970996-qgGu6.avif",
+                    "label": "Bath Room Morden",
                     "typeSize": 2,
                     "designId": "design003_bottom3"
                 }
@@ -47,174 +47,42 @@
         "item": {
             "top": [
                 {
-                    "image": "https://m.media-amazon.com/images/I/41TZoCiRdkL._AC_UF894,1000_QL80_.jpg",
-                    "label": "Label Top 4",
+                    "image": "IMAGES/BED_ROOM/mbr-22-1-1718971159-Bj4YG.avif",
+                    "label": "Bed Room Classic",
                     "typeSize": 1,
                     "designId": "design004_top1"
                 },
                 {
-                    "image": "https://media-cdn-v2.laodong.vn/Storage/newsportal/2019/4/13/727763/Tram-Anh-7.jpg",
-                    "label": "Label Top 5",
+                    "image": "IMAGES/CONTEMPORARY_STYLE/f32-1720778536-jy6Ht.avif",
+                    "label": "Contemporary Style Classic",
                     "typeSize": 2,
                     "designId": "design005_top2"
                 },
                 {
-                    "image": "https://m.media-amazon.com/images/I/41TZoCiRdkL._AC_UF894,1000_QL80_.jpg",
-                    "label": "Label Top 6",
+                    "image": "IMAGES/CONTEMPORARY_STYLE/fc22-2-1720778361-MvxGn.avif",
+                    "label": "Elegant Lock Style Classic",
                     "typeSize": 1,
                     "designId": "design006_top3"
                 }
             ],
             "bottom": [
                 {
-                    "image": "https://media-cdn-v2.laodong.vn/Storage/newsportal/2019/4/13/727763/Tram-Anh-7.jpg",
-                    "label": "Electronics",
+                    "image": "IMAGES/LIVING_ROOM/lr20-1716791915-d2TC2.avif",
+                    "label": "Living Room Morden",
                     "typeSize": 2,
                     "designId": "design004_bottom1"
                 },
                 {
-                    "image": "https://m.media-amazon.com/images/I/41TZoCiRdkL._AC_UF894,1000_QL80_.jpg",
-                    "label": "Appliances",
+                    "image": "IMAGES/KITCHEN/kitchen-408-1720075351-wRYfx.avif",
+                    "label": "Kitchen Classic",
                     "typeSize": 1,
                     "designId": "design005_bottom2"
                 },
                 {
-                    "image": "https://media-cdn-v2.laodong.vn/Storage/newsportal/2019/4/13/727763/Tram-Anh-7.jpg",
-                    "label": "Clothing",
+                    "image": "IMAGES/ELEGANT_LOCK_STYLE/ki77-1719575432-W5uin.avif",
+                    "label": "Elegant Lock Style Morden",
                     "typeSize": 2,
                     "designId": "design006_bottom3"
-                }
-            ]
-        }
-    },
-    {
-        "item": {
-            "top": [
-                {
-                    "image": "https://m.media-amazon.com/images/I/41TZoCiRdkL._AC_UF894,1000_QL80_.jpg",
-                    "label": "Label Top 7",
-                    "typeSize": 1,
-                    "designId": "design007_top1"
-                },
-                {
-                    "image": "https://media-cdn-v2.laodong.vn/Storage/newsportal/2019/4/13/727763/Tram-Anh-7.jpg",
-                    "label": "Label Top 8",
-                    "typeSize": 2,
-                    "designId": "design008_top2"
-                },
-                {
-                    "image": "https://m.media-amazon.com/images/I/41TZoCiRdkL._AC_UF894,1000_QL80_.jpg",
-                    "label": "Label Top 9",
-                    "typeSize": 1,
-                    "designId": "design009_top3"
-                }
-            ],
-            "bottom": [
-                {
-                    "image": "https://media-cdn-v2.laodong.vn/Storage/newsportal/2019/4/13/727763/Tram-Anh-7.jpg",
-                    "label": "Books",
-                    "typeSize": 2,
-                    "designId": "design007_bottom1"
-                },
-                {
-                    "image": "https://m.media-amazon.com/images/I/41TZoCiRdkL._AC_UF894,1000_QL80_.jpg",
-                    "label": "Toys",
-                    "typeSize": 1,
-                    "designId": "design008_bottom2"
-                },
-                {
-                    "image": "https://media-cdn-v2.laodong.vn/Storage/newsportal/2019/4/13/727763/Tram-Anh-7.jpg",
-                    "label": "Gardening",
-                    "typeSize": 2,
-                    "designId": "design009_bottom3"
-                }
-            ]
-        }
-    },
-    {
-        "item": {
-            "top": [
-                {
-                    "image": "https://m.media-amazon.com/images/I/41TZoCiRdkL._AC_UF894,1000_QL80_.jpg",
-                    "label": "Label Top 10",
-                    "typeSize": 1,
-                    "designId": "design010_top1"
-                },
-                {
-                    "image": "https://media-cdn-v2.laodong.vn/Storage/newsportal/2019/4/13/727763/Tram-Anh-7.jpg",
-                    "label": "Label Top 11",
-                    "typeSize": 2,
-                    "designId": "design011_top2"
-                },
-                {
-                    "image": "https://m.media-amazon.com/images/I/41TZoCiRdkL._AC_UF894,1000_QL80_.jpg",
-                    "label": "Label Top 12",
-                    "typeSize": 1,
-                    "designId": "design012_top3"
-                }
-            ],
-            "bottom": [
-                {
-                    "image": "https://media-cdn-v2.laodong.vn/Storage/newsportal/2019/4/13/727763/Tram-Anh-7.jpg",
-                    "label": "Sports",
-                    "typeSize": 2,
-                    "designId": "design010_bottom1"
-                },
-                {
-                    "image": "https://m.media-amazon.com/images/I/41TZoCiRdkL._AC_UF894,1000_QL80_.jpg",
-                    "label": "Music",
-                    "typeSize": 1,
-                    "designId": "design011_bottom2"
-                },
-                {
-                    "image": "https://media-cdn-v2.laodong.vn/Storage/newsportal/2019/4/13/727763/Tram-Anh-7.jpg",
-                    "label": "Art",
-                    "typeSize": 2,
-                    "designId": "design012_bottom3"
-                }
-            ]
-        }
-    },
-    {
-        "item": {
-            "top": [
-                {
-                    "image": "https://m.media-amazon.com/images/I/41TZoCiRdkL._AC_UF894,1000_QL80_.jpg",
-                    "label": "Label Top 13",
-                    "typeSize": 1,
-                    "designId": "design013_top1"
-                },
-                {
-                    "image": "https://media-cdn-v2.laodong.vn/Storage/newsportal/2019/4/13/727763/Tram-Anh-7.jpg",
-                    "label": "Label Top 14",
-                    "typeSize": 2,
-                    "designId": "design014_top2"
-                },
-                {
-                    "image": "https://m.media-amazon.com/images/I/41TZoCiRdkL._AC_UF894,1000_QL80_.jpg",
-                    "label": "Label Top 15",
-                    "typeSize": 1,
-                    "designId": "design015_top3"
-                }
-            ],
-            "bottom": [
-                {
-                    "image": "https://media-cdn-v2.laodong.vn/Storage/newsportal/2019/4/13/727763/Tram-Anh-7.jpg",
-                    "label": "Photography",
-                    "typeSize": 2,
-                    "designId": "design013_bottom1"
-                },
-                {
-                    "image": "https://m.media-amazon.com/images/I/41TZoCiRdkL._AC_UF894,1000_QL80_.jpg",
-                    "label": "Cinema",
-                    "typeSize": 1,
-                    "designId": "design014_bottom2"
-                },
-                {
-                    "image": "https://media-cdn-v2.laodong.vn/Storage/newsportal/2019/4/13/727763/Tram-Anh-7.jpg",
-                    "label": "Travel",
-                    "typeSize": 2,
-                    "designId": "design015_bottom3"
                 }
             ]
         }
