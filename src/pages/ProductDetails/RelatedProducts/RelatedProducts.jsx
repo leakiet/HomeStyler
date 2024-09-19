@@ -5,18 +5,17 @@ import ProductItem from '../../ProductsList/ProductItem';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
-function RelatedProducts() {
-    const array = [1, 2, 3, 4]
+function RelatedProducts({ relatedProducts, addCart }) {
 
     const CustomPrevArrow = (props) => (
         <div {...props} className="custom-arrows1 custom-prev-arrows1" >
-         <i class="bi bi-arrow-left"></i>
+            <i class="bi bi-arrow-left"></i>
         </div>
     );
 
     const CustomNextArrow = (props) => (
         <div {...props} className="custom-arrows1 custom-next-arrows1">
-         <i class="bi bi-arrow-right"></i>
+            <i class="bi bi-arrow-right"></i>
         </div>
     );
 
@@ -35,9 +34,9 @@ function RelatedProducts() {
             <hr />
             <div className='relatedproducts-items-container'>
                 <Slider {...settings} className='relatedproducts-items'>
-                    {array.map(e => (
+                    {relatedProducts.map((p, i) => (
                         <div className='relatedproducts-items-show'>
-                            <ProductItem key={e} />
+                            <ProductItem key={i} product={p} addCart={addCart} />
                         </div>
                     ))}
                 </Slider>

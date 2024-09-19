@@ -68,3 +68,16 @@ a {
 .AppBar-right a:hover::after {
     width: 100%;
 }
+
+.account-links {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    border-radius: 10px;
+    background-color: hsla(0, 0%, 100%, 0.5); 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
+    gap: 10px;
+    padding: 20px;
+    cursor: pointer;
+}

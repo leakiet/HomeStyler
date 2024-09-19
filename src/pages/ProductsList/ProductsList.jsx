@@ -4,8 +4,8 @@ import './ProductList.css'
 import Banner from '../../components/Banner/Banner'
 import FilterList from './FilterList/FilterList'
 
-function ProductsList() {
-  const array = [1, 2, 3, 4, 5, 6, 7, 8]
+function ProductsList({ products, addCart }) {
+
   return (
     <>
       <div>
@@ -16,10 +16,12 @@ function ProductsList() {
           <FilterList />
         </div>
 
+
         <div className="product">
+          <h3>All Products</h3>
           <div className="product-item">
-            {array.map(e => (
-              <ProductItem key={e} />
+            {products.map(product => (
+              <ProductItem key={product.id} product={product}  addCart={addCart}/>
             ))}
           </div>
         </div>
