@@ -1,31 +1,31 @@
 import React from 'react';
 import './whyChoosenUs.css'
-import 'react-multi-carousel/lib/styles.css';
 import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css';
 
 
 
 function WhyChoosenUs(props) {
+
     const array = [
-        1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+        1, 2, 3, 4, 5, 6, 7, 8, 9,10 ,11,12
     ]
+
     const responsive = {
-        superLargeDesktop: {
-            // the naming can be any, depends on you.
-            breakpoint: { max: 4000, min: 3000 },
-            items: 5
-        },
         desktop: {
             breakpoint: { max: 3000, min: 1024 },
-            items: 3
+            items: 1,
+            slidesToSlide: 1 // optional, default to 1.
         },
         tablet: {
             breakpoint: { max: 1024, min: 464 },
-            items: 2
+            items: 1,
+            slidesToSlide: 1 // optional, default to 1.
         },
         mobile: {
             breakpoint: { max: 464, min: 0 },
-            items: 1
+            items: 1,
+            slidesToSlide: 1 // optional, default to 1.
         }
     };
 
@@ -34,26 +34,28 @@ function WhyChoosenUs(props) {
             <div className='wcs-title'>
                 <h2>Why Choose Us</h2>
             </div>
-            
+
             <Carousel responsive={responsive}
+                autoPlay={true}
                 swipeable={true}
                 draggable={true}
-                showDots={true}
-                autoPlay={true}
+                showDots={false}
+                infinite={true}
+                partialVisible={true}
+                arrows={true}
             >
                 <div className='wcs-content'>
                     {array.map(e => (
                         <div className='wcs-container-card'>
                             <div className='wcs-card'>
                                 <div className='wcs-card-icon'>
-                                    <i class="bi bi-archive-fill"></i>
+                                    <i className="bi bi-archive-fill"></i>
                                 </div>
                                 <div className='wcs-card-text'>
                                     <p>146 quality checks</p>
                                 </div>
                             </div>
                         </div>
-
                     ))}
                 </div>
             </Carousel>
