@@ -11,7 +11,7 @@ function StyleDetail(props) {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch("data/designStyle.json");
+                const response = await fetch("data/roomtypes.json");
                 const data = await response.json();
                 const foundStyle = data.find(item => item.id === props.id);
 

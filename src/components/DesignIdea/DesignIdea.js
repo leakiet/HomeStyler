@@ -12,7 +12,7 @@ function DesignIdea(props) {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch("data/designStyle.json");
+                const response = await fetch("data/roomtype.json");
                 const data = await response.json();
                 setDesignStyles(data);
             } catch (err) {
@@ -21,6 +21,8 @@ function DesignIdea(props) {
         };
         fetchData();
     }, []);
+
+    console.log(designStyles)
 
 
 

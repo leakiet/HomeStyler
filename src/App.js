@@ -20,8 +20,6 @@ function App() {
         {/* <HomePage /> */}
         {/* <DesignDetail/> */}
         <HomePage />
-        {/* <StyleDetail/> */}
-        {/* <DesignStyles/> */}
         {/* <DesignIdea/> */}
         <Footer />
       </div >
