@@ -21,6 +21,7 @@ import Swal from 'sweetalert2';
 import Pagination from './components/Pagination/Pagination.js';
 import { useState, useEffect } from 'react';
 import { Route, Routes, useNavigate } from "react-router-dom";
+import DesignersCard from "./components/DesignersList/DesignersCard.js";
 
 
 function App() {
@@ -213,6 +214,8 @@ function App() {
           <Route path="/free-quote" element={<FreeQuote />} />
           <Route path="/design-detail/:id" element={<DesignDetail />} />
           <Route path="/contact-us" element={<ContactUs />} />
+          <Route path="/designer/:id" element={<DesignersGallery />} />
+
           <Route path="/about-us" element={<AboutUs />} />
           <Route path="/" element={<StyleDetail />} />
         </Routes>
