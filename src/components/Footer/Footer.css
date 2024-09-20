@@ -1,3 +1,6 @@
-.btn-primary {
-    background-color: black;
+.container-footer{
+    z-index: 9999 !important;
+}
+.item-photo{
+    height: 100px;
 }
