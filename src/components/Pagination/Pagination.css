@@ -1,0 +1,29 @@
+.pagination{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+    font-size: 22px;
+    font-weight: 500;
+}
+.pagination-number{
+    gap: 3px;
+    cursor: pointer;
+    text-align: center;
+    width: 20px;
+    color: black;
+    background: white;
+}
+.paginationCenter{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.pagination-number.active {
+    gap: 3px;
+    cursor: pointer;
+    text-align: center;
+    width: 20px;
+    color: white;
+    background: black;
+}
