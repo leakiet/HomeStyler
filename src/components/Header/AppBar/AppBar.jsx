@@ -68,7 +68,7 @@ function NavBar({ itemsCartCount }) {
 
           <div className='account-links'>
                 <>
-                  <Link to="/userpage">My Profile</Link>
+                  <Link to="/profile">My Profile</Link>
                   <Link to="/login">Sign out</Link>
                 </>
 
