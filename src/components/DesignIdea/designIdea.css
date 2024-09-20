@@ -1,22 +1,102 @@
-.container-designidea-card{
-    margin: 20px 50px;
+.container-designidea-card {
+  margin: 20px 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: auto;
+  gap: 12px;
+}
+
+.design-title-slug {
+  margin-top: 30px;
+  margin-left: 150px;
+}
+
+.not-found-desing {
+  margin-top: 30px;
+  font-size: 32px;
+  margin-left: 100px;
+}
+
+.di-card {
+  position: relative;
+  margin: auto auto;
+  overflow: hidden;
+  margin: 10px auto;
+  max-width: 90%;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.di-love-image {
+  color: white;
+  position: absolute;
+  font-size: 27px;
+  top: 20px;
+  right: 20px;
+  z-index: 10;
+}
+
+.di-love-image:hover {
+  color: rgb(255, 56, 89);
+}
+
+.di-card .di-image img {
+  transform-origin: center bottom;
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.di-btn {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 15px auto;
+  height: 6%;
+}
+
+.di-text {
+  padding: 10px 25px;
+}
+
+.di-text .di-text-title {
+  cursor: pointer;
+}
+
+.designidea-title {
+  margin: 30px 6%;
+}
+
+.di-card .di-image img:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+.di-card .di-image img:hover::after {
+  transform: scale(0);
+  transition: 0.3s;
+}
+
+.di-card .di-image img {
+  transition: 0.3s;
+}
+
+.di-title p {
+  font-size: 31px;
+}
+
+@media (max-width: 768px) {
+  .container-designidea-card {
+    margin: 0px 50px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: auto;
-    gap: 12px;
-}
+    gap: 5px;
+  }
 
-.design-title-slug{
-    margin-top: 30px;
-    margin-left: 150px;
-}
-
-.not-found-desing{
-    margin-top: 30px;
-    font-size: 32px;
-    margin-left: 100px;
-}
-.di-card{
+  .di-card {
     position: relative;
     margin: auto auto;
     overflow: hidden;
@@ -25,65 +105,96 @@
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease;
-}
+  }
 
-.di-love-image{
-    color: white;
-    position: absolute;
-    font-size: 27px;
-    top: 20px;
-    right: 20px;
-    z-index: 10;
-}
+  .di-title p {
+    font-size: 16px;
+  }
 
-.di-love-image:hover{
-    color: rgb(255, 56, 89);
-}
-
-
-.di-card .di-image img{
+  .di-card .di-image img {
     transform-origin: center bottom;
     width: 100%;
-    height: 450px;
-    object-fit: cover; 
-    border-top-left-radius:15px ;
-    border-top-right-radius:15px ;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
 
-}
+  .di-love-image {
+    color: white;
+    position: absolute;
+    font-size: 18px;
+    top: 10px;
+    right: 10px;
+    z-index: 10;
+  }
 
-.di-btn{
+  .di-btn {
     display: flex;
     justify-content: space-evenly;
-    margin: 15px auto;
+    margin: 15px 20px;
     height: 6%;
+  }
+
+  .di-text {
+    padding: 5px 10px;
+  }
 }
 
-.di-text{
-    padding: 10px 25px;
-}
+@media (max-width: 480px) {
+    .design-title-slug {
+        margin-top: 30px;
+        margin-left: 90px;
+      }
+  .container-designidea-card {
+    margin: 0px 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: auto;
+    gap: 5px;
+  }
 
-.di-text .di-text-title{
-    cursor: pointer;
-}
+  .di-card {
+    position: relative;
+    margin: auto auto;
+    overflow: hidden;
+    margin: 5px auto;
+    max-width: 90%;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
 
-.designidea-title{
-    margin: 30px 6%;
-}
+  .di-title p {
+    font-size: 16px;
+  }
 
+  .di-card .di-image img {
+    transform-origin: center bottom;
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
 
+  .di-love-image {
+    color: white;
+    position: absolute;
+    font-size: 18px;
+    top: 10px;
+    right: 10px;
+    z-index: 10;
+  }
 
+  .di-btn {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 15px 20px;
+    height: 6%;
+  }
 
-
-.di-card .di-image img:hover{
-    transform: scale(1.05);
-    transition: 0.3s;
-}
-
-.di-card .di-image img:hover::after{
-    transform: scale(0);
-    transition: 0.3s;
-}
-
-.di-card .di-image img{
-    transition: 0.3s;
+  .di-text {
+    padding: 1px 5px;
+  }
 }

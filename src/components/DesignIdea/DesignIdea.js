@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom';
 
 
-function DesignIdea(props) {
+function DesignIdea({ props }) {
     const [designStyles, setDesignStyles] = useState([])
     const [filteredDesigns, setFilteredDesigns] = useState([])
     const [searchTerm, setSearchTerm] = useState('');
@@ -40,7 +40,7 @@ function DesignIdea(props) {
         setSearchTerm(e.target.value);
     }
 
-    const handleLoveImage =()=>{
+    const handleLoveImage = () => {
         // alert('You loved this design!')
     }
 
@@ -72,9 +72,9 @@ function DesignIdea(props) {
                             <div className='di-text'>
                                 <Link to={`/design-detail/${designStyle.id}`}>
                                     <div className='di-title'>
-                                        <h4>
+                                        <p>
                                             {(designStyle.name) ? designStyle.name : "No name available"}
-                                        </h4>
+                                        </p>
                                     </div>
                                     <div className='di-discription'>
                                         size:  {(designStyle.size) ? designStyle.size : "No size available"}
@@ -87,60 +87,12 @@ function DesignIdea(props) {
                                         book free consultation
                                     </button>
                                 </Link>
-                                <button className='di-getquote btn btn-light rounded-pill'>
-                                    get quote
-                                </button>
                             </div>
                         </div>
                     ))
                 ) : (
                     <p className='not-found-desing'>No designs found</p>
                 )}
-                {/* {filteredDesigns.map((designStyle, index) => (
-                    <div className='di-card' key={index}>
-                        <Link to={'/design-detail/' + designStyle.id}>
-                            <div className='di-image'>
-                                <span className='di-love-image'><i className="bi bi-heart-fill"></i></span>
-                                {designStyle.image ? (
-                                    <img src={designStyle.image} alt={designStyle.name} />
-                                ) : (
-                                    <p>No image available</p>
-                                )}
-                            </div>
-                        </Link>
-                        <div className='di-text'>
-                            <Link to={`/design-detail/${designStyle.id}`}>
-                                <div className='di-title'>
-                                    <h4>
-                                        {(designStyle.name) ? designStyle.name : "No name available"}
-                                    </h4>
-                                </div>
-                                <div className='di-discription'>
-                                    size:  {(designStyle.size) ? designStyle.size : "No size available"}
-                                </div>
-                            </Link>
-                            <div className='di-title'>
-                                <h4>
-                                    {(designStyle.name) ? designStyle.name : "No name available"}
-                                </h4>
-                            </div>
-                            <div className='di-discription'>
-                                size:  {(designStyle.size) ? designStyle.size : "No size available"}
-                            </div>
-                        </div>
-                        <div className='di-btn'>
-                            <Link to='/free-quote'>
-                                <button className='di-consultation btn btn-danger rounded-pill'>
-                                    book free consultation
-                                </button>
-                            </Link>
-                            <button className='di-getquote btn btn-light rounded-pill'>
-                                get quote
-                            </button>
-                        </div>
-                    </div>
-                ))
-                } */}
             </div>
         </div>
     );

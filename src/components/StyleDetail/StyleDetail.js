@@ -131,7 +131,6 @@ function StyleDetail(props) {
                         <div className='item-description'>
                             1Flat 10-year warranty on modular and semi-modular products. For full scope, visit here | 2For modular kitchens, wardrobes and storage
                         </div>
-
                     </div>
                 </div>
             </div>
