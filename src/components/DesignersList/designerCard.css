@@ -2,12 +2,15 @@
   border-radius: 15px;
   margin: 20px auto;
   text-align: center;
-  width: 370px;
+  width: 100%;
+  max-width: 370px;
   font-size: large;
 }
+
 .card-img-bottom {
   width: 100%;
 }
+
 .container-card-list {
   background-color: rgb(230, 230, 230);
 }
@@ -21,18 +24,31 @@
 }
 
 .container-card {
-  width: 100%;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .card:hover {
-  transform: scale(1.1);
+  transform: scale(1.1) translateY(-3px);
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-  transform: translateY(-3px);
   transition: 0.5s;
 }
+/* Large devices (desktops) */
+.container-card {
+  grid-template-columns: repeat(4, 1fr); /* 4 cột */
+}
 
-.card {
-  transition: 0.5s;
+/* Medium devices (landscape tablets) */
+@media only screen and (max-width: 992px) {
+  .container-card {
+    grid-template-columns: repeat(2, 1fr); /* 2 cột */
+  }
+}
+
+/* Small devices (phones) */
+@media only screen and (max-width: 767px) {
+  .container-card {
+    grid-template-columns: 1fr; /* 1 cột cho màn hình nhỏ */
+  }
 }

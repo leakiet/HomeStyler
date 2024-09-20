@@ -44,15 +44,15 @@ function DesignersGallery() {
 
   return (
     <div className="designer-gallery-container">
-      <div className="header row">
-        <div className="left-side-profile col-md-6">
+      <div className="designer-wrap header row">
+        <div className="left-side-profile col-md-6 col-sm-12">
           <img
             src={designer.image}
             alt={`${designer.name}'s portrait`}
-            className="designer-image"
+            className="designer-image col-md-6 col-sm-12"
           />
         </div>
-        <div className="right-side-profile col-md-6">
+        <div className="right-side-profile col-md-6 col-sm-12">
           <h2>{designer.name}</h2>
           <p>
             <strong>Specialty : </strong> {designer.specialty}
@@ -88,7 +88,7 @@ function DesignersGallery() {
             <div className="selected-work mt-4 text-center">
               <h4>{selectedWork.title}</h4>
               <div className="row">
-                <div className="description-left-side col-md-6 d-flex align-items-center">
+                <div className="description-left-side col-md-6 d-flex align-items-center col-sm-12">
                   <div>
                     <p>
                       <strong>Description : </strong>
@@ -111,7 +111,7 @@ function DesignersGallery() {
                 <img
                   src={selectedWork.image}
                   alt={selectedWork.title}
-                  className="img-fluid col-md-6"
+                  className="img-fluid col-md-6 col-sm-12"
                 />
               </div>
             </div>
