@@ -4,9 +4,11 @@ const DataContext = createContext();
 function DataProvider({children}){
     const [userInfo,setUserInfo] = useState(null);
     const [favoriteStyle,setFavoriteStyle] = useState([]);
+    const [cart, setCart] = useState([]);
       const value = {
         userInfo,setUserInfo,
-        favoriteStyle,setFavoriteStyle
+        favoriteStyle,setFavoriteStyle,
+        cart, setCart
       }
     return (
         <DataContext.Provider value={value}>

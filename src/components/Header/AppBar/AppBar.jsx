@@ -5,14 +5,15 @@ import Products from './Products/Products'
 import DesignersGallary from './DesignerGallary/DesignersGallary'
 import HomeStylerLogo from '../../../assets/HomeStylerLogo.png'
 import { Link } from 'react-router-dom'
+import { DataContext } from '../../../context/DataContext'
 function NavBar({ itemsCartCount }) {
-  const [showLogin, setShowLogin] = useState(false);
-
-  const removeUser = () => {
-    localStorage.removeItem('username');
-    console.log(localStorage)
+  const {cart}  = useContext(DataContext)
+  console.log("cart: ",cart);
+  const getTotalItems = () => {
+    return cart.reduce((sum, item) => sum + item.quantity, 0);
   };
-
+  console.log("getTotalItems: ",getTotalItems());
+  
   return (
     <div style={{
       height: '58px',
@@ -61,35 +62,28 @@ function NavBar({ itemsCartCount }) {
             <span className="input-group-text SearchText" id="addon-wrapping"><i class="bi bi-search" style={{ color: '#73868A', fontSize: 9.0, cursor:'pointer' }} /></span>
           </div>
         </div>
-        <div onMouseEnter={() => setShowLogin(true)}
-              onMouseLeave={() => setShowLogin(false)}
-        >
+        <div >
         <Link style={{ display: 'flex', alignItems: 'center', gap: 5 }}>
             <i class="bi bi-person-fill" style={{ fontSize: '20px' }} />
             <span>Account</span>
           </Link>
 
-            {showLogin && (
           <div className='account-links'>
-            {localStorage.getItem('username') ? (
                 <>
                   <Link to="/userpage">My Profile</Link>
-                  <Link to="/login" onClick={() => removeUser()}>Sign out</Link>
-                  {/* <button onClick={clearLocalStorage}>Clear localStorage</button> */}
+                  <Link to="/login">Sign out</Link>
                 </>
-              ) : (
+
                 <>
                   <Link to="/login">Sign in</Link>
                   <Link to='/Signup'>Register</Link>
                 </>
-              )}
           </div>
-          )}
         </div>
 
           <Link to="/cart"  style={{ display: 'flex', alignItems: 'center', gap: 5 }}>
             <i class="bi bi-cart-fill" style={{ fontSize: '20px' }} />
-            <span>Cart {itemsCartCount}</span>
+            <span>Cart {getTotalItems()}</span>
           </Link>
 
       </div>

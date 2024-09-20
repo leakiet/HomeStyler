@@ -1,0 +1,108 @@
+
+.checkout-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 40%;
+    display: block;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.progress-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    flex-direction: row;
+}
+
+.step {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 2px solid #ccc;
+    color: #ccc;
+}
+
+.step.active {
+    border-bottom-color: #f44336;
+    color: #f44336;
+}
+
+.payment-methods {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.payment-option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 0 5px;
+}
+
+.payment-option img {
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+.payment-option p {
+    text-align: center;
+}
+
+.payment-form .input-group {
+    margin-bottom: 15px;
+}
+
+.payment-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.payment-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.cvv-info {
+    font-size: 12px;
+    color: #888;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.back-button,
+.next-step-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.back-button {
+    background-color: #ccc;
+}
+
+.next-step-button {
+    background-color: #f44336;
+}

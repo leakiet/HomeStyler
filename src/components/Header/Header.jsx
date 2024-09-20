@@ -6,7 +6,7 @@ function Header({ itemsCartCount }) {
   return (
     <>
       <TopBar />
-      <AppBar itemsCartCount={itemsCartCount} />
+      <AppBar/>
     </>
   )
 }
