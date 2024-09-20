@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import "./designersGallery.css"; // Add CSS for styling
+import "./designersGallery.css";
 
 function DesignersGallery() {
   const { id } = useParams();
@@ -54,6 +54,8 @@ function DesignersGallery() {
 
         <h3>My Art Works</h3>
         <div className="designer-works">
+          
+
           {designer.works && designer.works.length > 0 ? (
             designer.works.map((work, index) => (
               <div key={index} className="work-item">

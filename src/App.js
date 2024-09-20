@@ -18,8 +18,10 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/designer/:id" element={<DesignersGallery />} />
+
+
         {/* <FreeQuote/> */}
-        {/* <DesignDetail/> */}
+        {/* <DesignDetail /> */}
         {/* <HomePage /> */}
         {/* <StyleDetail/> */}
         {/* <DesignStyles /> */}
