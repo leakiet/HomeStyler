@@ -41,9 +41,12 @@ function StyleDetail(props) {
         type:"favoriteStyle",
         data:designStyles
       }
-      navigate("/login",{ state: data });
+      
+      navigate((localStorage.getItem('username'))?('/userpage'):('/login'),{ state: data });
     }
   }
+
+
   return (
     <div className="container-styledetail">
       <div className="row container-detail-list">

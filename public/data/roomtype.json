@@ -635,7 +635,8 @@
       "Profile lighting under wall cabinets to light up the countertop",
       "Gola profile handle for a seamless cabinet look"
     ],
-    "idealFor": "Medium families"
+    "idealFor": "Medium families",
+    "check": true
   },
   {
     "id": 30,
