@@ -13,8 +13,8 @@ function DesignDetail(props) {
     return (
         <div>
             <StyleDetail id={id} />
-            <StarRating/>
-            <CommentDesign id={id}/>
+            <StarRating id={id}/>
+            {/* <CommentDesign /> */}
         </div>
     );
 }

@@ -19,7 +19,7 @@
 
 
 .star-rating{
-    margin-left: 40px;
+    margin: 10px ;
 }
 .star-rating i{
     color: orange;
@@ -111,11 +111,33 @@
   margin-top: 5px;
 }
 
-.sd-btn-gfq button {
-  width: 37%;
-  padding: 10px;
-  margin: 5px;
+.item-price{
+  color: rgb(0, 0, 0);
+  display: flex;
+  font-size: 22px;
+  margin-top: 10px;
+  justify-content: flex-end;
+  max-width: 85%;
 }
+
+.sd-price-title{
+  margin-right: 10px;
+  font-weight: 900;
+}
+
+@media only screen and (max-width: 567px) {
+  .item-price{
+    color: rgb(0, 0, 0);
+    display: flex;
+    font-size: 22px;
+    margin-top: 10px;
+    justify-content: flex-end;
+    max-width: 66%;
+  }
+}
+
+
+
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {

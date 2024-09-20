@@ -2,16 +2,20 @@ import { useState } from "react"
 import './Login.css'
 import './Modal.css'
 import { useNavigate } from "react-router-dom"
+import { useContext } from "react";
+import { DataContext } from "../../context/DataContext";
 
 function Login({ checkLogin }) {
     const [loginUsername, setLoginUsername] = useState('');
     const [loginPassword, setLoginPassword] = useState('');
+    const { setUserInfo } = useContext(DataContext);
     const navigate = useNavigate();
 
     const handleLogin = (e) => {
         e.preventDefault();
         const checkUser = { loginUsername, loginPassword };
         checkLogin(checkUser);
+        setUserInfo(checkUser)
     }
 
     return (       
