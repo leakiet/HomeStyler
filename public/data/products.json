@@ -1963,17 +1963,18 @@
   },
   {
     "id": 61,
-    "name": "Bathroom sinks1",
-    "style": ["Bathroom"],
-    "cate1": "Bathroom",
-    "cate2": "Bathroom sinks",
+    "name": "Sofa1",
+    "style": ["Living Room"],
+    "cate1": "Furniture",
+    "cate2": "Sofas and couches",
     "descripton": "A comfortable living room sofa.",
     "quantity": 10,
     "price": 299.99,
     "image": [
-      "../IMAGES/PRODUCTS/BATHROOM/BATHROOM_SINKS/p1.jpg",
-      "../IMAGES/PRODUCTS/BATHROOM/BATHROOM_SINKS/p2.jpg",
-      "../IMAGES/PRODUCTS/BATHROOM/BATHROOM_SINKS/p3.jpg"
+      "../IMAGES/PRODUCTS/FURNITURE/SOFAS_AND_COUCHES/p1.jpg",
+      "../IMAGES/PRODUCTS/FURNITURE/SOFAS_AND_COUCHES/p2.jpg",
+      "../IMAGES/PRODUCTS/FURNITURE/SOFAS_AND_COUCHES/p3.jpg"
+
     ],
 
     "reviews": [
@@ -1996,18 +1997,19 @@
     }
   },
   {
+
     "id": 62,
-    "name": "Bathroom sinks2",
-    "style": ["Bathroom"],
-    "cate1": "Bathroom",
-    "cate2": "Bathroom sinks",
+    "name": "sofa2",
+    "style": ["Living room"],
+    "cate1": "Furniture",
+    "cate2": "Sofas and couches",
     "descripton": "A comfortable living room sofa.",
     "quantity": 10,
     "price": 299.99,
     "image": [
-      "../IMAGES/PRODUCTS/BATHROOM/BATHROOM_SINKS/p4.jpg",
-      "../IMAGES/PRODUCTS/BATHROOM/BATHROOM_SINKS/p5.jpg",
-      "../IMAGES/PRODUCTS/BATHROOM/BATHROOM_SINKS/p6.jpg"
+      "../IMAGES/PRODUCTS/FURNITURE/SOFAS_AND_COUCHES/p4.jpg",
+      "../IMAGES/PRODUCTS/FURNITURE/SOFAS_AND_COUCHES/p5.jpg",
+      "../IMAGES/PRODUCTS/FURNITURE/SOFAS_AND_COUCHES/p6.jpg"
     ],
 
     "reviews": [
@@ -2031,17 +2033,18 @@
   },
   {
     "id": 63,
-    "name": "Bathroom sinks3",
-    "style": ["Bathroom"],
-    "cate1": "Bathroom",
-    "cate2": "Bathroom sinks",
+    "name": "Sofa3",
+    "style": ["Living room"],
+    "cate1": "Furniture",
+    "cate2": "Sofas and couches",
+
     "descripton": "A comfortable living room sofa.",
     "quantity": 10,
     "price": 299.99,
     "image": [
-      "../IMAGES/PRODUCTS/BATHROOM/BATHROOM_SINKS/p7.jpg",
-      "../IMAGES/PRODUCTS/BATHROOM/BATHROOM_SINKS/p8.jpg",
-      "../IMAGES/PRODUCTS/BATHROOM/BATHROOM_SINKS/p9.jpg"
+      "../IMAGES/PRODUCTS/FURNITURE/SOFAS_AND_COUCHES/p7.jpg",
+      "../IMAGES/PRODUCTS/FURNITURE/SOFAS_AND_COUCHES/p8.jpg",
+      "../IMAGES/PRODUCTS/FURNITURE/SOFAS_AND_COUCHES/p9.jpg"
     ],
 
     "reviews": [
@@ -2065,17 +2068,17 @@
   },
   {
     "id": 64,
-    "name": "Mirrors and medicine cabinets1",
-    "style": ["Bathroom"],
-    "cate1": "Bathroom",
-    "cate2": "Mirrors and medicine cabinets",
+    "name": "Bed1",
+    "style": ["Bedroom"],
+    "cate1": "Furniture",
+    "cate2": "Beds and matresses",
     "descripton": "A comfortable living room sofa.",
     "quantity": 10,
     "price": 299.99,
     "image": [
-      "../IMAGES/PRODUCTS/BATHROOM/MIRRORS_AND_MEDICINE_CABINETS/p1.jpg",
-      "../IMAGES/PRODUCTS/BATHROOM/MIRRORS_AND_MEDICINE_CABINETS/p2.jpg",
-      "../IMAGES/PRODUCTS/BATHROOM/MIRRORS_AND_MEDICINE_CABINETS/p3.jpg"
+      "../IMAGES/PRODUCTS/FURNITURE/BEDS_AND_MATRESSES/p1.jpg",
+      "../IMAGES/PRODUCTS/FURNITURE/BEDS_AND_MATRESSES/p2.jpg",
+      "../IMAGES/PRODUCTS/FURNITURE/BEDS_AND_MATRESSES/p3.jpg"
     ],
 
     "reviews": [
@@ -2098,18 +2101,19 @@
     }
   },
   {
+
     "id": 65,
-    "name": "Mirrors and medicine cabinets2",
-    "style": ["Bathroom"],
-    "cate1": "Bathroom",
-    "cate2": "Mirrors and medicine cabinets",
+    "name": "Bed2",
+    "style": ["Bedroom"],
+    "cate1": "Furniture",
+    "cate2": "Beds and matresses",
     "descripton": "A comfortable living room sofa.",
     "quantity": 10,
     "price": 299.99,
     "image": [
-      "../IMAGES/PRODUCTS/BATHROOM/MIRRORS_AND_MEDICINE_CABINETS/p4.jpg",
-      "../IMAGES/PRODUCTS/BATHROOM/MIRRORS_AND_MEDICINE_CABINETS/p5.jpg",
-      "../IMAGES/PRODUCTS/BATHROOM/MIRRORS_AND_MEDICINE_CABINETS/p6.jpg"
+      "../IMAGES/PRODUCTS/FURNITURE/BEDS_AND_MATRESSES/p4.jpg",
+      "../IMAGES/PRODUCTS/FURNITURE/BEDS_AND_MATRESSES/p5.jpg",
+      "../IMAGES/PRODUCTS/FURNITURE/BEDS_AND_MATRESSES/p6.jpg"
     ],
 
     "reviews": [
@@ -2133,17 +2137,17 @@
   },
   {
     "id": 66,
-    "name": "Mirrors and medicine cabinets3",
-    "style": ["Bathroom"],
-    "cate1": "Bathroom",
-    "cate2": "Mirrors and medicine cabinets",
+    "name": "Bed3",
+    "style": ["Bedroom"],
+    "cate1": "Furniture",
+    "cate2": "Beds and matresses",
     "descripton": "A comfortable living room sofa.",
     "quantity": 10,
     "price": 299.99,
     "image": [
-      "../IMAGES/PRODUCTS/BATHROOM/MIRRORS_AND_MEDICINE_CABINETS/p7.jpg",
-      "../IMAGES/PRODUCTS/BATHROOM/MIRRORS_AND_MEDICINE_CABINETS/p8.jpg",
-      "../IMAGES/PRODUCTS/BATHROOM/MIRRORS_AND_MEDICINE_CABINETS/p9.jpg"
+      "../IMAGES/PRODUCTS/FURNITURE/BEDS_AND_MATRESSES/p7.jpg",
+      "../IMAGES/PRODUCTS/FURNITURE/BEDS_AND_MATRESSES/p8.jpg",
+      "../IMAGES/PRODUCTS/FURNITURE/BEDS_AND_MATRESSES/p9.jpg"
     ],
 
     "reviews": [
@@ -2166,18 +2170,20 @@
     }
   },
   {
+
     "id": 67,
-    "name": "Showers and bathtubs1",
-    "style": ["Bathroom"],
-    "cate1": "Bathroom",
-    "cate2": "Showers and bathtubs",
+    "name": "Chair1",
+    "style": ["Bedroom"],
+    "cate1": "Furniture",
+    "cate2": "Chairs and recliners",
+
     "descripton": "A comfortable living room sofa.",
     "quantity": 10,
     "price": 299.99,
     "image": [
-      "../IMAGES/PRODUCTS/BATHROOM/SHOWERS_AND_BATHTUBS/p1.jpg",
-      "../IMAGES/PRODUCTS/BATHROOM/SHOWERS_AND_BATHTUBS/p2.jpg",
-      "../IMAGES/PRODUCTS/BATHROOM/SHOWERS_AND_BATHTUBS/p3.jpg"
+      "../IMAGES/PRODUCTS/FURNITURE/CHAIRS_AND_RECLINERS/p1.jpg",
+      "../IMAGES/PRODUCTS/FURNITURE/CHAIRS_AND_RECLINERS/p2.jpg",
+      "../IMAGES/PRODUCTS/FURNITURE/CHAIRS_AND_RECLINERS/p3.jpg"
     ],
 
     "reviews": [
@@ -2200,18 +2206,19 @@
     }
   },
   {
+
     "id": 68,
-    "name": "Showers and bathtubs2",
-    "style": ["Bathroom"],
-    "cate1": "Bathroom",
-    "cate2": "Showers and bathtubs",
+    "name": "Chair2",
+    "style": ["Bedroom"],
+    "cate1": "Furniture",
+    "cate2": "Chairs and recliners",
     "descripton": "A comfortable living room sofa.",
     "quantity": 10,
     "price": 299.99,
     "image": [
-      "../IMAGES/PRODUCTS/BATHROOM/SHOWERS_AND_BATHTUBS/p4.jpg",
-      "../IMAGES/PRODUCTS/BATHROOM/SHOWERS_AND_BATHTUBS/p5.jpg",
-      "../IMAGES/PRODUCTS/BATHROOM/SHOWERS_AND_BATHTUBS/p6.jpg"
+      "../IMAGES/PRODUCTS/FURNITURE/CHAIRS_AND_RECLINERS/p4.jpg",
+      "../IMAGES/PRODUCTS/FURNITURE/CHAIRS_AND_RECLINERS/p5.jpg",
+      "../IMAGES/PRODUCTS/FURNITURE/CHAIRS_AND_RECLINERS/p6.jpg"
     ],
 
     "reviews": [
@@ -2235,17 +2242,18 @@
   },
   {
     "id": 69,
-    "name": "Showers and bathtubs3",
-    "style": ["Bathroom"],
-    "cate1": "Bathroom",
-    "cate2": "Showers and bathtubs",
+    "name": "Chair3",
+    "style": ["Bedroom"],
+    "cate1": "Furniture",
+    "cate2": "Chairs and recliners",
+
     "descripton": "A comfortable living room sofa.",
     "quantity": 10,
     "price": 299.99,
     "image": [
-      "../IMAGES/PRODUCTS/BATHROOM/SHOWERS_AND_BATHTUBS/p7.jpg",
-      "../IMAGES/PRODUCTS/BATHROOM/SHOWERS_AND_BATHTUBS/p8.jpg",
-      "../IMAGES/PRODUCTS/BATHROOM/SHOWERS_AND_BATHTUBS/p9.jpg"
+      "../IMAGES/PRODUCTS/FURNITURE/CHAIRS_AND_RECLINERS/p7.jpg",
+      "../IMAGES/PRODUCTS/FURNITURE/CHAIRS_AND_RECLINERS/p8.jpg",
+      "../IMAGES/PRODUCTS/FURNITURE/CHAIRS_AND_RECLINERS/p9.jpg"
     ],
 
     "reviews": [
@@ -2269,17 +2277,18 @@
   },
   {
     "id": 70,
-    "name": "Toilets and bidets1",
-    "style": ["Bathroom"],
-    "cate1": "Bathroom",
-    "cate2": "Toilets and bidets",
+    "name": "Storage1",
+    "style": ["Kitchen", "Bedroom"],
+    "cate1": "Furniture",
+    "cate2": "Storage",
+
     "descripton": "A comfortable living room sofa.",
     "quantity": 10,
     "price": 299.99,
     "image": [
-      "../IMAGES/PRODUCTS/BATHROOM/TOILETS_AND_BIDETS/p1.jpg",
-      "../IMAGES/PRODUCTS/BATHROOM/TOILETS_AND_BIDETS/p2.jpg",
-      "../IMAGES/PRODUCTS/BATHROOM/TOILETS_AND_BIDETS/p3.jpg"
+      "../IMAGES/PRODUCTS/FURNITURE/STORAGE/p1.jpg",
+      "../IMAGES/PRODUCTS/FURNITURE/STORAGE/p2.jpg",
+      "../IMAGES/PRODUCTS/FURNITURE/STORAGE/p3.jpg"
     ],
 
     "reviews": [
@@ -2303,17 +2312,19 @@
   },
   {
     "id": 71,
-    "name": "Toilets and bidets2",
-    "style": ["Bathroom"],
-    "cate1": "Bathroom",
-    "cate2": "Toilets and bidets",
+    "name": "Storage2",
+    "style": ["Kitchen", "Bedroom"],
+    "cate1": "Furniture",
+    "cate2": "Storage",
+
     "descripton": "A comfortable living room sofa.",
     "quantity": 10,
     "price": 299.99,
     "image": [
-      "../IMAGES/PRODUCTS/BATHROOM/TOILETS_AND_BIDETS/p4.jpg",
-      "../IMAGES/PRODUCTS/BATHROOM/TOILETS_AND_BIDETS/p5.jpg",
-      "../IMAGES/PRODUCTS/BATHROOM/TOILETS_AND_BIDETS/p6.jpg"
+      "../IMAGES/PRODUCTS/FURNITURE/STORAGE/p4.jpg",
+      "../IMAGES/PRODUCTS/FURNITURE/STORAGE/p5.jpg",
+      "../IMAGES/PRODUCTS/FURNITURE/STORAGE/p6.jpg"
+
     ],
 
     "reviews": [
@@ -2337,17 +2348,17 @@
   },
   {
     "id": 72,
-    "name": "Toilets and bidets3",
-    "style": ["Bathroom"],
-    "cate1": "Bathroom",
-    "cate2": "Toilets and bidets",
+    "name": "Storage3",
+    "style": ["Kitchen", "Bedroom"],
+    "cate1": "Furniture",
+    "cate2": "Storage",
     "descripton": "A comfortable living room sofa.",
     "quantity": 10,
     "price": 299.99,
     "image": [
-      "../IMAGES/PRODUCTS/BATHROOM/TOILETS_AND_BIDETS/p7.jpg",
-      "../IMAGES/PRODUCTS/BATHROOM/TOILETS_AND_BIDETS/p8.jpg",
-      "../IMAGES/PRODUCTS/BATHROOM/TOILETS_AND_BIDETS/p9.jpg"
+      "../IMAGES/PRODUCTS/FURNITURE/STORAGE/p7.jpg",
+      "../IMAGES/PRODUCTS/FURNITURE/STORAGE/p8.jpg",
+      "../IMAGES/PRODUCTS/FURNITURE/STORAGE/p9.jpg"
     ],
 
     "reviews": [
@@ -2371,17 +2382,17 @@
   },
   {
     "id": 73,
-    "name": "Vanties and cabinets1",
-    "style": ["Bathroom"],
-    "cate1": "Bathroom",
-    "cate2": "Vanties and cabinets",
+    "name": "Tables1",
+    "style": ["Kitchen", "Bedroom"],
+    "cate1": "Furniture",
+    "cate2": "Tables",
     "descripton": "A comfortable living room sofa.",
     "quantity": 10,
     "price": 299.99,
     "image": [
-      "../IMAGES/PRODUCTS/BATHROOM/VANITIES_AND_CABINETS/p1.jpg",
-      "../IMAGES/PRODUCTS/BATHROOM/VANITIES_AND_CABINETS/p2.jpg",
-      "../IMAGES/PRODUCTS/BATHROOM/VANITIES_AND_CABINETS/p3.jpg"
+      "../IMAGES/PRODUCTS/FURNITURE/TABLES/p1.jpg",
+      "../IMAGES/PRODUCTS/FURNITURE/TABLES/p2.jpg",
+      "../IMAGES/PRODUCTS/FURNITURE/TABLES/p3.jpg"
     ],
 
     "reviews": [
@@ -2405,17 +2416,18 @@
   },
   {
     "id": 74,
-    "name": "Vanties and cabinets2",
-    "style": ["Bathroom"],
-    "cate1": "Bathroom",
-    "cate2": "Vanties and cabinets",
+    "name": "Storage3",
+    "style": ["Kitchen", "Bedroom"],
+    "cate1": "Furniture",
+    "cate2": "Storage",
     "descripton": "A comfortable living room sofa.",
     "quantity": 10,
     "price": 299.99,
     "image": [
-      "../IMAGES/PRODUCTS/BATHROOM/VANITIES_AND_CABINETS/p4.jpg",
-      "../IMAGES/PRODUCTS/BATHROOM/VANITIES_AND_CABINETS/p5.jpg",
-      "../IMAGES/PRODUCTS/BATHROOM/VANITIES_AND_CABINETS/p6.jpg"
+      "../IMAGES/PRODUCTS/FURNITURE/STORAGE/p7.jpg",
+      "../IMAGES/PRODUCTS/FURNITURE/STORAGE/p8.jpg",
+      "../IMAGES/PRODUCTS/FURNITURE/STORAGE/p9.jpg"
+
     ],
 
     "reviews": [
@@ -2438,18 +2450,20 @@
     }
   },
   {
+
     "id": 75,
-    "name": "Vanties and cabinets3",
-    "style": ["Bathroom"],
-    "cate1": "Bathroom",
-    "cate2": "Vanties and cabinets",
+    "name": "Storage3",
+    "style": ["Kitchen", "Bedroom"],
+    "cate1": "Furniture",
+    "cate2": "Storage",
+
     "descripton": "A comfortable living room sofa.",
     "quantity": 10,
     "price": 299.99,
     "image": [
-      "../IMAGES/PRODUCTS/BATHROOM/VANITIES_AND_CABINETS/p7.jpg",
-      "../IMAGES/PRODUCTS/BATHROOM/VANITIES_AND_CABINETS/p8.jpg",
-      "../IMAGES/PRODUCTS/BATHROOM/VANITIES_AND_CABINETS/p9.jpg"
+      "../IMAGES/PRODUCTS/FURNITURE/STORAGE/p7.jpg",
+      "../IMAGES/PRODUCTS/FURNITURE/STORAGE/p8.jpg",
+      "../IMAGES/PRODUCTS/FURNITURE/STORAGE/p9.jpg"
     ],
 
     "reviews": [
