@@ -6,6 +6,7 @@ import HomePage from "./pages/HomePage/HomePage.jsx";
 import FreeQuote from "./components/FreeQuote/FreeQuote.js";
 import StyleDetail from "./components/StyleDetail/StyleDetail.js";
 import { Routes } from "react-router-dom";
+import TestSlider from "./components/TestSlider/TestSlider.jsx";
 
 
 function App() {
@@ -14,10 +15,11 @@ function App() {
       {/* <div className="container-fluid"> */}
       <div className="container-fluid">
         <Header />
+        <TestSlider/>
         {/* <FreeQuote/> */}
         <HomePage />
         <StyleDetail/>
-        <DesignStyles/>
+        {/* <DesignStyles/> */}
         <Footer />
       </div >
     </>
