@@ -38,9 +38,9 @@
   z-index: 10;
 }
 
-.di-love-image:hover {
+/* .di-love-image:hover {
   color: rgb(255, 56, 89);
-}
+} */
 
 .di-card .di-image img {
   transform-origin: center bottom;

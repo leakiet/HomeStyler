@@ -1,9 +1,10 @@
 import React from 'react'
+import banner from '../../assets/HOME-DECOR-BANNER.jpg'
 
 function Banner() {
     return (
-        <div>
-            <img className='banner' src="https://img.freepik.com/free-psd/real-estate-house-property-facebook-cover-banner-template_106176-839.jpg" alt="BannerProduct" height="500px" width="100%" />
+        <div style={{ paddingBottom: '20px' }}>
+            <img className='banner' src={banner} alt="BannerProduct" height="500px" width="100%" />
         </div>
     )
 }

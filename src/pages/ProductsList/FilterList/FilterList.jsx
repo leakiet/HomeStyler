@@ -67,7 +67,6 @@ function FilterList({ searchValue, onSearch, minPrice, maxPrice, onMinPrice, onM
           <fieldset key={index}>
             <legend>{category.name}</legend>
             {category.subcategories.map((subcategory, subIndex) => {
-              console.log("subcategory: ", subcategory);
               return (
                 <div key={subIndex}>
                   <input type="checkbox" id={`category-${index}-subcategory-${subIndex}`} name={subcategory}

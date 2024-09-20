@@ -1,0 +1,9 @@
+.card-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.card-body-custom{
+    padding: 0;
+}
