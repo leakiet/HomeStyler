@@ -8,7 +8,7 @@ import DesignersCard from "../../components/DesignersList/DesignersCard";
 function HomePage() {
   return (
     <div>
-      <div className="row">
+      <div className='row'>
         <Carousel />
         <TypeInterio />
         <Inspiration />

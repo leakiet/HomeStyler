@@ -2,7 +2,7 @@
     border: 1px solid #dee2e6;
     border-radius: 5px;
     outline: none; 
-    color: #AB8A7A;
+    color: #73868A;
     z-index: 1;
     margin: auto;
     background: #F8F9FA;
@@ -15,24 +15,69 @@
 .SearchInput:focus {
     border: none;
     border-radius: 5px;
-    outline: solid 2px #AB8A7A; 
-    color: #AB8A7A;
+    outline: solid 2px #73868A ; 
+    color: #73868A ;
     z-index: 1;
 }
 
 input::placeholder {
-    color: #AB8A7A !important;
+    color: #73868A   !important;
 }
 
 .btnDropdown a {
+    position: relative;
     text-decoration: none;
-    color: #AB8A7A;
+    color: #73868A ;
+}
+
+.btnDropdown a:hover {
+    color: #39463A ;
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 a {
+    position: relative;
     text-decoration: none;
-    color: #AB8A7A;
+    color: #73868A ;
 }
-.btnDropdown a:hover {
-    color: hsl(26, 40%, 39%);
+
+.AppBar-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.AppBar-right a:hover {
+    color: #39463A ;
+    font-weight: bold;
+}
+
+.AppBar-right a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: #73868A;
+    transition: width 0.3s ease;
+}
+
+.AppBar-right a:hover::after {
+    width: 100%;
+}
+
+.account-links {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    border-radius: 10px;
+    background-color: hsla(0, 0%, 100%,1); 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); 
+    z-index: 1000; 
+    gap: 10px;
+    padding: 20px;
+    cursor: pointer;
 }
