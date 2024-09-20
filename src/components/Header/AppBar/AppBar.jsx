@@ -1,11 +1,10 @@
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
 import './AppBar.css'
 import DesignStyles from './DesignStyles/DesignStyles'
 import Products from './Products/Products'
 import DesignersGallary from './DesignerGallary/DesignersGallary'
 import HomeStylerLogo from '../../../assets/HomeStylerLogo.png'
 import { Link } from 'react-router-dom'
-
 function NavBar({ itemsCartCount }) {
   const [showLogin, setShowLogin] = useState(false);
 
@@ -59,7 +58,6 @@ function NavBar({ itemsCartCount }) {
         <div>
           <div className="input-group flex-nowrap">
             <input type="text" className="SearchInput" placeholder="Search" aria-label="Search" aria-describedby="addon-wrapping" />
-            <span className="input-group-text SearchText" id="addon-wrapping"><i className="bi bi-search" style={{ color: '#AB8A7A', fontSize: 9.0 }} /></span>
             <span className="input-group-text SearchText" id="addon-wrapping"><i class="bi bi-search" style={{ color: '#73868A', fontSize: 9.0, cursor:'pointer' }} /></span>
           </div>
         </div>

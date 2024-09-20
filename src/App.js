@@ -2,10 +2,6 @@ import './App.css'
 import Header from "./components/Header/Header.jsx"
 import Footer from "./components/Footer/Footer.jsx"
 import HomePage from "./pages/HomePage/HomePage.jsx";
-import FreeQuote from "./components/FreeQuote/FreeQuote.js";
-import DesignDetail from "./pages/DesignDetail/DesignDetail.js";
-import StyleDetail from "./components/StyleDetail/StyleDetail.js";
-import DesignIdea from "./components/DesignIdea/DesignIdea.js";
 import { useState, useEffect } from 'react';
 import { Route, Routes, useNavigate } from "react-router-dom";
 import ProductsList from "./pages/ProductsList/ProductsList.jsx";
@@ -15,14 +11,27 @@ import Login from './pages/Login/Login.js';
 import Signup from './pages/Login/Signup.js';
 import Profile from './pages/ProfilePage/Profile.js';
 import Swal from 'sweetalert2';
-
-
+import Pagination from './components/Pagination/Pagination.js';
+import FreeQuote from "./components/FreeQuote/FreeQuote.js";
+import DesignDetail from "./pages/DesignDetail/DesignDetail.js";
+import DesignIdea from "./components/DesignIdea/DesignIdea.js";
+import DesignersGallery from "./pages/DesignersGallery/DesignersGallery.jsx";
+import React from "react";
+import ContactUs from "./components/Contact/ContactUs.jsx";
+import AboutUs from './components/About/AboutUs.jsx'
 
 function App() {
   const navigate = useNavigate();
   const [products, setProducts] = useState([]);
   const [filterProducts, setFilterProducts] = useState([]);
-  const [searchProducts, setSearchProducts] = useState([]);
+  // const [searchProducts, setSearchProducts] = useState([]);
+
+  const [searchValue, setSearchValue] = useState('');
+  const [minPrice, setMinPrice] = useState('');
+  const [maxPrice, setMaxPrice] = useState('');
+
+  const [currentPage, setCurrentPage] = useState(1);
+  const [productPerPage, setProductPerPage] = useState(9);
 
   const [carts, setCarts] = useState(() => JSON.parse(localStorage.getItem('carts')) || []);
 
@@ -34,7 +43,7 @@ function App() {
 
         setProducts(data);
         setFilterProducts(data);
-        setSearchProducts(data);
+        // setSearchProducts(data);
       } catch (error) {
         console.log('error reading json');
       }
@@ -133,22 +142,58 @@ function App() {
     }
   };
 
+  const handleMinPriceChange = (event) => {
+    const newMinPrice = parseFloat(event.target.value);
+    if (!isNaN(newMinPrice) && newMinPrice <= maxPrice) {
+      setMinPrice(newMinPrice);
+    }
+  };
+
+  const handleMaxPriceChange = (event) => {
+    const newMaxPrice = parseFloat(event.target.value);
+    if (!isNaN(newMaxPrice) && newMaxPrice >= minPrice) {
+      setMaxPrice(newMaxPrice);
+    }
+  };
+
+  const handleSearch = (event) => {
+    setSearchValue(event.target.value);
+  };
+
+  useEffect(() => {
+    const searchedProducts = products.filter(d => {
+      const catMatch =d.cat2 && d.cat2.toLowerCase().includes(searchValue.toLowerCase());
+      const priceMatch =
+        (minPrice === '' || d.price >= parseFloat(minPrice)) &&
+        (maxPrice === '' || d.price <= parseFloat(maxPrice));
+      return catMatch && priceMatch;
+    })
+    setFilterProducts(searchedProducts);
+  }, [searchValue, minPrice, maxPrice]);
+
+  //Get Current Products
+  const indexOfLastProduct = (currentPage * productPerPage);
+  const indexOfFirstProduct = (indexOfLastProduct - productPerPage);
+  const currentProducts = filterProducts.slice(indexOfFirstProduct, indexOfLastProduct);
+  //Change Page
+  const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
 
   return (
     <>
       <div className="container-fluid">
-        <Header />
-        {/* <FreeQuote/> */}
-        {/* <DesignDetail /> */}
-
         <Header itemsCartCount={calculateTotalProduct(carts)} />
         <Routes>
           <Route path='/' element={
             <HomePage />
           } />
           <Route path='/products' element={
-            <ProductsList products={products} addCart={handleAddCarts} />
+            <>
+              <ProductsList products={currentProducts} addCart={handleAddCarts} 
+              searchValue={searchValue} onSearch={handleSearch}  minPrice={minPrice} maxPrice={maxPrice} onMinPrice={handleMinPriceChange} onMaxPrice={handleMaxPriceChange} />
+              <Pagination productPerPage={productPerPage}
+                totalProducts={filterProducts.length} paginate={paginate} currentPage={currentPage} />
+            </>
           } />
           <Route path="/products/:id" element={
             <ProductsDetails addCart={handleAddCarts} />
@@ -172,9 +217,9 @@ function App() {
 
         </Routes>
         <Footer />
-      </div >
+      </div>
     </>
-  )
+  );
 }
 
 export default App

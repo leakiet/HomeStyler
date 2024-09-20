@@ -1,10 +1,5 @@
 .container-detail-list {
-  /* display: grid;
-    grid-template-columns: repeat(2, 1fr); */
-  display: flex;
-  justify-content: space-between;
-  margin: 20px auto;
-  gap: 20px;
+  margin-top: 50px;
 }
 
 .item-text-list{
@@ -33,19 +28,18 @@
 }
 
 .sd-list-item {
-  margin: 30px;
   overflow: scroll;
   overflow-x: hidden;
-  width: 38%;
-  /* height: 670px; */
-  height: 670px;
+  height: 500px;
   display: grid;
+  background: #DDE6ED;
+  border-radius: 10px;
 }
 
 .sd-list-item-title {
-  margin-top: 20px;
   margin-left: 40px;
   font-size: 32px;
+
 }
 
 .sd-list-item-title {
@@ -53,18 +47,29 @@
 }
 
 .sd-list-item-detail {
-  margin: 40px 0px 10px 40px;
+  margin: 5px;
 }
 
-.container-detail-list .sd-image-detail img {
-  /* height: 100%; */
-  object-fit: cover;
-  /* width: 1150px; */
-  max-width: 1200px;
-  width: 105%;
-  height: 670px;
-  margin: 30px;
+.sd-image-detail{
+  position: relative;
 }
+.icon-favorite{
+  position: absolute;
+  top: 10px;
+  right: 30px;
+  font-size: 20px;
+}
+.icon-favorite:hover{
+  color: yellow;
+  cursor: pointer;
+
+}
+.img-detail{
+  width: 100%;
+  height: 400px;
+
+}
+
 
 .sd-list-item-detail .item-text
 {
@@ -91,6 +96,7 @@
 }
 
 .item-description {
+  width: 100%;
   background-color: beige;
 }
 
@@ -105,4 +111,29 @@
   width: 37%;
   padding: 10px;
   margin: 5px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
 }
