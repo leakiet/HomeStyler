@@ -10,6 +10,9 @@ function DesignIdea() {
     const { favoriteStyle, setFavoriteStyle } = useContext(DataContext);
     const params = useParams();
     const slug = params.slug;
+    
+    console.log(slug);
+    
 
     useEffect(() => {
         const fetchData = async () => {
@@ -24,6 +27,8 @@ function DesignIdea() {
         fetchData();
     }, []);
 
+    console.log(designStyles);
+    
     useEffect(() => {
         const results = designStyles.filter(designStyle =>
             designStyle.type === slug &&

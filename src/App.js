@@ -42,6 +42,10 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/list-design" element={<DesignIdea />} />
           <Route path="/free-quote" element={<FreeQuote />} />
+          <Route path="/contact-us" element={<ContactUs />} />
+          <Route path="/about-us" element={<AboutUs />} />
+          <Route path="/design/:slug" element={<DesignIdea />} />
+          <Route path="/designer/:slug" element={<DesignersGallery />} />
           <Route path="/design-detail/:id" element={<DesignDetail />} />
         </Routes>
         <Footer />
