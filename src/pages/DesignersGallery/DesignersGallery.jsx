@@ -7,6 +7,7 @@ function DesignersGallery() {
   const [designer, setDesigner] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [selectedWork, setSelectedWork] = useState(null);
 
   useEffect(() => {
     const fetchDesigner = async () => {
@@ -30,72 +31,91 @@ function DesignersGallery() {
     fetchDesigner();
   }, [id]);
 
-  if (loading) return <div>Loading...</div>;
-  if (error) return <div>Error: {error}</div>;
+  if (loading) return <div className="loading">Loading...</div>;
+  if (error) return <div className="error">Error: {error}</div>;
+
+  const handleWorkClick = (work) => {
+    if (selectedWork && selectedWork.title === work.title) {
+      setSelectedWork(null);
+    } else {
+      setSelectedWork(work);
+    }
+  };
 
   return (
     <div className="designer-gallery-container">
-      <div className="designer-header">
-        <img
-          className="designer-image"
-          src={designer.image}
-          alt={designer.name}
-        />
-        <h2>{designer.name}</h2>
-        <p className="designer-specialty">
-          <strong>Specialty:</strong> {designer.specialty}
-        </p>
-      </div>
-
-      <div className="designer-details">
-        <div>
-          <p className="designer-introduction">{designer.introduction}</p>
+      <div className="header row">
+        <div className="left-side-profile col-md-6">
+          <img
+            src={designer.image}
+            alt={`${designer.name}'s portrait`}
+            className="designer-image"
+          />
         </div>
-
-        <h3>My Art Works</h3>
-        <div className="designer-works">
-          
-
-          {designer.works && designer.works.length > 0 ? (
-            designer.works.map((work, index) => (
-              <div key={index} className="work-item">
-                <img src={work.image} alt={work.title} className="work-image" />
-                <p>
-                  <strong>{work.title}</strong>
-                </p>
-              </div>
-            ))
-          ) : (
-            <p>No works available.</p>
-          )}
-        </div>
-
-        <h3>Articles</h3>
-        <div className="designer-articles">
-          {designer.articles && designer.articles.length > 0 ? (
-            designer.articles.map((article, index) => (
-              <div key={index} className="article-item">
-                <h4>{article.title}</h4>
-                <p>{article.summary}</p>
-                <a
-                  href={article.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Read more
-                </a>
-              </div>
-            ))
-          ) : (
-            <p>No articles available.</p>
-          )}
-        </div>
-
-        <div className="designer-contact">
-          <h3>Contact</h3>
+        <div className="right-side-profile col-md-6">
+          <h2>{designer.name}</h2>
           <p>
-            <strong>Email:</strong> {designer.email}
+            <strong>Specialty : </strong> {designer.specialty}
           </p>
+          <p>{designer.introduction}</p>
+          <p>
+            <strong>Contact : </strong>
+            {designer.email}
+          </p>
+        </div>
+      </div>
+      <div className="body mt-5">
+        <h3 className="text-left">Projects</h3>
+        <div className="table-wrap">
+          <table className="table table-hover table-striped table-project">
+            <thead>
+              <tr>
+                <th>My Artwork</th>
+                <th>Date</th>
+              </tr>
+            </thead>
+            <tbody>
+              {designer.works.map((work, index) => (
+                <tr key={index} onClick={() => handleWorkClick(work)}>
+                  <td>{work.title}</td>
+                  <td>{work.time}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+
+          {selectedWork && (
+            <div className="selected-work mt-4 text-center">
+              <h4>{selectedWork.title}</h4>
+              <div className="row">
+                <div className="description-left-side col-md-6 d-flex align-items-center">
+                  <div>
+                    <p>
+                      <strong>Description : </strong>
+                      {selectedWork.description}
+                    </p>
+                    <p>
+                      <strong>Inspiration : </strong>
+                      {selectedWork.inspiration}
+                    </p>
+                    <p>
+                      <strong>Style : </strong>
+                      {selectedWork.style}
+                    </p>
+                    <p>
+                      <strong>Size : </strong>
+                      {selectedWork.size}
+                    </p>
+                  </div>
+                </div>
+                <img
+                  src={selectedWork.image}
+                  alt={selectedWork.title}
+                  className="img-fluid col-md-6"
+                />
+              </div>
+            </div>
+          )}
         </div>
       </div>
     </div>

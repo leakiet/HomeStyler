@@ -8,29 +8,49 @@
     "image": "../IMAGES/DESIGNER/f1.avif",
     "works": [
       {
-        "title": "Artwork 1",
+        "time": "2019",
+        "title": "Serenity in Shadows",
         "image": "../IMAGES/LIVING_ROOM/p1.avif",
-        "description": "Short description of artwork 1."
+        "style": "Living room",
+        "size": "15 x 20 feet",
+        "description": "This piece elegantly showcases a living room, using soft color palettes and harmonious shapes. The gentle interplay of light and shadow creates a warm, inviting atmosphere, perfect for family gatherings and relaxation. The arrangement of furniture and decor elements enhances the sense of space and comfort, encouraging viewers to imagine themselves in this cozy environment.",
+        "inspiration": " Inspired by Scandinavian design principles, this artwork emphasizes simplicity and sophistication. The clean lines and functional elements reflect a lifestyle that prioritizes both beauty and practicality, making it an ideal representation of contemporary living."
       },
       {
-        "title": "Artwork 2",
+        "time": "2020",
+        "title": "Whimsical Dreams",
         "image": "../IMAGES/KITCHEN/p1.avif",
-        "description": "Short description of artwork 2."
+        "style": "Kitchen",
+        "size": "15 x 20 feet",
+        "description": "This vibrant kitchen scene bursts with energy, showcasing a perfect blend of functionality and aesthetics. The use of bold colors and dynamic shapes creates an engaging visual experience, inviting viewers to appreciate the beauty of culinary creativity. Every detail, from the arrangement of utensils to the design of the cabinetry, reflects a joyful approach to cooking and entertaining.",
+        "inspiration": "Drawing from modernist design ideals, this artwork encapsulates the idea that kitchens can be both practical and visually striking. It celebrates the heart of the home, where culinary artistry flourishes."
       },
       {
-        "title": "Artwork 3",
+        "time": "2021",
+        "title": "Urban Harmony",
         "image": "../IMAGES/BATH_ROOM/p1.avif",
-        "description": "Short description of artwork 3."
+        "style": "Bathroom",
+        "size": "15 x 20 feet",
+        "description": "A serene depiction of a bathroom oasis, this artwork invites viewers to escape into a world of tranquility. The soothing color palette, complemented by soft lines and gentle forms, evokes a sense of relaxation and peace. The composition is carefully crafted to highlight the calming elements of the space, making it feel like a personal retreat.",
+        "inspiration": "Inspired by spa aesthetics, this piece reflects the importance of self-care in our daily routines. It emphasizes the need for personal spaces that promote well-being and rejuvenation."
       },
       {
-        "title": "Artwork 4",
+        "time": "2022",
+        "title": "Nature's Embrace",
         "image": "../IMAGES/BED_ROOM/p1.avif",
-        "description": "Short description of artwork 4."
+        "style": "Bedroom",
+        "size": "15 x 20 feet",
+        "description": "This cozy bedroom illustration captures the essence of comfort and warmth. Soft hues and inviting textures create a welcoming environment that encourages rest and relaxation. The strategic placement of elements within the composition highlights the importance of creating a sanctuary at home, where individuals can unwind after a long day.",
+        "inspiration": "Drawing inspiration from the concept of sanctuary, this artwork seeks to represent the bedroom as a personal haven. It emphasizes the idea that our surroundings significantly impact our mental and emotional well-being."
       },
       {
-        "title": "Artwork 5",
+        "time": "2023",
+        "title": "Radiant Reflections",
         "image": "../IMAGES/ELEGANT_LOCK_STYLE/p1.avif",
-        "description": "Short description of artwork 5."
+        "style": "Elegant lock style",
+        "size": "15 x 20 feet",
+        "description": "An elegant composition featuring a harmonious blend of colors and patterns, this artwork is designed to enhance any stylish living space. The modern design elements reflect sophistication while maintaining a sense of warmth, making it perfect for contemporary interiors. Each detail contributes to an overall feeling of refinement and luxury.",
+        "inspiration": "Inspired by contemporary art movements, this piece challenges traditional aesthetics and invites viewers to consider the intersection of art and interior design. It aims to create a dialogue about beauty in everyday life."
       }
     ],
     "articles": [
@@ -53,29 +73,49 @@
     "image": "../IMAGES/DESIGNER/f2.avif",
     "works": [
       {
-        "title": "Artwork 1",
+        "time": "2019",
+        "title": "Timeless Elegance",
         "image": "../IMAGES/LIVING_ROOM/p2.avif",
-        "description": "Short description of artwork 1."
+        "style": "Living room",
+        "size": "15 x 20 feet",
+        "description": "This minimalistic artwork captures the beauty of form and function through clean lines and a serene color palette. The design encourages viewers to appreciate simplicity and elegance in everyday life. By removing unnecessary elements, the piece highlights the essential qualities that make a space feel complete and inviting.",
+        "inspiration": " Inspired by the philosophy of less is more, this artwork celebrates the elegance found in simplicity. It reflects a belief that well-designed spaces do not need to be overly complicated to be beautiful."
       },
       {
-        "title": "Artwork 2",
+        "time": "2020",
+        "title": "Vibrant Journeys",
         "image": "../IMAGES/KITCHEN/p2.avif",
-        "description": "Short description of artwork 2."
+        "style": "Kitchen",
+        "size": "15 x 20 feet",
+        "description": "A vibrant kitchen scene bursting with life, this artwork showcases the joy of cooking. Bold colors and playful shapes create an energetic atmosphere that invites viewers to engage with the space. Every detail, from the textures of the countertops to the arrangement of kitchen tools, is designed to evoke a sense of warmth and creativity.",
+        "inspiration": " Influenced by pop art, this piece adds a playful twist to traditional kitchen designs. It seeks to inspire viewers to embrace the culinary arts and make their kitchens a lively hub for family and friends."
       },
       {
-        "title": "Artwork 3",
+        "time": "2021",
+        "title": "Echoes of the Past",
         "image": "../IMAGES/BATH_ROOM/p2.avif",
-        "description": "Short description of artwork 3."
+        "style": "Bathroom",
+        "size": "15 x 20 feet",
+        "description": "This beautifully composed bathroom scene combines luxury and minimalism to create a serene escape. Subtle textures and soft lighting work together to invite relaxation, making the viewer feel as though they could step into this tranquil space. The thoughtful arrangement of elements highlights the importance of personal wellness and self-care.",
+        "inspiration": "Inspired by spa-like environments, this artwork emphasizes the idea that our personal spaces should be designed for peace and rejuvenation, reflecting a growing awareness of mental health and self-care practices."
       },
       {
-        "title": "Artwork 4",
+        "time": "2022",
+        "title": "Fluid Dynamics",
         "image": "../IMAGES/BED_ROOM/p2.avif",
-        "description": "Short description of artwork 4."
+        "style": "Bedroom",
+        "size": "15 x 20 feet",
+        "description": " An inviting bedroom illustration that exudes warmth and comfort, this artwork uses earthy tones and soft materials to create a restful environment. The layout encourages relaxation, while thoughtful design elements enhance the overall sense of peace. This piece is a celebration of the importance of creating nurturing spaces in our homes.",
+        "inspiration": "Drawing from natural elements, this artwork reflects a connection to the outdoors, emphasizing that our surroundings can significantly impact our well-being and mood."
       },
       {
-        "title": "Artwork 5",
+        "time": "2023",
+        "title": "Infinite Horizons",
         "image": "../IMAGES/ELEGANT_LOCK_STYLE/p2.avif",
-        "description": "Short description of artwork 5."
+        "style": "Elegant lock style",
+        "size": "15 x 20 feet",
+        "description": "This sophisticated piece showcases elegant décor that seamlessly blends classic and modern design elements. The composition highlights refinement and timeless appeal, inviting viewers to appreciate the intricate details and thoughtful arrangements within the artwork. Each aspect is meticulously crafted to create a sense of harmony.",
+        "inspiration": "Influenced by art deco style, this artwork embodies glamour and sophistication, challenging viewers to consider how elegance can be incorporated into everyday living spaces."
       }
     ],
     "articles": [
@@ -98,29 +138,49 @@
     "image": "../IMAGES/DESIGNER/f3.avif",
     "works": [
       {
-        "title": "Illustration 1",
+        "time": "2019",
+        "title": "The Dance of Colors",
         "image": "../IMAGES/LIVING_ROOM/p3.avif",
-        "description": "A colorful illustration of a living room scene."
+        "style": "Living room",
+        "size": "15 x 20 feet",
+        "description": "This colorful illustration brings to life a lively living room scene filled with character and charm. Each element, from the furnishings to the decor, tells a story, encouraging viewers to immerse themselves in the vibrant atmosphere. The playful use of colors and whimsical shapes captures the imagination and evokes a sense of warmth and nostalgia.",
+        "inspiration": "Inspired by children's book illustrations, this artwork aims to spark imagination and wonder, reminding viewers of the joy found in everyday moments spent at home."
       },
       {
-        "title": "Illustration 2",
+        "time": "2020",
+        "title": "Silent Whispers",
         "image": "../IMAGES/KITCHEN/p3.avif",
-        "description": "An inviting kitchen illustration with warm tones."
+        "style": "Kitchen",
+        "size": "15 x 20 feet",
+        "description": "An inviting kitchen illustration that exudes warmth, this piece captures the joy and creativity of cooking. The use of vibrant colors and playful shapes creates a dynamic visual experience, making the viewer feel as though they could step into the scene and start cooking. Every detail, from the ingredients to the cooking utensils, contributes to the lively atmosphere.",
+        "inspiration": " Drawing inspiration from family traditions, this artwork celebrates the kitchen as the heart of the home, where love and creativity come together to create unforgettable meals."
       },
       {
-        "title": "Illustration 3",
+        "time": "2021",
+        "title": "Captured Moments",
         "image": "../IMAGES/BATH_ROOM/p3.avif",
-        "description": "A whimsical bathroom illustration full of character."
+        "style": "Bathroom",
+        "size": "15 x 20 feet",
+        "description": "A whimsical bathroom illustration filled with character, this piece brings personality to a private space. The bright colors and playful motifs create a fun and engaging atmosphere, transforming the everyday experience of using a bathroom into something special. The design encourages viewers to see beauty in all areas of the home, no matter how utilitarian they may seem.",
+        "inspiration": " Inspired by the joy of childhood, this artwork aims to bring a smile to viewers’ faces, reminding them that every space can be an opportunity for creativity and expression."
       },
       {
-        "title": "Illustration 4",
+        "time": "2022",
+        "title": "Enchanted Forest",
         "image": "../IMAGES/BED_ROOM/p3.avif",
-        "description": "A cozy bedroom illustration capturing relaxation."
+        "style": "Bedroom",
+        "size": "15 x 20 feet",
+        "description": "This cozy bedroom illustration captures the essence of relaxation and comfort. Soft colors and gentle lines create a peaceful retreat, encouraging viewers to unwind and escape from the stresses of daily life. The thoughtful composition highlights the importance of creating a serene environment that nurtures both mind and body.",
+        "inspiration": "Influenced by personal experiences of comfort, this piece reflects the idea of home as a sanctuary, where individuals can find solace and recharge their spirits."
       },
       {
-        "title": "Illustration 5",
+        "time": "2023",
+        "title": "Geometric Rhythms",
         "image": "../IMAGES/ELEGANT_LOCK_STYLE/p3.avif",
-        "description": "A stylish illustration that emphasizes elegance."
+        "style": "Elegant lock style",
+        "size": "15 x 20 feet",
+        "description": "A stylish illustration that emphasizes elegance, this piece showcases modern design elements in a harmonious composition. The combination of sophisticated colors and intricate patterns creates a visually striking artwork that invites contemplation and admiration. This illustration elevates everyday living spaces, encouraging viewers to appreciate the beauty around them.",
+        "inspiration": "Inspired by high fashion, this artwork seeks to blend art and lifestyle, challenging viewers to consider how elegance can be integrated into their everyday environments."
       }
     ],
     "articles": [
@@ -143,29 +203,49 @@
     "image": "../IMAGES/DESIGNER/f4.avif",
     "works": [
       {
-        "title": "App Design 1",
+        "title": "Abstract Realities",
         "image": "../IMAGES/LIVING_ROOM/p4.avif",
-        "description": "A sleek design for a mobile application interface."
+        "style": "Living room",
+        "size": "15 x 20 feet",
+        "description": "This sleek and modern mobile application interface prioritizes user experience with intuitive navigation and vibrant visuals. Every aspect of the design is carefully crafted to ensure that users can easily access information while enjoying a visually appealing experience. The balance between functionality and aesthetics makes this app a standout in its category.",
+        "inspiration": " Inspired by user feedback and research, this design focuses on creating a seamless experience that meets users' needs and expectations, emphasizing the importance of usability in today’s digital landscape.",
+        "time": "2019"
       },
       {
-        "title": "Website Design 1",
+        "time": "2020",
+        "title": "Celestial Visions",
         "image": "../IMAGES/KITCHEN/p4.avif",
-        "description": "An intuitive website design aimed at improving user interaction."
+        "style": "Kitchen",
+        "size": "15 x 20 feet",
+        "description": "An intuitive website design that enhances user interaction, this piece features a clean layout and engaging visuals. The strategic use of whitespace guides users through the content, making it easy to navigate and absorb information. This design prioritizes accessibility, ensuring that all users can engage with the website effortlessly.",
+        "inspiration": "Influenced by user-centered design principles, this artwork reflects the belief that every digital interaction should be enjoyable and straightforward, catering to the diverse needs of its audience."
       },
       {
-        "title": "Dashboard Design",
+        "time": "2021",
+        "title": "Harmony of Elements",
         "image": "../IMAGES/BATH_ROOM/p4.avif",
-        "description": "A clean and functional dashboard interface for analytics."
+        "style": "Bathroom",
+        "size": "15 x 20 feet",
+        "description": "A clean and functional dashboard interface designed for analytics, this piece balances data presentation with usability. The thoughtful arrangement of elements allows users to quickly access vital information without feeling overwhelmed. The design aims to simplify complex data, making it easier for users to derive insights and make informed decisions.",
+        "inspiration": "Inspired by effective data visualization techniques, this design emphasizes the importance of clarity in communication, ensuring that users can easily interpret the information presented."
       },
       {
-        "title": "E-commerce Platform Design",
+        "time": "2022",
+        "title": "Ethereal Landscapes",
         "image": "../IMAGES/BED_ROOM/p4.avif",
-        "description": "A user-friendly design for an e-commerce platform."
+        "style": "Bedroom",
+        "size": "15 x 20 feet",
+        "description": "This user-friendly design for an e-commerce platform streamlines the shopping experience, featuring intuitive navigation and attractive product displays. The layout encourages users to explore products while providing a seamless checkout process. Every element is thoughtfully designed to enhance customer satisfaction and promote sales.",
+        "inspiration": "Influenced by market research and consumer behavior, this artwork reflects the growing importance of creating enjoyable shopping experiences in the digital age."
       },
       {
-        "title": "Landing Page Design",
+        "time": "2023",
+        "title": "Modern Serenity",
         "image": "../IMAGES/ELEGANT_LOCK_STYLE/p4.avif",
-        "description": "A captivating landing page design focused on conversion."
+        "style": "Elegant lock style",
+        "size": "15 x 20 feet",
+        "description": " A captivating landing page focused on conversion, this design combines persuasive elements with striking visuals to grab users' attention. The layout is strategically crafted to guide visitors toward taking action, whether signing up for a newsletter or making a purchase. This design reflects an understanding of effective marketing techniques.",
+        "inspiration": "Inspired by successful marketing campaigns, this piece aims to create a compelling first impression, emphasizing the importance of aesthetics and functionality in digital design."
       }
     ],
     "articles": [
