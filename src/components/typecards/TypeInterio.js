@@ -1,5 +1,6 @@
 import React from 'react';
 import { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom';
 import './typeInterio.css'
 
 function TypeInterio(props) {
@@ -28,14 +29,14 @@ function TypeInterio(props) {
                     <p>Be it end-to-end interiors, renovation or modular solutions, we have it all for your home or office.
                         With a wide range of furniture & decor, we have your back from start to finish.</p>
                 </div>
-                <div className='container-card'>
+                <div className='container-card row'>
                     {cardHome.length > 0 && cardHome.map((card, index) => (
                         <div className="card" key={index}>
-                            <img className="card-img-bottom" src={card.image} alt={card.name} />
+                            <img className="card-img-bottom " src={card.image} alt={card.name} />
                             <div className="card-body">
                                 <h4 className="card-title">{card.name}</h4>
                                 <p className="card-text">{card.description}</p>
-                                <a href="/" className="btn btn-primary">View</a>
+                                <Link to={'/design/' + card.type}>View</Link>
                             </div>
                         </div>
                     ))}
