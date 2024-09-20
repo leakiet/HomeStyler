@@ -8,7 +8,6 @@ import DesignersCard from "../../components/DesignersList/DesignersCard";
 function HomePage() {
   return (
     <div>
-<<<<<<<<< Temporary merge branch 1
       <div className='row'>
         <Carousel />
         <TypeInterio />

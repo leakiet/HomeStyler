@@ -12,16 +12,9 @@ import Signup from './pages/Login/Signup.js';
 import Profile from './pages/ProfilePage/Profile.js';
 import Swal from 'sweetalert2';
 import Pagination from './components/Pagination/Pagination.js';
-// import HomePage from "./pages/HomePage/HomePage"
-import Header from "./components/Header/Header.jsx";
-import Footer from "./components/Footer/Footer.jsx";
-import HomePage from "./pages/HomePage/HomePage.jsx";
 import FreeQuote from "./components/FreeQuote/FreeQuote.js";
 import DesignDetail from "./pages/DesignDetail/DesignDetail.js";
-import { Routes, Route } from "react-router-dom";
 import DesignIdea from "./components/DesignIdea/DesignIdea.js";
-import Login from "./components/Login/Login.js";
-
 import DesignersGallery from "./pages/DesignersGallery/DesignersGallery.jsx";
 import React from "react";
 import ContactUs from "./components/Contact/ContactUs.jsx";
@@ -38,7 +31,7 @@ function App() {
   const [maxPrice, setMaxPrice] = useState('');
 
   const [currentPage, setCurrentPage] = useState(1);
-  const [productPerPage, setProductPerPage] = useState(6);
+  const [productPerPage, setProductPerPage] = useState(9);
 
   const [carts, setCarts] = useState(() => JSON.parse(localStorage.getItem('carts')) || []);
 
