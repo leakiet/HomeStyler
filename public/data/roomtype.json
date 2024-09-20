@@ -1,0 +1,662 @@
+[
+  {
+    "id": 1,
+    "name": "Oceanview L-Shaped Kitchen Delight",
+    "image": "/IMAGES/KITCHEN/p1.avif",
+    "type": "kitchen",
+    "layout": "L-Shape Kitchen Design",
+    "style": "Modern",
+    "size": "12x10 feet",
+    "colour": ["Base unit: Deep Sea Blue", "Wall unit: Deep Sea Blue"],
+    "shutterFinishs": [
+      "Base unit: Laminate with suede finish",
+      "Wall unit: Laminate with suede finish"
+    ],
+    "countertopMaterial": "Marble",
+    "storageFeatures": "Storage cabinets with drawers, open shelves and tall unit",
+    "specialFeatures": [
+      "Soft-close drawers",
+      "Profile lighting under wall cabinets to light up the countertop",
+      "Gola profile handle for a seamless cabinet look"
+    ],
+    "idealFor": "Medium families"
+  },
+  {
+    "id": 2,
+    "name": "Sapphire L-Shaped Kitchen Experience",
+    "image": "/IMAGES/KITCHEN/p2.avif",
+    "type": "kitchen",
+    "layout": "L-Shape Kitchen Design",
+    "style": "Modern",
+    "size": "12x10 feet",
+    "colour": ["Base unit: Deep Sea Blue", "Wall unit: Deep Sea Blue"],
+    "shutterFinishs": [
+      "Base unit: Laminate with suede finish",
+      "Wall unit: Laminate with suede finish"
+    ],
+    "countertopMaterial": "Marble",
+    "storageFeatures": "Storage cabinets with drawers, open shelves and tall unit",
+    "specialFeatures": [
+      "Soft-close drawers",
+      "Profile lighting under wall cabinets to light up the countertop",
+      "Gola profile handle for a seamless cabinet look"
+    ],
+    "idealFor": "Medium families"
+  },
+  {
+    "id": 3,
+    "name": "Azure L-Shaped Culinary Haven",
+    "image": "/IMAGES/KITCHEN/p3.avif",
+    "type": "kitchen",
+    "layout": "L-Shape Kitchen Design",
+    "style": "Modern",
+    "size": "12x10 feet",
+    "colour": ["Base unit: Deep Sea Blue", "Wall unit: Deep Sea Blue"],
+    "shutterFinishs": [
+      "Base unit: Laminate with suede finish",
+      "Wall unit: Laminate with suede finish"
+    ],
+    "countertopMaterial": "Marble",
+    "storageFeatures": "Storage cabinets with drawers, open shelves and tall unit",
+    "specialFeatures": [
+      "Soft-close drawers",
+      "Profile lighting under wall cabinets to light up the countertop",
+      "Gola profile handle for a seamless cabinet look"
+    ],
+    "idealFor": "Medium families"
+  },
+  {
+    "id": 4,
+    "name": "Cerulean L-Shaped Kitchen Elegance",
+    "image": "/IMAGES/KITCHEN/p4.avif",
+    "type": "kitchen",
+    "layout": "L-Shape Kitchen Design",
+    "style": "Modern",
+    "size": "12x10 feet",
+    "colour": ["Base unit: Deep Sea Blue", "Wall unit: Deep Sea Blue"],
+    "shutterFinishs": [
+      "Base unit: Laminate with suede finish",
+      "Wall unit: Laminate with suede finish"
+    ],
+    "countertopMaterial": "Marble",
+    "storageFeatures": "Storage cabinets with drawers, open shelves and tall unit",
+    "specialFeatures": [
+      "Soft-close drawers",
+      "Profile lighting under wall cabinets to light up the countertop",
+      "Gola profile handle for a seamless cabinet look"
+    ],
+    "idealFor": "Medium families"
+  },
+  {
+    "id": 5,
+    "name": "Sky Blue L-Shaped Kitchen Dream",
+    "image": "/IMAGES/KITCHEN/p5.avif",
+    "type": "kitchen",
+    "layout": "L-Shape Kitchen Design",
+    "style": "Modern",
+    "size": "12x10 feet",
+    "colour": ["Base unit: Deep Sea Blue", "Wall unit: Deep Sea Blue"],
+    "shutterFinishs": [
+      "Base unit: Laminate with suede finish",
+      "Wall unit: Laminate with suede finish"
+    ],
+    "countertopMaterial": "Marble",
+    "storageFeatures": "Storage cabinets with drawers, open shelves and tall unit",
+    "specialFeatures": [
+      "Soft-close drawers",
+      "Profile lighting under wall cabinets to light up the countertop",
+      "Gola profile handle for a seamless cabinet look"
+    ],
+    "idealFor": "Medium families"
+  },
+  {
+    "id": 6,
+    "name": "Coastal L-Shaped Living Room Retreat",
+    "image": "/IMAGES/LIVING_ROOM/p1.avif",
+    "type": "living-room",
+    "layout": "L-Shape Living room Design",
+    "style": "Modern",
+    "size": "12x10 feet",
+    "colour": ["Base unit: Deep Sea Blue", "Wall unit: Deep Sea Blue"],
+    "shutterFinishs": [
+      "Base unit: Laminate with suede finish",
+      "Wall unit: Laminate with suede finish"
+    ],
+    "countertopMaterial": "Marble",
+    "storageFeatures": "Storage cabinets with drawers, open shelves and tall unit",
+    "specialFeatures": [
+      "Soft-close drawers",
+      "Profile lighting under wall cabinets to light up the countertop",
+      "Gola profile handle for a seamless cabinet look"
+    ],
+    "idealFor": "Medium families"
+  },
+  {
+    "id": 7,
+    "name": "Nautical L-Shaped Living Room Bliss",
+    "image": "/IMAGES/LIVING_ROOM/p2.avif",
+    "type": "living-room",
+    "layout": "L-Shape Living room Design",
+    "style": "Modern",
+    "size": "12x10 feet",
+    "colour": ["Base unit: Deep Sea Blue", "Wall unit: Deep Sea Blue"],
+    "shutterFinishs": [
+      "Base unit: Laminate with suede finish",
+      "Wall unit: Laminate with suede finish"
+    ],
+    "countertopMaterial": "Marble",
+    "storageFeatures": "Storage cabinets with drawers, open shelves and tall unit",
+    "specialFeatures": [
+      "Soft-close drawers",
+      "Profile lighting under wall cabinets to light up the countertop",
+      "Gola profile handle for a seamless cabinet look"
+    ],
+    "idealFor": "Medium families"
+  },
+  {
+    "id": 8,
+    "name": "Maritime L-Shaped Living Room Style",
+    "image": "/IMAGES/LIVING_ROOM/p3.avif",
+    "type": "living-room",
+    "layout": "L-Shape Living room Design",
+    "style": "Modern",
+    "size": "12x10 feet",
+    "colour": ["Base unit: Deep Sea Blue", "Wall unit: Deep Sea Blue"],
+    "shutterFinishs": [
+      "Base unit: Laminate with suede finish",
+      "Wall unit: Laminate with suede finish"
+    ],
+    "countertopMaterial": "Marble",
+    "storageFeatures": "Storage cabinets with drawers, open shelves and tall unit",
+    "specialFeatures": [
+      "Soft-close drawers",
+      "Profile lighting under wall cabinets to light up the countertop",
+      "Gola profile handle for a seamless cabinet look"
+    ],
+    "idealFor": "Medium families"
+  },
+  {
+    "id": 9,
+    "name": "Seaside L-Shaped Living Room Vision",
+    "image": "/IMAGES/LIVING_ROOM/p4.avif",
+    "type": "living-room",
+    "layout": "L-Shape Living room Design",
+    "style": "Modern",
+    "size": "12x10 feet",
+    "colour": ["Base unit: Deep Sea Blue", "Wall unit: Deep Sea Blue"],
+    "shutterFinishs": [
+      "Base unit: Laminate with suede finish",
+      "Wall unit: Laminate with suede finish"
+    ],
+    "countertopMaterial": "Marble",
+    "storageFeatures": "Storage cabinets with drawers, open shelves and tall unit",
+    "specialFeatures": [
+      "Soft-close drawers",
+      "Profile lighting under wall cabinets to light up the countertop",
+      "Gola profile handle for a seamless cabinet look"
+    ],
+    "idealFor": "Medium families"
+  },
+  {
+    "id": 10,
+    "name": "Bayview L-Shaped Living Room Delight",
+    "image": "/IMAGES/LIVING_ROOM/p5.avif",
+    "type": "living-room",
+    "layout": "L-Shape Living room Design",
+    "style": "Modern",
+    "size": "12x10 feet",
+    "colour": ["Base unit: Deep Sea Blue", "Wall unit: Deep Sea Blue"],
+    "shutterFinishs": [
+      "Base unit: Laminate with suede finish",
+      "Wall unit: Laminate with suede finish"
+    ],
+    "countertopMaterial": "Marble",
+    "storageFeatures": "Storage cabinets with drawers, open shelves and tall unit",
+    "specialFeatures": [
+      "Soft-close drawers",
+      "Profile lighting under wall cabinets to light up the countertop",
+      "Gola profile handle for a seamless cabinet look"
+    ],
+    "idealFor": "Medium families"
+  },
+  {
+    "id": 11,
+    "name": "Azure L-Shaped Bedroom Oasis with Marble Accents",
+    "image": "/IMAGES/BED_ROOM/p1.avif",
+    "type": "bedroom",
+    "layout": "L-Shape Bedroom Design",
+    "style": "Modern",
+    "size": "12x10 feet",
+    "colour": ["Base unit: Kingfisher Blue", "Wall unit: Kingfisher Blue"],
+    "shutterFinishs": [
+      "Base unit: Laminate with suede finish",
+      "Wall unit: Laminate with suede finish"
+    ],
+    "countertopMaterial": "Marble",
+    "storageFeatures": "Storage cabinets with drawers, open shelves and tall unit",
+    "specialFeatures": [
+      "Soft-close drawers",
+      "Profile lighting under wall cabinets to light up the countertop",
+      "Gola profile handle for a seamless cabinet look"
+    ],
+    "idealFor": "Medium families"
+  },
+  {
+    "id": 12,
+    "name": "Cerulean L-Shaped Bedroom Retreat with Marble Touch",
+    "image": "/IMAGES/BED_ROOM/p2.avif",
+    "type": "bedroom",
+    "layout": "L-Shape Bedroom Design",
+    "style": "Modern",
+    "size": "12x10 feet",
+    "colour": ["Base unit: Kingfisher Blue", "Wall unit: Kingfisher Blue"],
+    "shutterFinishs": [
+      "Base unit: Laminate with suede finish",
+      "Wall unit: Laminate with suede finish"
+    ],
+    "countertopMaterial": "Marble",
+    "storageFeatures": "Storage cabinets with drawers, open shelves and tall unit",
+    "specialFeatures": [
+      "Soft-close drawers",
+      "Profile lighting under wall cabinets to light up the countertop",
+      "Gola profile handle for a seamless cabinet look"
+    ],
+    "idealFor": "Medium families"
+  },
+  {
+    "id": 13,
+    "name": "Sapphire L-Shaped Bedroom Haven with Marble Features",
+    "image": "/IMAGES/BED_ROOM/p3.avif",
+    "type": "bedroom",
+    "layout": "L-Shape Bedroom Design",
+    "style": "Modern",
+    "size": "12x10 feet",
+    "colour": ["Base unit: Kingfisher Blue", "Wall unit: Kingfisher Blue"],
+    "shutterFinishs": [
+      "Base unit: Laminate with suede finish",
+      "Wall unit: Laminate with suede finish"
+    ],
+    "countertopMaterial": "Marble",
+    "storageFeatures": "Storage cabinets with drawers, open shelves and tall unit",
+    "specialFeatures": [
+      "Soft-close drawers",
+      "Profile lighting under wall cabinets to light up the countertop",
+      "Gola profile handle for a seamless cabinet look"
+    ],
+    "idealFor": "Medium families"
+  },
+  {
+    "id": 14,
+    "name": "Sky Blue L-Shaped Bedroom Elegance with Marble Surfaces",
+    "image": "/IMAGES/BED_ROOM/p4.avif",
+    "type": "bedroom",
+    "layout": "L-Shape Bedroom Design",
+    "style": "Modern",
+    "size": "12x10 feet",
+    "colour": ["Base unit: Kingfisher Blue", "Wall unit: Kingfisher Blue"],
+    "shutterFinishs": [
+      "Base unit: Laminate with suede finish",
+      "Wall unit: Laminate with suede finish"
+    ],
+    "countertopMaterial": "Marble",
+    "storageFeatures": "Storage cabinets with drawers, open shelves and tall unit",
+    "specialFeatures": [
+      "Soft-close drawers",
+      "Profile lighting under wall cabinets to light up the countertop",
+      "Gola profile handle for a seamless cabinet look"
+    ],
+    "idealFor": "Medium families"
+  },
+  {
+    "id": 15,
+    "name": "Navy L-Shaped Bedroom Design with Marble Accents",
+    "image": "/IMAGES/BED_ROOM/p5.avif",
+    "type": "bedroom",
+    "layout": "L-Shape Bedroom Design",
+    "style": "Modern",
+    "size": "12x10 feet",
+    "colour": ["Base unit: Kingfisher Blue", "Wall unit: Kingfisher Blue"],
+    "shutterFinishs": [
+      "Base unit: Laminate with suede finish",
+      "Wall unit: Laminate with suede finish"
+    ],
+    "countertopMaterial": "Marble",
+    "storageFeatures": "Storage cabinets with drawers, open shelves and tall unit",
+    "specialFeatures": [
+      "Soft-close drawers",
+      "Profile lighting under wall cabinets to light up the countertop",
+      "Gola profile handle for a seamless cabinet look"
+    ],
+    "idealFor": "Medium families"
+  },
+  {
+    "id": 16,
+    "name": "Teal L-Shaped Bathroom Escape with Marble Elements",
+    "image": "/IMAGES/BATH_ROOM/p1.avif",
+    "type": "bathroom",
+    "layout": "L-Shape Bathroom Design",
+    "style": "Modern",
+    "size": "12x10 feet",
+    "colour": ["Base unit: Kingfisher Blue", "Wall unit: Kingfisher Blue"],
+    "shutterFinishs": [
+      "Base unit: Laminate with suede finish",
+      "Wall unit: Laminate with suede finish"
+    ],
+    "countertopMaterial": "Marble",
+    "storageFeatures": "Storage cabinets with drawers, open shelves and tall unit",
+    "specialFeatures": [
+      "Soft-close drawers",
+      "Profile lighting under wall cabinets to light up the countertop",
+      "Gola profile handle for a seamless cabinet look"
+    ],
+    "idealFor": "Medium families"
+  },
+  {
+    "id": 17,
+    "name": "Turquoise L-Shaped Bathroom Retreat with Marble Finishes",
+    "image": "/IMAGES/BATH_ROOM/p2.avif",
+    "type": "bathroom",
+    "layout": "L-Shape Bathroom Design",
+    "style": "Modern",
+    "size": "12x10 feet",
+    "colour": ["Base unit: Kingfisher Blue", "Wall unit: Kingfisher Blue"],
+    "shutterFinishs": [
+      "Base unit: Laminate with suede finish",
+      "Wall unit: Laminate with suede finish"
+    ],
+    "countertopMaterial": "Marble",
+    "storageFeatures": "Storage cabinets with drawers, open shelves and tall unit",
+    "specialFeatures": [
+      "Soft-close drawers",
+      "Profile lighting under wall cabinets to light up the countertop",
+      "Gola profile handle for a seamless cabinet look"
+    ],
+    "idealFor": "Medium families"
+  },
+  {
+    "id": 18,
+    "name": "Cyan L-Shaped Bathroom Style with Marble Details",
+    "image": "/IMAGES/BATH_ROOM/p3.avif",
+    "type": "bathroom",
+    "layout": "L-Shape Bathroom Design",
+    "style": "Modern",
+    "size": "12x10 feet",
+    "colour": ["Base unit: Kingfisher Blue", "Wall unit: Kingfisher Blue"],
+    "shutterFinishs": [
+      "Base unit: Laminate with suede finish",
+      "Wall unit: Laminate with suede finish"
+    ],
+    "countertopMaterial": "Marble",
+    "storageFeatures": "Storage cabinets with drawers, open shelves and tall unit",
+    "specialFeatures": [
+      "Soft-close drawers",
+      "Profile lighting under wall cabinets to light up the countertop",
+      "Gola profile handle for a seamless cabinet look"
+    ],
+    "idealFor": "Medium families"
+  },
+  {
+    "id": 19,
+    "name": "Mint Green L-Shaped Bathroom Sanctuary with Marble",
+    "image": "/IMAGES/BATH_ROOM/p4.avif",
+    "type": "bathroom",
+    "layout": "L-Shape Bathroom Design",
+    "style": "Modern",
+    "size": "12x10 feet",
+    "colour": ["Base unit: Kingfisher Blue", "Wall unit: Kingfisher Blue"],
+    "shutterFinishs": [
+      "Base unit: Laminate with suede finish",
+      "Wall unit: Laminate with suede finish"
+    ],
+    "countertopMaterial": "Marble",
+    "storageFeatures": "Storage cabinets with drawers, open shelves and tall unit",
+    "specialFeatures": [
+      "Soft-close drawers",
+      "Profile lighting under wall cabinets to light up the countertop",
+      "Gola profile handle for a seamless cabinet look"
+    ],
+    "idealFor": "Medium families"
+  },
+  {
+    "id": 20,
+    "name": "Emerald L-Shaped Contemporary Bathroom Design with Marble Touch",
+    "image": "/IMAGES/BATH_ROOM/p5.avif",
+    "type": "contemporary-styles",
+    "layout": "L-Shape Contemporary Design",
+    "style": "Modern",
+    "size": "12x10 feet",
+    "colour": ["Base unit: Kingfisher Blue", "Wall unit: Kingfisher Blue"],
+    "shutterFinishs": [
+      "Base unit: Laminate with suede finish",
+      "Wall unit: Laminate with suede finish"
+    ],
+    "countertopMaterial": "Marble",
+    "storageFeatures": "Storage cabinets with drawers, open shelves and tall unit",
+    "specialFeatures": [
+      "Soft-close drawers",
+      "Profile lighting under wall cabinets to light up the countertop",
+      "Gola profile handle for a seamless cabinet look"
+    ],
+    "idealFor": "Medium families"
+  },
+  {
+    "id": 21,
+    "name": "Cobalt L-Shaped Contemporary Design with Marble Countertops",
+    "image": "/IMAGES/CONTEMPORARY_STYLE/p1.avif",
+    "type": "contemporary-styles",
+    "layout": "L-Shape Contemporary Design",
+    "style": "Modern",
+    "size": "12x10 feet",
+    "colour": ["Base unit: Kingfisher Blue", "Wall unit: Kingfisher Blue"],
+    "shutterFinishs": [
+      "Base unit: Laminate with suede finish",
+      "Wall unit: Laminate with suede finish"
+    ],
+    "countertopMaterial": "Marble",
+    "storageFeatures": "Storage cabinets with drawers, open shelves and tall unit",
+    "specialFeatures": [
+      "Soft-close drawers",
+      "Profile lighting under wall cabinets to light up the countertop",
+      "Gola profile handle for a seamless cabinet look"
+    ],
+    "idealFor": "Medium families"
+  },
+  {
+    "id": 22,
+    "name": "Indigo L-Shaped Contemporary Design with Marble Countertops",
+    "image": "/IMAGES/CONTEMPORARY_STYLE/p2.avif",
+    "type": "contemporary-styles",
+    "layout": "L-Shape Contemporary Design",
+    "style": "Modern",
+    "size": "12x10 feet",
+    "colour": ["Base unit: Kingfisher Blue", "Wall unit: Kingfisher Blue"],
+    "shutterFinishs": [
+      "Base unit: Laminate with suede finish",
+      "Wall unit: Laminate with suede finish"
+    ],
+    "countertopMaterial": "Marble",
+    "storageFeatures": "Storage cabinets with drawers, open shelves and tall unit",
+    "specialFeatures": [
+      "Soft-close drawers",
+      "Profile lighting under wall cabinets to light up the countertop",
+      "Gola profile handle for a seamless cabinet look"
+    ],
+    "idealFor": "Medium families"
+  },
+  {
+    "id": 23,
+    "name": "Navy Blue L-Shaped Contemporary Design with Marble Countertops",
+    "image": "/IMAGES/CONTEMPORARY_STYLE/p3.avif",
+    "type": "contemporary-styles",
+    "layout": "L-Shape Contemporary Design",
+    "style": "Modern",
+    "size": "12x10 feet",
+    "colour": ["Base unit: Kingfisher Blue", "Wall unit: Kingfisher Blue"],
+    "shutterFinishs": [
+      "Base unit: Laminate with suede finish",
+      "Wall unit: Laminate with suede finish"
+    ],
+    "countertopMaterial": "Marble",
+    "storageFeatures": "Storage cabinets with drawers, open shelves and tall unit",
+    "specialFeatures": [
+      "Soft-close drawers",
+      "Profile lighting under wall cabinets to light up the countertop",
+      "Gola profile handle for a seamless cabinet look"
+    ],
+    "idealFor": "Medium families"
+  },
+  {
+    "id": 24,
+    "name": "Teal L-Shaped Contemporary Design with Marble Countertops",
+    "image": "/IMAGES/CONTEMPORARY_STYLE/p4.avif",
+    "type": "contemporary-styles",
+    "layout": "L-Shape Contemporary Design",
+    "style": "Modern",
+    "size": "12x10 feet",
+    "colour": ["Base unit: Kingfisher Blue", "Wall unit: Kingfisher Blue"],
+    "shutterFinishs": [
+      "Base unit: Laminate with suede finish",
+      "Wall unit: Laminate with suede finish"
+    ],
+    "countertopMaterial": "Marble",
+    "storageFeatures": "Storage cabinets with drawers, open shelves and tall unit",
+    "specialFeatures": [
+      "Soft-close drawers",
+      "Profile lighting under wall cabinets to light up the countertop",
+      "Gola profile handle for a seamless cabinet look"
+    ],
+    "idealFor": "Medium families"
+  },
+  {
+    "id": 25,
+    "name": "Cerulean L-Shaped Contemporary Design with Marble Countertops",
+    "image": "/IMAGES/CONTEMPORARY_STYLE/p5.avif",
+    "type": "contemporary-styles",
+    "layout": "L-Shape Contemporary Design",
+    "style": "Modern",
+    "size": "12x10 feet",
+    "colour": ["Base unit: Kingfisher Blue", "Wall unit: Kingfisher Blue"],
+    "shutterFinishs": [
+      "Base unit: Laminate with suede finish",
+      "Wall unit: Laminate with suede finish"
+    ],
+    "countertopMaterial": "Marble",
+    "storageFeatures": "Storage cabinets with drawers, open shelves and tall unit",
+    "specialFeatures": [
+      "Soft-close drawers",
+      "Profile lighting under wall cabinets to light up the countertop",
+      "Gola profile handle for a seamless cabinet look"
+    ],
+    "idealFor": "Medium families"
+  },
+  {
+    "id": 26,
+    "name": "Azure L-Shaped Elegant Lock Style Design with Marble Countertops",
+    "image": "/IMAGES/ELEGANT_LOCK_STYLE/p1.avif",
+    "type": "elegant-look-styles",
+    "layout": "L-Shape Elegant Lock Style Design",
+    "style": "Modern",
+    "size": "12x10 feet",
+    "colour": ["Base unit: Kingfisher Blue", "Wall unit: Kingfisher Blue"],
+    "shutterFinishs": [
+      "Base unit: Laminate with suede finish",
+      "Wall unit: Laminate with suede finish"
+    ],
+    "countertopMaterial": "Marble",
+    "storageFeatures": "Storage cabinets with drawers, open shelves and tall unit",
+    "specialFeatures": [
+      "Soft-close drawers",
+      "Profile lighting under wall cabinets to light up the countertop",
+      "Gola profile handle for a seamless cabinet look"
+    ],
+    "idealFor": "Medium families"
+  },
+  {
+    "id": 27,
+    "name": "Sapphire L-Shaped Elegant Lock Style Design with Marble Countertops",
+    "image": "/IMAGES/ELEGANT_LOCK_STYLE/p2.avif",
+    "type": "elegant-look-styles",
+    "layout": "L-Shape Elegant Lock Style Design",
+    "style": "Modern",
+    "size": "12x10 feet",
+    "colour": ["Base unit: Kingfisher Blue", "Wall unit: Kingfisher Blue"],
+    "shutterFinishs": [
+      "Base unit: Laminate with suede finish",
+      "Wall unit: Laminate with suede finish"
+    ],
+    "countertopMaterial": "Marble",
+    "storageFeatures": "Storage cabinets with drawers, open shelves and tall unit",
+    "specialFeatures": [
+      "Soft-close drawers",
+      "Profile lighting under wall cabinets to light up the countertop",
+      "Gola profile handle for a seamless cabinet look"
+    ],
+    "idealFor": "Medium families"
+  },
+  {
+    "id": 28,
+    "name": "Turquoise L-Shaped Elegant Lock Style Design with Marble Countertops",
+    "image": "/IMAGES/ELEGANT_LOCK_STYLE/p3.avif",
+    "type": "elegant-look-styles",
+    "layout": "L-Shape Elegant Lock Style Design",
+    "style": "Modern",
+    "size": "12x10 feet",
+    "colour": ["Base unit: Kingfisher Blue", "Wall unit: Kingfisher Blue"],
+    "shutterFinishs": [
+      "Base unit: Laminate with suede finish",
+      "Wall unit: Laminate with suede finish"
+    ],
+    "countertopMaterial": "Marble",
+    "storageFeatures": "Storage cabinets with drawers, open shelves and tall unit",
+    "specialFeatures": [
+      "Soft-close drawers",
+      "Profile lighting under wall cabinets to light up the countertop",
+      "Gola profile handle for a seamless cabinet look"
+    ],
+    "idealFor": "Medium families"
+  },
+  {
+    "id": 29,
+    "name": "Mint L-Shaped Elegant Lock Style Design with Marble Countertops",
+    "image": "/IMAGES/ELEGANT_LOCK_STYLE/p4.avif",
+    "type": "elegant-look-styles",
+    "layout": "L-Shape Elegant Lock Style Design",
+    "style": "Modern",
+    "size": "12x10 feet",
+    "colour": ["Base unit: Kingfisher Blue", "Wall unit: Kingfisher Blue"],
+    "shutterFinishs": [
+      "Base unit: Laminate with suede finish",
+      "Wall unit: Laminate with suede finish"
+    ],
+    "countertopMaterial": "Marble",
+    "storageFeatures": "Storage cabinets with drawers, open shelves and tall unit",
+    "specialFeatures": [
+      "Soft-close drawers",
+      "Profile lighting under wall cabinets to light up the countertop",
+      "Gola profile handle for a seamless cabinet look"
+    ],
+    "idealFor": "Medium families"
+  },
+  {
+    "id": 30,
+    "name": "Emerald L-Shaped Elegant Lock Style Design with Marble Countertops",
+    "image": "/IMAGES/ELEGANT_LOCK_STYLE/p5.avif",
+    "type": "elegant-look-styles",
+    "layout": "L-Shape Elegant Lock Style Design",
+    "style": "Modern",
+    "size": "12x10 feet",
+    "colour": ["Base unit: Kingfisher Blue", "Wall unit: Kingfisher Blue"],
+    "shutterFinishs": [
+      "Base unit: Laminate with suede finish",
+      "Wall unit: Laminate with suede finish"
+    ],
+    "countertopMaterial": "Marble",
+    "storageFeatures": "Storage cabinets with drawers, open shelves and tall unit",
+    "specialFeatures": [
+      "Soft-close drawers",
+      "Profile lighting under wall cabinets to light up the countertop",
+      "Gola profile handle for a seamless cabinet look"
+    ],
+    "idealFor": "Medium families"
+  }
+]

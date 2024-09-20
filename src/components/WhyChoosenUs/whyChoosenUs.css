@@ -32,4 +32,10 @@
     display: flex;
 }
 
+.wcs-card-image img{
+    height: 100%;
+    width: 100px;
+    margin: 40px;
+}
+
 

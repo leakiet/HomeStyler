@@ -9,13 +9,16 @@
   grid-template-columns: repeat(4, 1fr); /* Tạo ra 4 cột */
   grid-gap: 10px;
 }
+.inspiration-title{
+  margin: 30px auto;
+}
 
 .top-item:nth-child(1),
 .bottom-item:nth-child(2) {
   grid-column: span 2; /* Kéo dài hình ảnh qua 2 cột */
 }
 
-.buttom-item-img img {
+.carousel-item img {
   width: 100%;
   height: 300px; /* Đặt chiều cao cố định cho tất cả hình ảnh */
   object-fit: cover;

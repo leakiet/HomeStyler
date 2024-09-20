@@ -1,12 +1,6 @@
-.btn-primary {
-    background-color: black;
+.container-footer{
+    z-index: 9999 !important;
 }
-.footer-wrapper {
-    background-color: #73868A ;
-}
-
-.footer-links a:hover {
-    color: #39463A ;
-    font-weight: bold;
-    text-decoration: underline;
+.item-photo{
+    height: 100px;
 }

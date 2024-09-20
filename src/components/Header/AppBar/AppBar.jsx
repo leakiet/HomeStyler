@@ -1,11 +1,10 @@
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
 import './AppBar.css'
 import DesignStyles from './DesignStyles/DesignStyles'
 import Products from './Products/Products'
 import DesignersGallary from './DesignerGallary/DesignersGallary'
 import HomeStylerLogo from '../../../assets/HomeStylerLogo.png'
 import { Link } from 'react-router-dom'
-
 function NavBar({ itemsCartCount }) {
   const [showLogin, setShowLogin] = useState(false);
 
