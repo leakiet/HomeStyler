@@ -1,45 +1,60 @@
-import React, { useEffect, useState } from "react";
-import './Login.css';
+import React, { useContext, useEffect, useState } from "react";
+import "./Login.css";
 import Swal from "sweetalert2";
+import { DataContext } from "../../context/DataContext";
+import { useLocation, useNavigate } from "react-router-dom";
 function Login(props) {
-    const [users, setUsers] = useState([]);
-    const [email, setEmail] = useState('');
-    const [password, setPassword] = useState('');
-    const {setUserInfo} = props;
-    useEffect(()=>{
-        fetch("/data/users.json")
-        .then(res=>res.json())
-        .then(data=>setUsers(data))
-        .catch(err=>console.log(err))
-    },[])
-    console.log("email,pass: ",email,password);
-    
-    const handleLogin = (e) => {
-        e.preventDefault()
-        // Tìm kiếm người dùng trong mảng JSON
-        const user = users.find(
-            (user) => user.email == email && user.password == password
-        );
-        setUserInfo(user);
-        
-        if (user) {
-            Swal.fire({
-                title: 'Đăng nhập thành công!',
-                text: `Chào mừng, ${user.fullname}!`,
-                icon: 'success',
-                confirmButtonText: 'OK'
-            });
-        } else {
-            Swal.fire({
-                title: 'Lỗi',
-                text: 'Email hoặc mật khẩu không đúng!',
-                icon: 'error',
-                confirmButtonText: 'Thử lại'
-            });
+  const [users, setUsers] = useState([]);
+  const [email, setEmail] = useState("");
+  const location = useLocation();
+  const data = location.state;
+  console.log("data: ", data.data);
+  const navigate = useNavigate();
+  const [password, setPassword] = useState("");
+  const { setUserInfo, setFavoriteStyle } = useContext(DataContext);
+  useEffect(() => {
+    fetch("/data/users.json")
+      .then((res) => res.json())
+      .then((data) => setUsers(data))
+      .catch((err) => console.log(err));
+  }, []);
+
+  const handleLogin = (e) => {
+    e.preventDefault();
+    // Tìm kiếm người dùng trong mảng JSON
+    const user = users.find(
+      (user) => user.email == email && user.password == password
+    );
+    setUserInfo(user);
+
+    if (user) {
+      // Swal.fire({
+      //     title: 'Đăng nhập thành công!',
+      //     text: `Chào mừng, ${user.fullname}!`,
+      //     icon: 'success',
+      //     confirmButtonText: 'OK'
+      // });
+      if (data) {
+        console.log(data?.data?.type);
+        switch (data?.type) {
+          case "favoriteStyle":
+            navigate(`/design-detail/${data?.data.id}`);
+            break;
+          default:
+            navigate("/");
         }
-    };
-    console.log("users: ",users);
-    
+      }
+    } else {
+      Swal.fire({
+        title: "Lỗi",
+        text: "Email hoặc mật khẩu không đúng!",
+        icon: "error",
+        confirmButtonText: "Thử lại",
+      });
+    }
+  };
+  console.log("users: ", users);
+
   return (
     <div>
       <section className="mt-2">
@@ -62,7 +77,7 @@ function Login(props) {
                     data-mdb-ripple-init
                     class="btn btn-primary btn-floating mx-1"
                   >
-                   <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-facebook"></i>
                   </button>
 
                   <button
@@ -104,7 +119,7 @@ function Login(props) {
                 <div data-mdb-input-init class="form-outline mb-3">
                   <input
                     type="password"
-                       class="form-control form-control-lg"
+                    class="form-control form-control-lg"
                     value={password}
                     placeholder="Enter password"
                     onChange={(e) => setPassword(e.target.value)}
@@ -119,7 +134,7 @@ function Login(props) {
                     data-mdb-button-init
                     data-mdb-ripple-init
                     class="btn btn-primary btn-lg"
-                    style={{paddingLeft: "2.5rem",paddingRight: "2.5rem"}}
+                    style={{ paddingLeft: "2.5rem", paddingRight: "2.5rem" }}
                   >
                     Login
                   </button>

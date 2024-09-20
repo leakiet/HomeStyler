@@ -1,0 +1,34 @@
+.designer-gallery-container {
+  max-width: 100%;
+  height: auto;
+}
+.designer-gallery-container {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.selected-work img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+.right-side-profile {
+  text-align: left;
+}
+
+.designer-image {
+  width: 350px;
+  height: 350px;
+  border-radius: 3%;
+  object-fit: cover;
+}
+.loading,
+.error {
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+  color: #ff0000;
+}
+.description-left-side {
+  text-align: left;
+}
