@@ -17,6 +17,7 @@ import ProductDetail from "./pages/ProductDetails/ProductDetail.jsx";
 import CheckOut from "./pages/CheckOut/CheckOut.jsx";
 import DesignersCard from "./components/DesignersList/DesignersCard.js";
 import Profile from "./pages/Profile/Profile.jsx";
+import SiteMap from "./pages/Others/SiteMap/SiteMap.jsx";
 
 function App() {
   const navigate = useNavigate();
@@ -34,12 +35,12 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/profile" element={<Profile />} />
-          <Route path="/list-design" element={<DesignIdea />} />
           <Route path="/free-quote" element={<FreeQuote />} />
+          <Route path="/contact-us" element={<ContactUs />} />
+          <Route path="/about-us" element={<AboutUs />} />
+          <Route path="/site-map" element={<SiteMap />} />
           <Route path="/design/:slug" element={<DesignIdea />} />
           <Route path="/designer/:slug" element={<DesignersCard />} />
-          <Route path="/about-us" element={<AboutUs />} />
-          <Route path="/contact-us" element={<ContactUs />} />
           <Route path="/design-detail/:id" element={<DesignDetail />} />
         </Routes>
         <Footer />
