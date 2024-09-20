@@ -1,12 +1,11 @@
-import React from 'react'
-import '../AppBar.css'
+import React from 'react';
+import '../AppBar.css';
 import { Link } from 'react-router-dom';
-
 
 function DesignStyles() {
     return (
         <div className="dropdown btnDropdown">
-            <a className="dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a className="dropdown-toggle" href="#" role="button" aria-expanded="false">
                 Design Styles
             </a>
             <ul className="dropdown-menu">
@@ -18,7 +17,7 @@ function DesignStyles() {
                 <li><Link className="dropdown-item" to="/design/elegant-look-styles">Elegant Look Styles</Link></li>
             </ul>
         </div>
-    )
+    );
 }
 
-export default DesignStyles
+export default DesignStyles;

@@ -81,3 +81,34 @@ a {
     padding: 20px;
     cursor: pointer;
 }
+
+/* Ban đầu ẩn tất cả các dropdown menu */
+.dropdown-menu {
+    display: none;
+}
+
+/* Hiển thị menu chính khi hover vào Products */
+.btnDropdown:hover > .dropdown-menu {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+/* Hiển thị submenu khi hover vào phần tử cha có class dropend */
+.dropend:hover > .dropdown-menu {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 100%; /* Hiển thị submenu ngay bên cạnh phần tử cha */
+}
+
+/* Ngăn các menu con hiển thị đè lên nhau */
+.dropdown-menu > .dropdown-item:hover {
+    background-color: #f8f9fa;
+}
+
+/* Bỏ mũi tên mặc định của Bootstrap */
+.dropdown-toggle::after {
+    display: none;
+}

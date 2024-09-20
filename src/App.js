@@ -19,6 +19,8 @@ import DesignersGallery from "./pages/DesignersGallery/DesignersGallery.jsx";
 import React from "react";
 import ContactUs from "./components/Contact/ContactUs.jsx";
 import AboutUs from './components/About/AboutUs.jsx'
+import ProductInCategory from './pages/ProductsList/ProductInCategory/ProductInCategory.jsx';
+import ProductInSubCategory from './pages/ProductsList/ProductInCategory/ProductInSubCategory.jsx';
 
 function App() {
   const navigate = useNavigate();
@@ -162,7 +164,7 @@ function App() {
 
   useEffect(() => {
     const searchedProducts = products.filter(d => {
-      const catMatch =d.cat2 && d.cat2.toLowerCase().includes(searchValue.toLowerCase());
+      const catMatch = d.cat2 && d.cat2.toLowerCase().includes(searchValue.toLowerCase());
       const priceMatch =
         (minPrice === '' || d.price >= parseFloat(minPrice)) &&
         (maxPrice === '' || d.price <= parseFloat(maxPrice));
@@ -189,12 +191,16 @@ function App() {
           } />
           <Route path='/products' element={
             <>
-              <ProductsList products={currentProducts} addCart={handleAddCarts} 
-              searchValue={searchValue} onSearch={handleSearch}  minPrice={minPrice} maxPrice={maxPrice} onMinPrice={handleMinPriceChange} onMaxPrice={handleMaxPriceChange} />
+              <ProductsList products={currentProducts} addCart={handleAddCarts}
+                searchValue={searchValue} onSearch={handleSearch} minPrice={minPrice} maxPrice={maxPrice} onMinPrice={handleMinPriceChange} onMaxPrice={handleMaxPriceChange} />
               <Pagination productPerPage={productPerPage}
                 totalProducts={filterProducts.length} paginate={paginate} currentPage={currentPage} />
             </>
           } />
+
+          <Route path="/products/:slug" element={<ProductInCategory addCart={handleAddCarts}/>} />
+          <Route path="/products/:slug" element={<ProductInSubCategory addCart={handleAddCarts}/>} />
+
           <Route path="/products/:id" element={
             <ProductsDetails addCart={handleAddCarts} />
           } />
