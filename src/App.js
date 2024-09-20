@@ -23,6 +23,7 @@ import ProductInSubCategory from "./pages/ProductsList/ProductInCategory/Product
 import ProductDetail from "./pages/ProductDetails/ProductDetail.jsx";
 import CheckOut from "./pages/CheckOut/CheckOut.jsx";
 import SiteMap from "./pages/Others/SiteMap/SiteMap.jsx";
+import DesignersCard from "./components/DesignersList/DesignersCard.js";
 
 function App() {
   const navigate = useNavigate();
@@ -48,7 +49,7 @@ function App() {
           <Route path="/site-map" element={<SiteMap />} />
 
           <Route path="/design/:slug" element={<DesignIdea />} />
-          <Route path="/designer/:slug" element={<DesignersGallery />} />
+          <Route path="/designer/:slug" element={<DesignersCard />} />
           <Route path="/design-detail/:id" element={<DesignDetail />} />
         </Routes>
         <Footer />

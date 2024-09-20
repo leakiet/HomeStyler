@@ -8,11 +8,9 @@ import { Link } from 'react-router-dom'
 import { DataContext } from '../../../context/DataContext'
 function NavBar({ itemsCartCount }) {
   const {cart}  = useContext(DataContext)
-  console.log("cart: ",cart);
   const getTotalItems = () => {
     return cart.reduce((sum, item) => sum + item.quantity, 0);
   };
-  console.log("getTotalItems: ",getTotalItems());
   
   return (
     <div style={{
@@ -56,15 +54,15 @@ function NavBar({ itemsCartCount }) {
       </div>
 
       <div className='AppBar-right' >
-        <div>
+        {/* <div>
           <div className="input-group flex-nowrap">
             <input type="text" className="SearchInput" placeholder="Search" aria-label="Search" aria-describedby="addon-wrapping" />
-            <span className="input-group-text SearchText" id="addon-wrapping"><i class="bi bi-search" style={{ color: '#73868A', fontSize: 9.0, cursor:'pointer' }} /></span>
+            <span className="input-group-text SearchText" id="addon-wrapping"><i className="bi bi-search" style={{ color: '#73868A', fontSize: 9.0, cursor:'pointer' }} /></span>
           </div>
-        </div>
+        </div> */}
         <div >
         <Link style={{ display: 'flex', alignItems: 'center', gap: 5 }}>
-            <i class="bi bi-person-fill" style={{ fontSize: '20px' }} />
+            <i className="bi bi-person-fill" style={{ fontSize: '20px' }} />
             <span>Account</span>
           </Link>
 
@@ -82,7 +80,7 @@ function NavBar({ itemsCartCount }) {
         </div>
 
           <Link to="/cart"  style={{ display: 'flex', alignItems: 'center', gap: 5 }}>
-            <i class="bi bi-cart-fill" style={{ fontSize: '20px' }} />
+            <i className="bi bi-cart-fill" style={{ fontSize: '20px' }} />
             <span>Cart {getTotalItems()}</span>
           </Link>
 

@@ -62,7 +62,7 @@ function WhyChoosenUs(props) {
             >
                 <div className='wcs-content'>
                     {datas.map((data, index) => (
-                        <div className='wcs-container-card'>
+                        <div className='wcs-container-card' key={index}>
                             <div className='wcs-card'>
                                 <div className='wcs-card-image'>
                                     <img src={data.image} alt={data.title} />

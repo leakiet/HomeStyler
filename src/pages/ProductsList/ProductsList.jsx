@@ -91,13 +91,13 @@ function ProductsList() {
         <Banner />
       </div>
     <div className='container'>
-    <div class="row">
-        <div class="col-md-3 col-lg-3 col-sm-12 mb-3 container-filter">
+    <div className="row">
+        <div className="col-md-3 col-lg-3 col-sm-12 mb-3 container-filter">
           <h5>Filter</h5>
           <form>
-            <div class="form-group">
+            <div className="form-group">
               <label for="categoryFilter">Categories </label>
-              <select class="form-control" id="categoryFilter" onChange={handleCategoryChange}>
+              <select className="form-control" id="categoryFilter" onChange={handleCategoryChange}>
                 <option value="">Tất cả</option>
                 {cate1.length > 0 && cate1.map((item, index) => {
                   return (
@@ -106,26 +106,26 @@ function ProductsList() {
                 })}
               </select>
             </div>
-            <div class="form-group">
+            <div className="form-group">
               <label>Select by Price</label>
-              <div class="form-check">
-                <input class="form-check-input" type="radio" id="price1"
+              <div className="form-check">
+                <input className="form-check-input" type="radio" id="price1"
                   name='price' value="under50" onChange={handlePriceRangeChange} />
-                <label class="form-check-label" for="price1">
+                <label className="form-check-label" for="price1">
                   Under $50
                 </label>
               </div>
-              <div class="form-check">
-                <input class="form-check-input" type="radio" id="price2"
+              <div className="form-check">
+                <input className="form-check-input" type="radio" id="price2"
                   name='price' value="between50and200" onChange={handlePriceRangeChange} />
-                <label class="form-check-label" for="price2">
+                <label className="form-check-label" for="price2">
                   $50 - $200
                 </label>
               </div>
-              <div class="form-check">
-                <input class="form-check-input" type="radio" id="price3"
+              <div className="form-check">
+                <input className="form-check-input" type="radio" id="price3"
                   name='price' value="over200" onChange={handlePriceRangeChange} />
-                <label class="form-check-label" for="price3">
+                <label className="form-check-label" for="price3">
                   Over $200
                 </label>
               </div>
@@ -133,7 +133,7 @@ function ProductsList() {
 
           </form>
         </div>
-        <div class="col-md-9 col-lg-9 col-sm-12">
+        <div className="col-md-9 col-lg-9 col-sm-12">
           <div className='search-field'>
             <h5 className='list-title'>Product List</h5>
             <div className="search-container">
@@ -147,19 +147,19 @@ function ProductsList() {
             </div>
           </div>
 
-          <div class="row">
+          <div className="row">
             {filteredProducts.length > 0 && filteredProducts.map((item, index) => {
               return (
-                <div class="col-md-4" key={index}>
-                  <div class="card mb-4">
-                    <i class="fa-solid fa-bookmark favorite-icon"></i>
-                    <img src={item.image[0]} class="card-img-top" alt="Sản phẩm 3" />
-                    <div class="card-body">
-                      <h6 class="card-title">{item.name}</h6>
-                      <p class="card-text">{item.price}$</p>
-                      <div class="card-buttons">
-                        <button class="btn btn-addtocart" onClick={() => addToCart(item)}>Add Card</button>
-                        <button class="btn btn-readmore" onClick={() => handleReadMore(item)}>Read more</button>
+                <div className="col-md-4" key={index}>
+                  <div className="card mb-4">
+                    <i className="fa-solid fa-bookmark favorite-icon"></i>
+                    <img src={item.image[0]} className="card-img-top" alt="Sản phẩm 3" />
+                    <div className="card-body">
+                      <h6 className="card-title">{item.name}</h6>
+                      <p className="card-text">{item.price}$</p>
+                      <div className="card-buttons">
+                        <button className="btn btn-addtocart" onClick={() => addToCart(item)}>Add Card</button>
+                        <button className="btn btn-readmore" onClick={() => handleReadMore(item)}>Read more</button>
                       </div>
                     </div>
                   </div>
