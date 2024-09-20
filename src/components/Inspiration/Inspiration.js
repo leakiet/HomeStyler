@@ -11,7 +11,7 @@ function Inspiration(props) {
       .then((data) => setInspirs(data))
       .catch((err) => console.log(err));
   }, []);
-  console.log("inspirs: ", inspirs);
+  // console.log("inspirs: ", inspirs);
   const responsive = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },

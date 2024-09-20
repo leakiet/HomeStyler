@@ -2,6 +2,10 @@ import './App.css'
 import Header from "./components/Header/Header.jsx"
 import Footer from "./components/Footer/Footer.jsx"
 import HomePage from "./pages/HomePage/HomePage.jsx";
+import FreeQuote from "./components/FreeQuote/FreeQuote.js";
+import DesignDetail from "./pages/DesignDetail/DesignDetail.js";
+import StyleDetail from "./components/StyleDetail/StyleDetail.js";
+import DesignIdea from "./components/DesignIdea/DesignIdea.js";
 import { useState, useEffect } from 'react';
 import { Route, Routes, useNavigate } from "react-router-dom";
 import ProductsList from "./pages/ProductsList/ProductsList.jsx";
@@ -134,6 +138,10 @@ function App() {
   return (
     <>
       <div className="container-fluid">
+        <Header />
+        {/* <FreeQuote/> */}
+        {/* <DesignDetail /> */}
+
         <Header itemsCartCount={calculateTotalProduct(carts)} />
         <Routes>
           <Route path='/' element={
@@ -157,6 +165,10 @@ function App() {
           <Route path='/userpage' element={
             <Profile />
           } />
+          <Route path="/" element={<HomePage />} />
+          <Route path="/list-design" element={<DesignIdea />} />
+          <Route path="/free-quote" element={<FreeQuote />} />
+          <Route path="/design-detail/:id" element={<DesignDetail />} />
 
         </Routes>
         <Footer />

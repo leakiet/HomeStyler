@@ -8,8 +8,12 @@ import Inspiration from '../../components/Inspiration/Inspiration'
 function HomePage() {
   return (
     <div>
-      <TypeInterio />
-      <WhyChoosenUs />
+      <div className='row'>
+        <Carousel />
+        <TypeInterio />
+        <Inspiration/>
+        <WhyChoosenUs />
+      </div>
     </div>
   )
 }

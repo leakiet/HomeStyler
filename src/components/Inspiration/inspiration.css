@@ -9,6 +9,9 @@
   grid-template-columns: repeat(4, 1fr); /* Tạo ra 4 cột */
   grid-gap: 10px;
 }
+.inspiration-title{
+  margin: 30px auto;
+}
 
 .top-item:nth-child(1),
 .bottom-item:nth-child(2) {
