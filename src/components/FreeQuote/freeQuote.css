@@ -5,6 +5,12 @@
   margin: 10px 10px;
 } */
 
+.title-free-Quote{
+  font-size: 24px;
+  margin: 40px;
+  text-align: center;
+}
+
 .fq-form-input-item .form-check input{
   width: 20px;
   height: 20px;

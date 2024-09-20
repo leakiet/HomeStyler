@@ -6,6 +6,16 @@
     gap: 12px;
 }
 
+.design-title-slug{
+    margin-top: 30px;
+    margin-left: 150px;
+}
+
+.not-found-desing{
+    margin-top: 30px;
+    font-size: 32px;
+    margin-left: 100px;
+}
 .di-card{
     position: relative;
     margin: auto auto;
@@ -23,11 +33,11 @@
     font-size: 27px;
     top: 20px;
     right: 20px;
-    z-index: 2;
+    z-index: 10;
 }
 
 .di-love-image:hover{
-    color: pink;
+    color: rgb(255, 56, 89);
 }
 
 

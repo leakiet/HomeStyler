@@ -1,6 +1,7 @@
 import React from 'react';
 import './styledetail.css'
 import { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom';
 
 
 
@@ -14,7 +15,7 @@ function StyleDetail(props) {
                 const response = await fetch("/data/roomtype.json");
                 const data = await response.json();
                 const foundStyle = data.find(item => item.id === parseInt(props.id));
-                console.log("foundStyle: ",foundStyle);
+                console.log("foundStyle: ", foundStyle);
                 if (foundStyle) {
                     setDesignStyles(foundStyle);
                 }
@@ -25,7 +26,7 @@ function StyleDetail(props) {
         fetchData();
     }, [props.id]);
 
-    
+
     const handleGet = () => {
         console.log(designStyles)
     }
@@ -45,10 +46,10 @@ function StyleDetail(props) {
                     <div className='sd-list-item-title'>
                         <h2>{designStyles.name}</h2>
                     </div>
-                    <div className='star-rating'>
+                    {/* <div className='star-rating'>
                         <h4>Star Rating</h4>
                         <i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i>
-                    </div>
+                    </div> */}
                     <div className='sd-list-item-detail'>
                         <div className='item-design-detail'>
                             <p><span> {(designStyles.type) ? designStyles.type : "No layout available"}</span> Design Details:</p>
@@ -134,8 +135,10 @@ function StyleDetail(props) {
                     </div>
                 </div>
             </div>
-            <div className='sd-btn-gfq'>
-                <button type="button" className="btn btn-danger rounded-pill" onClick={handleGet}>Get free quote</button>
+            <div >
+                <Link to='/free-quote' className='sd-btn-gfq'>
+                    <button type="button" className="btn btn-danger rounded-pill" onClick={handleGet}>Get free quote</button>
+                </Link>
             </div>
         </div>
     );
