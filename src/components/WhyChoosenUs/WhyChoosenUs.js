@@ -2,14 +2,30 @@ import React from 'react';
 import './whyChoosenUs.css'
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
+import { useEffect, useState } from 'react'
+
 
 
 
 function WhyChoosenUs(props) {
 
-    const array = [
-        1, 2, 3, 4, 5, 6, 7, 8, 9,10 ,11,12
-    ]
+
+    const [datas, setDatas] = useState([])
+
+    useEffect(() => {
+        const fetchData = async () => {
+            try {
+                const response = await fetch("/data/whychoosen.json");
+                const data = await response.json();
+                setDatas(data);
+            } catch (err) {
+                console.log(err);
+            }
+        };
+        fetchData();
+    }, []);
+
+
 
     const responsive = {
         desktop: {
@@ -45,14 +61,14 @@ function WhyChoosenUs(props) {
                 arrows={true}
             >
                 <div className='wcs-content'>
-                    {array.map(e => (
+                    {datas.map((data, index) => (
                         <div className='wcs-container-card'>
                             <div className='wcs-card'>
-                                <div className='wcs-card-icon'>
-                                    <i className="bi bi-archive-fill"></i>
+                                <div className='wcs-card-image'>
+                                    <img src={data.image} alt={data.title} />
                                 </div>
                                 <div className='wcs-card-text'>
-                                    <p>146 quality checks</p>
+                                    <p>{data.title}</p>
                                 </div>
                             </div>
                         </div>

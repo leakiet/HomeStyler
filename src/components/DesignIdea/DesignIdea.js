@@ -53,7 +53,7 @@ function DesignIdea({ props }) {
                 </div>
             </div>
             <div className='design-title-slug'>
-                <h1>Design {slug} :</h1>
+                <h1>Design {slug}</h1>
             </div>
             <div className='container-designidea-card'>
                 {filteredDesigns.length > 0 ? (
