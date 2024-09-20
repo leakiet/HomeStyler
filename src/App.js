@@ -4,22 +4,32 @@ import Footer from "./components/Footer/Footer.jsx"
 import DesignStyles from "./pages/DesignStyles/DesignStyles.jsx";
 import HomePage from "./pages/HomePage/HomePage.jsx";
 import FreeQuote from "./components/FreeQuote/FreeQuote.js";
+import DesignDetail from "./pages/DesignDetail/DesignDetail.js";
 import StyleDetail from "./components/StyleDetail/StyleDetail.js";
-import { Routes } from "react-router-dom";
-import TestSlider from "./components/TestSlider/TestSlider.jsx";
+import { Routes,Route } from "react-router-dom";
+import DesignIdea from "./components/DesignIdea/DesignIdea.js";
+import { useState } from "react";
+import Login from "./components/Login/Login.js";
 
 
 function App() {
+  const [userInfo,setUserInfo] = useState({});
+
   return (
     <>
       {/* <div className="container-fluid"> */}
       <div className="container-fluid">
-        <Header />
-        <TestSlider/>
+        <Header userInfo = {userInfo} setUserInfo = {setUserInfo}/>
         {/* <FreeQuote/> */}
-        <HomePage />
-        <StyleDetail/>
-        {/* <DesignStyles/> */}
+        {/* <DesignDetail /> */}
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/list-design" element={<DesignIdea/>} />
+          <Route path="/free-quote" element={<FreeQuote/>} />
+          <Route path="/design-detail/:id" element={<DesignDetail />} />
+          <Route path="/login" element={<Login  setUserInfo = {setUserInfo}/>} />
+        </Routes>
+        
         <Footer />
       </div >
     </>

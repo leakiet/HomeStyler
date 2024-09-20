@@ -2,7 +2,9 @@ import React from 'react'
 import AppBar from './AppBar/AppBar'
 import TopBar from './TopBar/TopBar'
 
-function Header() {
+function Header(props) {
+  const {userInfo,setUserInfo} = props;
+  
   return (
     <div>
       <TopBar />
