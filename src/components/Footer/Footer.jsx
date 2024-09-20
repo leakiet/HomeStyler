@@ -11,7 +11,8 @@ function Footer() {
             <a
               data-mdb-ripple-init=""
               className="btn btn-outline btn-floating m-1"
-              href="#!"
+              href="https://www.facebook.com/"
+              target="_blank"
               role="button"
             >
               <i className="bi bi-facebook fs-1" ></i>
@@ -20,7 +21,8 @@ function Footer() {
             <a
               data-mdb-ripple-init=""
               className="btn btn-outline btn-floating m-1"
-              href="#!"
+              href="https://twitter.com/"
+              target="_blank"
               role="button"
             >
               <i className="bi bi-twitter fs-1" />
@@ -29,7 +31,8 @@ function Footer() {
             <a
               data-mdb-ripple-init=""
               className="btn btn-outline btn-floating m-1"
-              href="#!"
+              href="https://www.google.com/"
+              target="_blank"
               role="button"
             >
               <i className="bi bi-google fs-1" />
@@ -38,7 +41,8 @@ function Footer() {
             <a
               data-mdb-ripple-init=""
               className="btn btn-outline btn-floating m-1"
-              href="#!"
+              href="https://www.instagram.com/"
+              target="_blank"
               role="button"
             >
               <i className="bi bi-instagram fs-1" />
@@ -95,9 +99,9 @@ function Footer() {
           </section>
           {/* Section: Text */}
           {/* Section: Links */}
-          <section className="">
+          <section className="mb-4">
             {/*Grid row*/}
-            <div className="row">
+            <div className="row footer-links">
               {/*Grid column*/}
               <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
                 <h5 className="text-uppercase">Bathroom</h5>
@@ -132,26 +136,31 @@ function Footer() {
               {/*Grid column*/}
               {/*Grid column*/}
               <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
-                <h5 className="text-uppercase">Links</h5>
+                <h5 className="text-uppercase">Furniture</h5>
                 <ul className="list-unstyled mb-0">
                   <li>
                     <a className="text-body" href="#!">
-                      Link 1
+                    Sofas and Couches
                     </a>
                   </li>
                   <li>
                     <a className="text-body" href="#!">
-                      Link 2
+                    Chairs and Recliners
                     </a>
                   </li>
                   <li>
                     <a className="text-body" href="#!">
-                      Link 3
+                    Tables
                     </a>
                   </li>
                   <li>
                     <a className="text-body" href="#!">
-                      Link 4
+                    Beds and Mattresses
+                    </a>
+                  </li>
+                  <li>
+                    <a className="text-body" href="#!">
+                    Storage
                     </a>
                   </li>
                 </ul>
@@ -159,26 +168,31 @@ function Footer() {
               {/*Grid column*/}
               {/*Grid column*/}
               <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
-                <h5 className="text-uppercase">Links</h5>
+                <h5 className="text-uppercase">Lighting</h5>
                 <ul className="list-unstyled mb-0">
                   <li>
                     <a className="text-body" href="#!">
-                      Link 1
+                    Ceiling Lights
                     </a>
                   </li>
                   <li>
                     <a className="text-body" href="#!">
-                      Link 2
+                    Wall Lights
                     </a>
                   </li>
                   <li>
                     <a className="text-body" href="#!">
-                      Link 3
+                    Floor Lamps
                     </a>
                   </li>
                   <li>
                     <a className="text-body" href="#!">
-                      Link 4
+                    Table Lamps
+                    </a>
+                  </li>
+                  <li>
+                    <a className="text-body" href="#!">
+                    Outdoor Lighting
                     </a>
                   </li>
                 </ul>
@@ -186,26 +200,31 @@ function Footer() {
               {/*Grid column*/}
               {/*Grid column*/}
               <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
-                <h5 className="text-uppercase">Links</h5>
+                <h5 className="text-uppercase">Kitchen</h5>
                 <ul className="list-unstyled mb-0">
                   <li>
                     <a className="text-body" href="#!">
-                      Link 1
+                    Cabinets and Pantries
                     </a>
                   </li>
                   <li>
                     <a className="text-body" href="#!">
-                      Link 2
+                    Countertops
                     </a>
                   </li>
                   <li>
                     <a className="text-body" href="#!">
-                      Link 3
+                    Sinks and Faucets
                     </a>
                   </li>
                   <li>
                     <a className="text-body" href="#!">
-                      Link 4
+                    Kitchen Islands and Carts
+                    </a>
+                  </li>
+                  <li>
+                    <a className="text-body" href="#!">
+                    Backsplashes
                     </a>
                   </li>
                 </ul>

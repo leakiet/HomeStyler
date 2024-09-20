@@ -2,11 +2,11 @@ import React from 'react'
 import AppBar from './AppBar/AppBar'
 import TopBar from './TopBar/TopBar'
 
-function Header() {
+function Header({ itemsCartCount }) {
   return (
     <>
       <TopBar />
-      <AppBar />
+      <AppBar itemsCartCount={itemsCartCount} />
     </>
   )
 }

@@ -1,8 +1,9 @@
 .product{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: space-between;
     gap: 10px;
+    padding-top: 30px;
     margin: 0px 175px;
 }
 
@@ -14,6 +15,5 @@
 
 .product-list-container{
     display: flex;
-    justify-content: center;
-    
+    justify-content: center; 
 }

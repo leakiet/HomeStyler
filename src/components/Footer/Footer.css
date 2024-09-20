@@ -4,3 +4,9 @@
 .footer-wrapper {
     background-color: #73868A ;
 }
+
+.footer-links a:hover {
+    color: #39463A ;
+    font-weight: bold;
+    text-decoration: underline;
+}

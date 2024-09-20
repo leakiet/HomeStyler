@@ -6,7 +6,7 @@ function TopBar() {
     return (
         <div className='top-bar'>
             <div className='top-bar-list'>
-                    Welcome to Home Styler
+                    Welcome to Home Decoration World!
             </div>
 
             <div className='top-bar-list'>
