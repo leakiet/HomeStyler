@@ -22,6 +22,7 @@ import ProductInCategory from "./pages/ProductsList/ProductInCategory/ProductInC
 import ProductInSubCategory from "./pages/ProductsList/ProductInCategory/ProductInSubCategory.jsx";
 import ProductDetail from "./pages/ProductDetails/ProductDetail.jsx";
 import CheckOut from "./pages/CheckOut/CheckOut.jsx";
+import SiteMap from "./pages/Others/SiteMap/SiteMap.jsx";
 
 function App() {
   const navigate = useNavigate();
@@ -44,6 +45,8 @@ function App() {
           <Route path="/free-quote" element={<FreeQuote />} />
           <Route path="/contact-us" element={<ContactUs />} />
           <Route path="/about-us" element={<AboutUs />} />
+          <Route path="/site-map" element={<SiteMap />} />
+
           <Route path="/design/:slug" element={<DesignIdea />} />
           <Route path="/designer/:slug" element={<DesignersGallery />} />
           <Route path="/design-detail/:id" element={<DesignDetail />} />
