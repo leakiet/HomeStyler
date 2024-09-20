@@ -2,14 +2,19 @@ import React from 'react';
 import StyleDetail from '../../components/StyleDetail/StyleDetail';
 import StarRating from '../../components/StarRating/StarRating';
 import CommentDesign from '../../components/CommentDesign/CommentDesign';
+import { useParams } from 'react-router-dom';
+import { useEffect, useState } from 'react'
+
+
 
 function DesignDetail(props) {
+    const  {id}  = useParams();
     
     return (
         <div>
-            <StyleDetail id={1}/>
+            <StyleDetail id={id} />
             <StarRating/>
-            <CommentDesign id={1}/>
+            <CommentDesign id={id}/>
         </div>
     );
 }
