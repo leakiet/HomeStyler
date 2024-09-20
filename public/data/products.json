@@ -13,7 +13,6 @@
       "../IMAGES/PRODUCTS/FURNITURE/SOFAS_AND_COUCHES/p2.jpg",
       "../IMAGES/PRODUCTS/FURNITURE/SOFAS_AND_COUCHES/p3.jpg"
     ],
-<<<<<<< HEAD
     "reviews": [
       {
         "userId": 101,
@@ -1807,8 +1806,6 @@
       "../IMAGES/PRODUCTS/DECOR/VASES_AND_PLANTS_POTS/p6.jpg"
     ],
 
-=======
->>>>>>> c0276ca1f0d3a16a091c82e767ec0fe18da80a88
     "reviews": [
       {
         "userId": 101,
@@ -1829,7 +1826,6 @@
     }
   },
   {
-<<<<<<< HEAD
     "id": 57,
     "name": "Vases and plant pots3",
     "style": ["Kitchen", "Living Room"],
@@ -2004,10 +2000,6 @@
 
     "id": 62,
     "name": "sofa2",
-=======
-    "id": 2,
-    "name": "VelvetDream Sofa",
->>>>>>> c0276ca1f0d3a16a091c82e767ec0fe18da80a88
     "style": ["Living room"],
     "cate1": "Furniture",
     "cate2": "Sofas and couches",
@@ -2039,17 +2031,6 @@
     }
   },
   {
-<<<<<<< HEAD
-    "id": 63,
-    "name": "Sofa3",
-    "style": ["Living room"],
-    "cate1": "Furniture",
-    "cate2": "Sofas and couches",
-
-    "descripton": "A comfortable living room sofa.",
-    "quantity": 10,
-    "price": 299.99,
-=======
     "id": 3,
     "name": "UrbanLounge Sofa",
     "style": ["Living room"],
@@ -2058,7 +2039,6 @@
     "description": "A modern, sleek sofa perfect for city apartments with limited space.",
     "quantity": 8,
     "price": 649.99,
->>>>>>> c0276ca1f0d3a16a091c82e767ec0fe18da80a88
     "image": [
       "../IMAGES/PRODUCTS/FURNITURE/SOFAS_AND_COUCHES/p7.jpg",
       "../IMAGES/PRODUCTS/FURNITURE/SOFAS_AND_COUCHES/p8.jpg",
@@ -2084,13 +2064,8 @@
     }
   },
   {
-<<<<<<< HEAD
-    "id": 64,
-    "name": "Bed1",
-=======
     "id": 4,
     "name": "DreamHaven Bed",
->>>>>>> c0276ca1f0d3a16a091c82e767ec0fe18da80a88
     "style": ["Bedroom"],
     "cate1": "Furniture",
     "cate2": "Beds and mattresses",
@@ -2122,14 +2097,8 @@
     }
   },
   {
-<<<<<<< HEAD
-
-    "id": 65,
-    "name": "Bed2",
-=======
     "id": 5,
     "name": "RoyalRest Bed",
->>>>>>> c0276ca1f0d3a16a091c82e767ec0fe18da80a88
     "style": ["Bedroom"],
     "cate1": "Furniture",
     "cate2": "Beds and mattresses",
@@ -2161,13 +2130,8 @@
     }
   },
   {
-<<<<<<< HEAD
-    "id": 66,
-    "name": "Bed3",
-=======
     "id": 6,
     "name": "ZenSleep Bed",
->>>>>>> c0276ca1f0d3a16a091c82e767ec0fe18da80a88
     "style": ["Bedroom"],
     "cate1": "Furniture",
     "cate2": "Beds and mattresses",
@@ -2199,17 +2163,6 @@
     }
   },
   {
-<<<<<<< HEAD
-
-    "id": 67,
-    "name": "Chair1",
-    "style": ["Bedroom"],
-    "cate1": "Furniture",
-    "cate2": "Chairs and recliners",
-
-    "descripton": "A comfortable living room sofa.",
-    "quantity": 10,
-=======
     "id": 7,
     "name": "CozyNest Chair",
     "style": ["Bedroom", "Living Room"],
@@ -2217,7 +2170,6 @@
     "cate2": "Chairs and recliners",
     "description": "A versatile chair designed for relaxation and style in any room.",
     "quantity": 6,
->>>>>>> c0276ca1f0d3a16a091c82e767ec0fe18da80a88
     "price": 299.99,
     "image": [
       "../IMAGES/PRODUCTS/FURNITURE/CHAIRS_AND_RECLINERS/p1.jpg",
@@ -2244,16 +2196,9 @@
     }
   },
   {
-<<<<<<< HEAD
-
-    "id": 68,
-    "name": "Chair2",
-    "style": ["Bedroom"],
-=======
     "id": 8,
     "name": "ElegantEase Chair",
     "style": ["Bedroom", "Living Room"],
->>>>>>> c0276ca1f0d3a16a091c82e767ec0fe18da80a88
     "cate1": "Furniture",
     "cate2": "Chairs and recliners",
     "description": "A stylish chair that brings a touch of sophistication to any room.",
@@ -2280,17 +2225,6 @@
     }
   },
   {
-<<<<<<< HEAD
-    "id": 69,
-    "name": "Chair3",
-    "style": ["Bedroom"],
-    "cate1": "Furniture",
-    "cate2": "Chairs and recliners",
-
-    "descripton": "A comfortable living room sofa.",
-    "quantity": 10,
-    "price": 299.99,
-=======
     "id": 9,
     "name": "RelaxPro Chair",
     "style": ["Bedroom", "Living Room"],
@@ -2299,7 +2233,6 @@
     "description": "A comfortable and stylish chair perfect for both bedroom and living room.",
     "quantity": 7,
     "price": 199.99,
->>>>>>> c0276ca1f0d3a16a091c82e767ec0fe18da80a88
     "image": [
       "../IMAGES/PRODUCTS/FURNITURE/CHAIRS_AND_RECLINERS/p7.jpg",
       "../IMAGES/PRODUCTS/FURNITURE/CHAIRS_AND_RECLINERS/p8.jpg",
@@ -2325,17 +2258,6 @@
     }
   },
   {
-<<<<<<< HEAD
-    "id": 70,
-    "name": "Storage1",
-    "style": ["Kitchen", "Bedroom"],
-    "cate1": "Furniture",
-    "cate2": "Storage",
-
-    "descripton": "A comfortable living room sofa.",
-    "quantity": 10,
-    "price": 299.99,
-=======
     "id": 10,
     "name": "SpaceSaver Storage",
     "style": ["Bedroom"],
@@ -2344,7 +2266,6 @@
     "description": "A versatile storage unit with a sleek design for your bedroom.",
     "quantity": 12,
     "price": 249.99,
->>>>>>> c0276ca1f0d3a16a091c82e767ec0fe18da80a88
     "image": [
       "../IMAGES/PRODUCTS/FURNITURE/STORAGE/p1.jpg",
       "../IMAGES/PRODUCTS/FURNITURE/STORAGE/p2.jpg",
@@ -2370,17 +2291,6 @@
     }
   },
   {
-<<<<<<< HEAD
-    "id": 71,
-    "name": "Storage2",
-    "style": ["Kitchen", "Bedroom"],
-    "cate1": "Furniture",
-    "cate2": "Storage",
-
-    "descripton": "A comfortable living room sofa.",
-    "quantity": 10,
-    "price": 299.99,
-=======
     "id": 11,
     "name": "ClassicCabin Storage",
     "style": ["Bedroom"],
@@ -2389,7 +2299,6 @@
     "description": "A classic design storage perfect for modern homes.",
     "quantity": 9,
     "price": 279.99,
->>>>>>> c0276ca1f0d3a16a091c82e767ec0fe18da80a88
     "image": [
       "../IMAGES/PRODUCTS/FURNITURE/STORAGE/p4.jpg",
       "../IMAGES/PRODUCTS/FURNITURE/STORAGE/p5.jpg",
@@ -2416,15 +2325,9 @@
     }
   },
   {
-<<<<<<< HEAD
-    "id": 72,
-    "name": "Storage3",
-    "style": ["Kitchen", "Bedroom"],
-=======
     "id": 12,
     "name": "ModernVault Storage",
     "style": ["Bedroom"],
->>>>>>> c0276ca1f0d3a16a091c82e767ec0fe18da80a88
     "cate1": "Furniture",
     "cate2": "Storage",
     "description": "A modern storage unit with ample space for all your needs.",
@@ -2455,15 +2358,9 @@
     }
   },
   {
-<<<<<<< HEAD
-    "id": 73,
-    "name": "Tables1",
-    "style": ["Kitchen", "Bedroom"],
-=======
     "id": 13,
     "name": "GrandDining Table",
     "style": ["Kitchen", "Living Room"],
->>>>>>> c0276ca1f0d3a16a091c82e767ec0fe18da80a88
     "cate1": "Furniture",
     "cate2": "Tables",
     "description": "A spacious dining table perfect for large gatherings.",
@@ -2494,15 +2391,9 @@
     }
   },
   {
-<<<<<<< HEAD
-    "id": 74,
-    "name": "Storage3",
-    "style": ["Kitchen", "Bedroom"],
-=======
     "id": 14,
     "name": "MinimalistKitchen Table",
     "style": ["Kitchen", "Living Room"],
->>>>>>> c0276ca1f0d3a16a091c82e767ec0fe18da80a88
     "cate1": "Furniture",
     "cate2": "Tables",
     "description": "A sleek and modern table that fits perfectly in small spaces.",
@@ -3877,16 +3768,9 @@
     "quantity": 10,
     "price": 299.99,
     "image": [
-<<<<<<< HEAD
-      "../IMAGES/PRODUCTS/FURNITURE/STORAGE/p7.jpg",
-      "../IMAGES/PRODUCTS/FURNITURE/STORAGE/p8.jpg",
-      "../IMAGES/PRODUCTS/FURNITURE/STORAGE/p9.jpg"
-
-=======
       "../IMAGES/PRODUCTS/DECOR/VASES_AND_PLANTS_POTS/p4.jpg",
       "../IMAGES/PRODUCTS/DECOR/VASES_AND_PLANTS_POTS/p5.jpg",
       "../IMAGES/PRODUCTS/DECOR/VASES_AND_PLANTS_POTS/p6.jpg"
->>>>>>> c0276ca1f0d3a16a091c82e767ec0fe18da80a88
     ],
     "reviews": [
       {
@@ -3908,23 +3792,12 @@
     }
   },
   {
-<<<<<<< HEAD
-
-    "id": 75,
-    "name": "Storage3",
-    "style": ["Kitchen", "Bedroom"],
-    "cate1": "Furniture",
-    "cate2": "Storage",
-
-    "descripton": "A comfortable living room sofa.",
-=======
     "id": 57,
     "name": "Classic Vases and Plant Pots",
     "style": ["Kitchen", "Living Room"],
     "cate1": "Decor",
     "cate2": "Vases and plant pots",
     "description": "A comfortable living room sofa.",
->>>>>>> c0276ca1f0d3a16a091c82e767ec0fe18da80a88
     "quantity": 10,
     "price": 299.99,
     "image": [

@@ -217,6 +217,10 @@ function App() {
           <Route path='/userpage' element={
             <Profile />
           } />
+          <Route path="/" element={<HomePage />} />
+          <Route path="/list-design" element={<DesignIdea />} />
+          <Route path="/free-quote" element={<FreeQuote />} />
+          <Route path="/design-detail/:id" element={<DesignDetail />} />
 
         </Routes>
         <Footer />
