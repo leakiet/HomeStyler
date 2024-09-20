@@ -70,7 +70,7 @@ function NavBar() {
           <a href='#'>
             <i className="bi bi-person-fill" style={{ fontSize: '20px' }} />
           </a>
-          {!!userInfo != null?(<button onClick={handleInfo} className='btn btn-info'>{userInfo?.fullname}</button>): <a to='/login'>Login</a>}
+          {userInfo != null?(<button onClick={handleInfo} className='btn btn-info'>{userInfo?.fullname}</button>): <a to='/login'>Login</a>}
         </div>
         <div style={{ display: 'flex', alignItems: 'center', gap: 5 }}>
           <a href="#">

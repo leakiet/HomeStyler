@@ -10,6 +10,9 @@ import Login from "./components/Login/Login.js";
 
 import DesignersGallery from "./pages/DesignersGallery/DesignersGallery.jsx";
 import React from "react";
+import ContactUs from "./components/Contact/ContactUs.jsx";
+import AboutUs from './components/About/AboutUs.jsx'
+
 
 function App() {
   return (
@@ -25,6 +28,8 @@ function App() {
           <Route path="/design-detail/:id" element={<DesignDetail />} />
           <Route path="/designer/:id" element={<DesignersGallery />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/contact" element={<ContactUs />} />
+          <Route path="/about" element={<AboutUs />} />
         </Routes>
         <Footer />
       </div>
