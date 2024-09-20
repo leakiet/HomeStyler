@@ -2,12 +2,12 @@ import React from 'react'
 import AppBar from './AppBar/AppBar'
 import TopBar from './TopBar/TopBar'
 
-function Header() {
+function Header({ itemsCartCount }) {
   return (
-    <div>
+    <>
       <TopBar />
-      <AppBar />
-    </div>
+      <AppBar itemsCartCount={itemsCartCount} />
+    </>
   )
 }
 
