@@ -40,9 +40,9 @@ function CartList() {
         navigate("/checkout")
     }
     return (
-        <div class="cart-container">
+        <div className="cart-container">
             <h1>SHOPPING CART</h1>
-            <table class="cart-table">
+            <table className="cart-table">
                 <thead>
                     <tr>
                         <th>Item</th>
@@ -56,18 +56,18 @@ function CartList() {
                     {cart && cart.map((item, index) => {
                         return (
                             <tr>
-                                <td class="item">
+                                <td className="item">
                                     <img src={item.image[0]} alt="Highball 29" />
                                     <span>{item.name}</span>
                                 </td>
-                                <td class="price">{item.price}</td>
-                                <td class="quantity">
-                                    <button class="quantity-btn" onClick={()=>decreaseQuantity(item.id)}>-</button>
+                                <td className="price">{item.price}</td>
+                                <td className="quantity">
+                                    <button className="quantity-btn" onClick={()=>decreaseQuantity(item.id)}>-</button>
                                     <input type="number" value={item.quantity} min="1" readonly />
-                                    <button class="quantity-btn" onClick={()=>increaseQuantity(item.id)}>+</button>
+                                    <button className="quantity-btn" onClick={()=>increaseQuantity(item.id)}>+</button>
                                 </td>
-                                <td class="total">{(item.quantity * item.price).toFixed(2)} $</td>
-                                <td class="remove"><button class="remove-btn" onClick={() => removeFromCart(item.id)}>×</button></td>
+                                <td className="total">{(item.quantity * item.price).toFixed(2)} $</td>
+                                <td className="remove"><button className="remove-btn" onClick={() => removeFromCart(item.id)}>×</button></td>
                             </tr>
                         )
                     })}
@@ -75,13 +75,13 @@ function CartList() {
                 </tbody>
             </table>
 
-            <div class="cart-summary">
+            <div className="cart-summary">
                 <textarea placeholder="Add a note for this seller..."></textarea>
-                <div class="summary-actions">
-                    <button class="continue-shopping">CONTINUE SHOPPING</button>
-                    <button class="checkout" onClick={handleGetCheckout}>CHECKOUT</button>
+                <div className="summary-actions">
+                    <button className="continue-shopping">CONTINUE SHOPPING</button>
+                    <button className="checkout" onClick={handleGetCheckout}>CHECKOUT</button>
                 </div>
-                <div class="total-amount">
+                <div className="total-amount">
                     <span>Total:</span>
                     <span>{getTotalPrice().toFixed(2)}$</span>
                 </div>

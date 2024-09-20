@@ -3,12 +3,12 @@ function ContactUs() {
   return (
     <div>
 
-<section class="contact_section  ">
+<section className="contact_section  ">
     <div className="container">
-      <div class="row">
-        <div class="col-md-7 col-lg-6 ">
-          <div class="form_container">
-            <div class="heading_container ">
+      <div className="row">
+        <div className="col-md-7 col-lg-6 ">
+          <div className="form_container">
+            <div className="heading_container ">
               <h2>
                 Contact Us
               </h2>
@@ -24,9 +24,9 @@ function ContactUs() {
                 <input type="email" placeholder="Email" />
               </div>
               <div>
-                <input type="text" class="message-box" placeholder="Message" />
+                <input type="text" className="message-box" placeholder="Message" />
               </div>
-              <div class="btn_box">
+              <div className="btn_box">
                 <button>
                   SEND
                 </button>
@@ -34,8 +34,8 @@ function ContactUs() {
             </form>
           </div>
         </div>
-        <div class="col-md-5 col-lg-6">
-          <div class="subscribe-box">
+        <div className="col-md-5 col-lg-6">
+          <div className="subscribe-box">
             <h3>
               Subscribe To Our Product
             </h3>

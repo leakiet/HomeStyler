@@ -10,10 +10,7 @@ function DesignerssGallary() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("/data/designers.json");
-        if (!response.ok) {
-          throw new Error("Failed to fetch data");
-        }
+        const response = await fetch("/data/designer.json");
         const data = await response.json();
         setDesigners(data);
       } catch (err) {
@@ -23,8 +20,6 @@ function DesignerssGallary() {
     fetchData();
   }, []);
 
-  console.log('designer', designers);
-
 
   return (
     <div className="dropdown btnDropdown">
@@ -33,8 +28,8 @@ function DesignerssGallary() {
       </a>
       <ul className="dropdown-menu">
         {designers.length > 0 && designers.map((designer, index) => (
-          <li>
-            <Link className="dropdown-item" to={'/' + designer.name}>{designer.name}</Link>
+          <li key={index}>
+            <Link className="dropdown-item" to={'/designer/' + designer.name.toLowerCase().replace(' ', '-')}>{designer.name}</Link>
           </li>
         ))}
       </ul>

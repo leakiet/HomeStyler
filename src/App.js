@@ -22,6 +22,7 @@ import ProductInCategory from "./pages/ProductsList/ProductInCategory/ProductInC
 import ProductInSubCategory from "./pages/ProductsList/ProductInCategory/ProductInSubCategory.jsx";
 import ProductDetail from "./pages/ProductDetails/ProductDetail.jsx";
 import CheckOut from "./pages/CheckOut/CheckOut.jsx";
+import DesignersCard from "./components/DesignersList/DesignersCard.js";
 
 function App() {
   const navigate = useNavigate();
@@ -45,7 +46,7 @@ function App() {
           <Route path="/contact-us" element={<ContactUs />} />
           <Route path="/about-us" element={<AboutUs />} />
           <Route path="/design/:slug" element={<DesignIdea />} />
-          <Route path="/designer/:slug" element={<DesignersGallery />} />
+          <Route path="/designer/:slug" element={<DesignersCard />} />
           <Route path="/design-detail/:id" element={<DesignDetail />} />
         </Routes>
         <Footer />

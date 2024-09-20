@@ -9,13 +9,13 @@ function RelatedProducts({ relatedProducts, addCart }) {
 
     const CustomPrevArrow = (props) => (
         <div {...props} className="custom-arrows1 custom-prev-arrows1" >
-            <i class="bi bi-arrow-left"></i>
+            <i className="bi bi-arrow-left"></i>
         </div>
     );
 
     const CustomNextArrow = (props) => (
         <div {...props} className="custom-arrows1 custom-next-arrows1">
-            <i class="bi bi-arrow-right"></i>
+            <i className="bi bi-arrow-right"></i>
         </div>
     );
 

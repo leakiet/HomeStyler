@@ -3,17 +3,17 @@ function AboutUs() {
   return (
     <div>
 
-      <section class="about_section layout_padding ">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="img-box">
+      <section className="about_section layout_padding ">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-6">
+              <div className="img-box">
                 <img src="images/about/about-img.jpg" alt="" />
               </div>
             </div>
-            <div class="col-md-6">
-              <div class="detail-box">
-                <div class="heading_container">
+            <div className="col-md-6">
+              <div className="detail-box">
+                <div className="heading_container">
                   <h2>
                     About Us
                   </h2>
@@ -27,13 +27,13 @@ function AboutUs() {
         </div>
       </section>
 
-      <section class="about_section layout_padding ">
-        <div class="container">
-          <div class="row">
+      <section className="about_section layout_padding ">
+        <div className="container">
+          <div className="row">
            
-            <div class="col-md-6">
-              <div class="detail-box">
-                <div class="heading_container">
+            <div className="col-md-6">
+              <div className="detail-box">
+                <div className="heading_container">
                   <h2>
                     About Us
                   </h2>
@@ -43,8 +43,8 @@ function AboutUs() {
                 </p>
               </div>
             </div>
-            <div class="col-md-6">
-              <div class="img-box">
+            <div className="col-md-6">
+              <div className="img-box">
                 <img src="images/about/about-img.jpg" alt="" />
               </div>
             </div>
@@ -54,20 +54,20 @@ function AboutUs() {
 
 
 
-      <section class="service_section layout_padding">
-        <div class="container">
-          <div class="heading_container heading_center">
+      <section className="service_section layout_padding">
+        <div className="container">
+          <div className="heading_container heading_center">
             <h2>
               We Are...
             </h2>
           </div>
-          <div class="row">
-            <div class="col-md-6 col-lg-4 mx-auto">
-              <div class="box">
-                <div class="img-box">
+          <div className="row">
+            <div className="col-md-6 col-lg-4 mx-auto">
+              <div className="box">
+                <div className="img-box">
                   <img src="images/about/g2.jpg" alt="" />
                 </div>
-                <div class="detail-box">
+                <div className="detail-box">
                   <h5>
                     MR. A
                   </h5>
@@ -78,12 +78,12 @@ function AboutUs() {
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-lg-4 mx-auto">
-              <div class="box">
-                <div class="img-box">
+            <div className="col-md-6 col-lg-4 mx-auto">
+              <div className="box">
+                <div className="img-box">
                   <img src="images/about/g2.jpg" alt="" />
                 </div>
-                <div class="detail-box">
+                <div className="detail-box">
                   <h5>
                   MR. B
                   </h5>
@@ -94,12 +94,12 @@ function AboutUs() {
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-lg-4 mx-auto">
-              <div class="box">
-                <div class="img-box">
+            <div className="col-md-6 col-lg-4 mx-auto">
+              <div className="box">
+                <div className="img-box">
                   <img src="images/about/g3.jpg" alt="" />
                 </div>
-                <div class="detail-box">
+                <div className="detail-box">
                   <h5>
                   MR. C
                   </h5>

@@ -62,7 +62,7 @@ function StyleDetail(props) {
                         )}
                         <i
                             onClick={handleAddFavorite}
-                            class="fa-solid fa-bookmark icon-favorite"
+                            className="fa-solid fa-bookmark icon-favorite"
                         ></i>
                     </div>
                     <div className="sd-list-item col-lg-5 col-sm-6">

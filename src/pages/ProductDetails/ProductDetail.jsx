@@ -25,12 +25,12 @@ function ProductDetail(props) {
 console.log("proDetail: ",proDetail);
 
     return (
-        <div class="container product-detail-container">
+        <div className="container product-detail-container">
             {proDetail != null && 
-                <div class="row">
-                <div class="col-md-6 product-images-column">
-                    <img src={proDetail?.image[0]} class="main-product-image" alt="Hình ảnh sản phẩm chính" />
-                    <div class="related-images">
+                <div className="row">
+                <div className="col-md-6 product-images-column">
+                    <img src={proDetail?.image[0]} className="main-product-image" alt="Hình ảnh sản phẩm chính" />
+                    <div className="related-images">
                         {proDetail?.image.map((item, index) => {
                             if (index != 0) {
                                 return (
@@ -40,11 +40,11 @@ console.log("proDetail: ",proDetail);
 
                         })}
                     </div>
-                    <div class="product-feedback">
+                    <div className="product-feedback">
                         <h5>Phản Hồi Khách Hàng</h5>
                         {proDetail?.reviews && proDetail?.reviews.map((item, index) => {
                             return (
-                                <div class="feedback-item">
+                                <div className="feedback-item">
                                     <h6>{item.userName}</h6>
                                     <StarRating rating={item.stars} />
                                     <p>{item.comment}</p>
@@ -54,11 +54,11 @@ console.log("proDetail: ",proDetail);
                     </div>
                 </div>
 
-                <div class="col-md-6 product-info-column">
+                <div className="col-md-6 product-info-column">
                     <h2>{proDetail?.name}</h2>
                     <p>{proDetail?.description}</p>
-                    <div class="product-price">{proDetail?.price}$</div>
-                    <div class="product-rating">
+                    <div className="product-price">{proDetail?.price}$</div>
+                    <div className="product-rating">
                     <StarRating rating={proDetail?.rating.averageStars} />
                         <span>({proDetail?.rating.averageStars} star)</span>
                     </div>
