@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from 'react';
 import './commentdesign.css';
 import { DataContext } from "../../context/DataContext";
 
-function CommentDesign({ comment, star, id }) {
+function CommentDesign({ comment, id }) {
     const [commentUser, setCommentUser] = useState([]);
     const { userInfo } = useContext(DataContext);
 
@@ -29,18 +29,16 @@ function CommentDesign({ comment, star, id }) {
     }, [id]);
 
     useEffect(() => {
-        if (comment && star) {
+        if (comment ) {
             const newComment = {
                 comment: comment,
                 userName: userInfo ? userInfo.loginUsername : 'undefined user',
-                star: star,
                 avatar: '/IMAGES/avatar/avatar.jpeg'
             };
 
             setCommentUser((prevComments) => [...prevComments, newComment]);
         }
-    }, [comment, star, userInfo]);
-
+    }, [comment, userInfo]);
 
 
     return (

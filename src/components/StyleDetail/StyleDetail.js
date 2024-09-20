@@ -69,7 +69,7 @@ function StyleDetail(props) {
                         <div className="sd-list-item-title">
                             <h4 className="mt-2">{designStyles.name}</h4>
                         </div>
-                        <div className='star-rating'>
+                        {/* <div className='star-rating'>
                             <h4>Star Rating</h4>
                             {designStyles.rating && designStyles.rating.averageStars !== undefined && (
                                 <>
@@ -81,7 +81,7 @@ function StyleDetail(props) {
                                     )}
                                 </>
                             )}
-                        </div>
+                        </div> */}
                         <div className="sd-list-item-detail">
                             <div className="item-design-detail">
                                 <p>

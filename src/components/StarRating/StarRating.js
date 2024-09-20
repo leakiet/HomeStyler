@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaStar } from "react-icons/fa";
+// import { FaStar } from "react-icons/fa";
 import { useState } from 'react';
 import { useContext } from "react";
 import './starrating.css'
@@ -7,38 +7,17 @@ import CommentDesign from '../CommentDesign/CommentDesign';
 import { DataContext } from "../../context/DataContext";
 import { useNavigate } from 'react-router-dom';
 
-
 function StarRating({id}) {
     
-
-    const colors = {
-        orange: "#FFBA5A",
-        grey: "#a9a9a9"
-    };
-
     const [currentValue, setCurrentValue] = useState(0);
-    const [hoverValue, setHoverValue] = useState(undefined);
     const [textComment, setTextCommnet] = useState('')
-    const [star, setStar] = useState(0)
     const { userInfo } = useContext(DataContext);
 
     const [comment, setComment] = useState('')
 
-    const stars = Array(5).fill(1)
 
     const navigate = useNavigate();
 
-    const handleClick = value => {
-        setCurrentValue(value)
-    }
-
-    const handleMouseOver = newHoverValue => {
-        setHoverValue(newHoverValue)
-    };
-
-    const handleMouseLeave = () => {
-        setHoverValue(undefined)
-    }
 
     const handleComment = (e) => {
         setTextCommnet(e.target.value);
@@ -47,7 +26,6 @@ function StarRating({id}) {
     const handleSubmit = (e) => {
         e.preventDefault();
         if (currentValue > 0 && userInfo !== null) {
-            setStar(currentValue)
             setComment(textComment)
             setCurrentValue(0)
             setTextCommnet('')
@@ -63,9 +41,9 @@ function StarRating({id}) {
         <>
             <div className="container-star-rating">
                 <div className='sr-list'>
-                    <h2> React Ratings </h2>
+                    <h2> Comment </h2>
                     <div className='sr-item-star'>
-                        {stars.map((_, index) => {
+                        {/* {stars.map((_, index) => {
                             return (
                                 <FaStar
                                     key={index}
@@ -80,7 +58,7 @@ function StarRating({id}) {
                                     }}
                                 />
                             )
-                        })}
+                        })} */}
                     </div>
                     <textarea
                         placeholder="What's your experience?"
@@ -93,7 +71,7 @@ function StarRating({id}) {
                     </div>
                 </div>
             </div>
-            <CommentDesign comment={comment} star={star} id={id}/>
+            <CommentDesign comment={comment} id={id}/>
         </>
     );
 }
