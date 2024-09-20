@@ -41,6 +41,11 @@ function App() {
 
   const [carts, setCarts] = useState(() => JSON.parse(localStorage.getItem('carts')) || []);
 
+  //tao mot userInfo mới để có thể nhận giá trị từ localStorage 
+  //sau đó truyền đi đến các components khác
+  //const [userInfo, setUserInfo] = useState(null);
+
+
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -130,6 +135,8 @@ function App() {
     const findUser = (savedUser && savedUser.find(u => u.username === checkUser.loginUsername && u.password === checkUser.loginPassword))
     console.log(savedUser);
     if (findUser) {
+      //nếu đăng nhập thành công sẽ lưu vào UserInfo
+      //setUserInfo(findUser);
       localStorage.setItem('username', JSON.stringify(checkUser));
       Swal.fire({
         title: "Login successful",

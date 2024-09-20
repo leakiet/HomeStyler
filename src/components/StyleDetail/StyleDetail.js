@@ -6,9 +6,9 @@ import { DataContext } from "../../context/DataContext";
 
 function StyleDetail(props) {
   const [designStyles, setDesignStyles] = useState([]);
-  const { userInfo,favoriteStyle,setFavoriteStyle } = useContext(DataContext);
-  console.log("favoriteStyle: ",favoriteStyle);
-  console.log("userInfo: ",userInfo);
+  const { userInfo, favoriteStyle, setFavoriteStyle } = useContext(DataContext);
+  console.log("favoriteStyle: ", favoriteStyle);
+  console.log("userInfo: ", userInfo);
   const navigate = useNavigate();
   useEffect(() => {
     const fetchData = async () => {
@@ -34,15 +34,16 @@ function StyleDetail(props) {
 
   function handleAddFavorite() {
     if (userInfo) {
-      setFavoriteStyle(pre=>[...pre,designStyles]);
+      console.log("user có tồn tại");
+      setFavoriteStyle(pre => [...pre, designStyles]);
     } else {
       let data = {
-        message:"Please log in to add this product to your wishlist.",
-        type:"favoriteStyle",
-        data:designStyles
+        message: "Please log in to add this product to your wishlist.",
+        type: "favoriteStyle",
+        data: designStyles
       }
-      
-      navigate((localStorage.getItem('username'))?('/userpage'):('/login'),{ state: data });
+
+      navigate((localStorage.getItem('username')) ? ('/userpage') : ('/login'), { state: data });
     }
   }
 
