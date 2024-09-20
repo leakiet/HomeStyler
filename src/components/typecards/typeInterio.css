@@ -21,36 +21,11 @@
   border-radius: 10px;
 }
 
-.card-title {
-  margin: 20px auto;
+.card{
+    transition: 0.5s;
 }
 
-.container-card {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.card:hover {
-  transform: scale(1.1) translateY(-3px);
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-  transition: 0.5s;
-}
-/* Large devices (desktops) */
-.container-card {
-  grid-template-columns: repeat(4, 1fr); /* 4 cột */
-}
-
-/* Medium devices (landscape tablets) */
-@media only screen and (max-width: 992px) {
-  .container-card {
-    grid-template-columns: repeat(2, 1fr); /* 2 cột */
-  }
-}
-
-/* Small devices (phones) */
-@media only screen and (max-width: 767px) {
-  .container-card {
-    grid-template-columns: 1fr; /* 1 cột cho màn hình nhỏ */
-  }
+.title{
+    margin-top: 40px;
+    text-align: center;
 }
