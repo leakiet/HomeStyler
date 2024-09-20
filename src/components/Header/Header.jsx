@@ -4,10 +4,10 @@ import TopBar from './TopBar/TopBar'
 
 function Header({ itemsCartCount }) {
   return (
-    <>
+    <div className='header-css'>
       <TopBar />
       <AppBar itemsCartCount={itemsCartCount} />
-    </>
+    </div>
   )
 }
 

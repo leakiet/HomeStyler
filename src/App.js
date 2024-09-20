@@ -108,7 +108,6 @@ function App() {
   useEffect(() => {
     localStorage.setItem('carts', JSON.stringify(carts));
   }, [carts]);
-  //update cart change
   useEffect(() => {
     const handleStorageChange = (event) => {
       if (event.key === 'carts') {
@@ -134,7 +133,6 @@ function App() {
       })
       navigate('/cart')
     } else {
-      // setErrorLogin(true);
       Swal.fire({
         title: 'Login Fail',
         text: 'Please input the correct user',
@@ -192,14 +190,18 @@ function App() {
           <Route path='/products' element={
             <>
               <ProductsList products={currentProducts} addCart={handleAddCarts}
-                searchValue={searchValue} onSearch={handleSearch} minPrice={minPrice} maxPrice={maxPrice} onMinPrice={handleMinPriceChange} onMaxPrice={handleMaxPriceChange} />
+                value={searchValue} onSearch={handleSearch} minPrice={minPrice} maxPrice={maxPrice} onMinPrice={handleMinPriceChange} onMaxPrice={handleMaxPriceChange} />
               <Pagination productPerPage={productPerPage}
                 totalProducts={filterProducts.length} paginate={paginate} currentPage={currentPage} />
             </>
           } />
 
-          <Route path="/products/:slug" element={<ProductInCategory addCart={handleAddCarts}/>} />
-          <Route path="/products/:slug" element={<ProductInSubCategory addCart={handleAddCarts}/>} />
+          <Route path="/category/:slug" element={
+            <ProductInCategory addCart={handleAddCarts} value={searchValue} onSearch={handleSearch}/>
+        } />
+          <Route path="/sub-category/:slug" element={
+            <ProductInSubCategory addCart={handleAddCarts} products={products} value={searchValue} onSearch={handleSearch}/>
+            } />
 
           <Route path="/products/:id" element={
             <ProductsDetails addCart={handleAddCarts} />

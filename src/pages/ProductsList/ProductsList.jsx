@@ -17,7 +17,6 @@ function ProductsList({ products, addCart, value, onSearch, minPrice, maxPrice, 
           <FilterList value={value} onSearch={onSearch} minPrice={minPrice} maxPrice={maxPrice} onMinPrice={onMinPrice} onMaxPrice={onMaxPrice}/>
         </div>
 
-
         <div className="product">
           <h3>All Products</h3>
           <div className="product-item">

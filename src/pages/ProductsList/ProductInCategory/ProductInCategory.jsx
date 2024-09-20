@@ -2,8 +2,9 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import ProductItem from '../ProductItem';
 import Banner from '../../../components/Banner/Banner';
+import FilterList from '../FilterList/FilterList';
 
-function ProductInCategory({ addCart }) {
+function ProductInCategory({ addCart, value, onSearch }) {
     const [products, setProducts] = useState([]);
     const [filterProducts, setFilterProducts] = useState([]);
 
@@ -33,8 +34,8 @@ function ProductInCategory({ addCart }) {
         <Banner />
       </div>
       <div className='product-list-container'>
-        <div className='search'>
-          
+      <div className='search'>
+          <FilterList value={value} onSearch={onSearch} />
         </div>
         <div className="product">
             <h3>Products in {slug}</h3>

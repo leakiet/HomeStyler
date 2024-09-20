@@ -20,7 +20,9 @@ function ProductItem({ product, addCart }) {
                     <li className="list-group-item">${product.price}</li>
                 </ul>
                 <div className="card-body card-buttons">
+                    <a href=''>
                     <button onClick={() => handleProductClick(product.id)} className="btn btn-secondary">View Details</button>
+                    </a>
                     <button onClick={() =>addCart(product)} className="btn btn-success">Add to Card</button>
                 </div>
         </div>

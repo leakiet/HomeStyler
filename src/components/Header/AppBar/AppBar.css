@@ -1,7 +1,33 @@
+/* Global styles */
+.app-bar-wrapper {
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #73868A;
+    padding: 10px;
+    border-bottom: 1px solid #73868A;
+}
+
+.app-bar-left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.app-bar-logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-right: 20px;
+}
+
 .SearchInput {
     border: 1px solid #dee2e6;
     border-radius: 5px;
-    outline: none; 
+    outline: none;
     color: #73868A;
     z-index: 1;
     margin: auto;
@@ -15,31 +41,45 @@
 .SearchInput:focus {
     border: none;
     border-radius: 5px;
-    outline: solid 2px #73868A ; 
-    color: #73868A ;
+    outline: solid 2px #73868A;
+    color: #73868A;
     z-index: 1;
 }
 
 input::placeholder {
-    color: #73868A   !important;
+    color: #73868A !important;
 }
 
 .btnDropdown a {
     position: relative;
     text-decoration: none;
-    color: #73868A ;
+    color: #73868A;
 }
 
 .btnDropdown a:hover {
-    color: #39463A ;
+    color: #39463A;
     font-weight: bold;
-    text-decoration: underline;
+}
+
+.btnDropdown a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: #73868A;
+    transition: width 0.3s ease;
+}
+
+.btnDropdown a:hover::after {
+    width: 100%;
 }
 
 a {
     position: relative;
     text-decoration: none;
-    color: #73868A ;
+    color: #73868A;
 }
 
 .AppBar-right {
@@ -50,7 +90,7 @@ a {
 }
 
 .AppBar-right a:hover {
-    color: #39463A ;
+    color: #39463A;
     font-weight: bold;
 }
 
@@ -74,9 +114,9 @@ a {
     flex-direction: column;
     position: absolute;
     border-radius: 10px;
-    background-color: hsla(0, 0%, 100%,1); 
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); 
-    z-index: 1000; 
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
     gap: 10px;
     padding: 20px;
     cursor: pointer;
@@ -100,15 +140,46 @@ a {
     display: block;
     position: absolute;
     top: 0;
-    left: 100%; /* Hiển thị submenu ngay bên cạnh phần tử cha */
+    left: 100%;
 }
 
-/* Ngăn các menu con hiển thị đè lên nhau */
 .dropdown-menu > .dropdown-item:hover {
     background-color: #f8f9fa;
 }
 
-/* Bỏ mũi tên mặc định của Bootstrap */
 .dropdown-toggle::after {
     display: none;
+}
+
+.menu-icon-i {
+    display: none;
+} 
+
+@media screen and (max-width: 980px) {
+    .menu-icon-i {
+        display: block;
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    
+
+}
+
+@media screen and (max-width: 480px) {
+    .app-bar-wrapper {
+        padding: 5px;
+    }
+
+    .SearchInput {
+        width: 100%;
+    }
+
+    .AppBar-right {
+        gap: 10px;
+    }
+
+    .account-links {
+        padding: 10px;
+    }
 }
