@@ -11,6 +11,7 @@ import DesignersGallery from "./pages/DesignersGallery/DesignersGallery.jsx";
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import ContactUs from "./components/Contact/ContactUs.jsx";
+import AboutUs from './components/About/AboutUs.jsx'
 
 
 function App() {
@@ -30,10 +31,11 @@ function App() {
           <Route path="/free-quote" element={<FreeQuote />} />
           <Route path="/design-detail/:id" element={<DesignDetail />} />
         </Routes>
-        <Footer />
         {/* <HomePage /> */}
         <Routes>
           <Route path="/contact" element={<ContactUs />} />
+          <Route path="/about-us" element={<AboutUs />} />
+
           <Route path="/" element={<StyleDetail />} />
 
         </Routes>
