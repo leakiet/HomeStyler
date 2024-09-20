@@ -119,6 +119,14 @@ function DesignIdea(props) {
                                     size:  {(designStyle.size) ? designStyle.size : "No size available"}
                                 </div>
                             </Link>
+                            <div className='di-title'>
+                                <h4>
+                                    {(designStyle.name) ? designStyle.name : "No name available"}
+                                </h4>
+                            </div>
+                            <div className='di-discription'>
+                                size:  {(designStyle.size) ? designStyle.size : "No size available"}
+                            </div>
                         </div>
                         <div className='di-btn'>
                             <Link to='/free-quote'>

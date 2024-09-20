@@ -8,24 +8,28 @@ import DesignDetail from "./pages/DesignDetail/DesignDetail.js";
 import StyleDetail from "./components/StyleDetail/StyleDetail.js";
 import { Routes, Route } from "react-router-dom";
 import DesignIdea from "./components/DesignIdea/DesignIdea.js";
-
+import DesignersGallery from "./pages/DesignersGallery/DesignersGallery.jsx";
+import React from "react";
 
 function App() {
   return (
     <>
-      {/* <div className="container-fluid"> */}
-      <div className="container-fluid">
-        <Header />
+    <div className="container-fluid" >
+      <Header />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/designer/:id" element={<DesignersGallery />} />
+
+
         {/* <FreeQuote/> */}
         {/* <DesignDetail /> */}
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/design/:slug" element={<DesignIdea />} />
-          <Route path="/free-quote" element={<FreeQuote />} />
-          <Route path="/design-detail/:id" element={<DesignDetail />} />
-        </Routes>
-        <Footer />
-      </div >
+        <Route path="/" element={<HomePage />} />
+        <Route path="/design/:slug" element={<DesignIdea />} />
+        <Route path="/free-quote" element={<FreeQuote />} />
+        <Route path="/design-detail/:id" element={<DesignDetail />} />
+      </Routes>
+      <Footer />
+    </div >
     </>
   )
 }
