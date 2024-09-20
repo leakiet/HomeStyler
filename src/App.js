@@ -23,6 +23,8 @@ import { useState, useEffect } from 'react';
 import { Route, Routes, useNavigate } from "react-router-dom";
 import DesignersCard from "./components/DesignersList/DesignersCard.js";
 
+import ProductInCategory from './pages/ProductsList/ProductInCategory/ProductInCategory.jsx';
+import ProductInSubCategory from './pages/ProductsList/ProductInCategory/ProductInSubCategory.jsx';
 
 function App() {
   const navigate = useNavigate();
@@ -184,7 +186,7 @@ function App() {
   return (
     <>
       <div className="container-fluid" >
-      <Header itemsCartCount={calculateTotalProduct(carts)} />
+        <Header itemsCartCount={calculateTotalProduct(carts)} />
         <Routes>
           <Route path='/products' element={
             <>
@@ -194,6 +196,10 @@ function App() {
                 totalProducts={filterProducts.length} paginate={paginate} currentPage={currentPage} />
             </>
           } />
+
+          <Route path="/products/:slug" element={<ProductInCategory addCart={handleAddCarts} />} />
+          <Route path="/products/:slug" element={<ProductInSubCategory addCart={handleAddCarts} />} />
+
           <Route path="/products/:id" element={
             <ProductsDetails addCart={handleAddCarts} />
           } />

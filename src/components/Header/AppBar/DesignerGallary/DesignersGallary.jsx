@@ -1,5 +1,6 @@
 import React from 'react'
 import '../AppBar.css'
+import { Link } from 'react-router-dom'
 
 function DesignersGallary() {
   return (
@@ -9,9 +10,10 @@ function DesignersGallary() {
             </a>
 
             <ul className="dropdown-menu">
-                <li><a className="dropdown-item" href="#">Jackson A</a></li>
-                <li><a className="dropdown-item" href="#">Linda B</a></li>
-                <li><a className="dropdown-item" href="#">Rio C</a></li>
+                <li><Link className="dropdown-item" to="">Jackson A</Link></li>
+                <li><Link className="dropdown-item" to="">Linda B</Link></li>
+                <li><Link className="dropdown-item" to="">Rio C</Link></li>
+                <li><Link className="dropdown-item" to="">Rio C</Link></li>
             </ul>
         </div>
   )

@@ -3,6 +3,7 @@ import ProductItem from './ProductItem'
 import './ProductList.css'
 import Banner from '../../components/Banner/Banner'
 import FilterList from './FilterList/FilterList'
+import './ProductList.css'
 
 function ProductsList({ products, addCart, value, onSearch, minPrice, maxPrice, onMinPrice, onMaxPrice  }) {
 
