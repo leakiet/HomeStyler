@@ -4,15 +4,15 @@ import Footer from "./components/Footer/Footer.jsx";
 import HomePage from "./pages/HomePage/HomePage.jsx";
 import FreeQuote from "./components/FreeQuote/FreeQuote.js";
 import DesignDetail from "./pages/DesignDetail/DesignDetail.js";
-import StyleDetail from "./components/StyleDetail/StyleDetail.js";
+import { Routes, Route } from "react-router-dom";
 import DesignIdea from "./components/DesignIdea/DesignIdea.js";
 import Login from "./components/Login/Login.js";
 
 import DesignersGallery from "./pages/DesignersGallery/DesignersGallery.jsx";
 import React from "react";
-import { Routes, Route } from "react-router-dom";
 import ContactUs from "./components/Contact/ContactUs.jsx";
 import AboutUs from './components/About/AboutUs.jsx'
+import StyleDetail from "./components/StyleDetail/StyleDetail.js";
 
 
 function App() {
