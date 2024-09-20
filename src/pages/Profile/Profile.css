@@ -1,0 +1,13 @@
+.container-profile{
+    background: #FCFAEE;
+}
+.card-title {
+    font-weight: bold;
+}
+.wish-image{
+    width: 100%;
+    height: 150px;
+}
+p {
+    margin-bottom: 0.5rem;
+}
