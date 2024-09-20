@@ -9,7 +9,7 @@ function TypeInterio(props) {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch("data/cardHome.json");
+                const response = await fetch("data/cardHomes.json");
                 const data = await response.json();
                 setCardHome(data);
             } catch (err) {
