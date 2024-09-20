@@ -3,18 +3,18 @@ import './styledetail.css'
 import { useEffect, useState } from 'react'
 
 
+
 function StyleDetail(props) {
 
     const [designStyles, setDesignStyles] = useState([])
 
-
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch("data/roomtypes.json");
+                const response = await fetch("/data/roomtype.json");
                 const data = await response.json();
-                const foundStyle = data.find(item => item.id === props.id);
-
+                const foundStyle = data.find(item => item.id === parseInt(props.id));
+                console.log("foundStyle: ",foundStyle);
                 if (foundStyle) {
                     setDesignStyles(foundStyle);
                 }
@@ -25,10 +25,10 @@ function StyleDetail(props) {
         fetchData();
     }, [props.id]);
 
+    
     const handleGet = () => {
         console.log(designStyles)
     }
-
 
 
     return (
@@ -66,7 +66,7 @@ function StyleDetail(props) {
                                 Room Dimension:
                             </div>
                             <p>
-                            {(designStyles.size) ? designStyles.size : "No size available"}
+                                {(designStyles.size) ? designStyles.size : "No size available"}
                             </p>
                         </div>
                         <div className='item-text'>
@@ -74,7 +74,7 @@ function StyleDetail(props) {
                                 Style:
                             </div>
                             <p>
-                            {(designStyles.style) ? designStyles.style : "No style available"}
+                                {(designStyles.style) ? designStyles.style : "No style available"}
                             </p>
                         </div>
                         <div className='item-text-list'>

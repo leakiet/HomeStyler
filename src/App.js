@@ -6,7 +6,7 @@ import HomePage from "./pages/HomePage/HomePage.jsx";
 import FreeQuote from "./components/FreeQuote/FreeQuote.js";
 import DesignDetail from "./pages/DesignDetail/DesignDetail.js";
 import StyleDetail from "./components/StyleDetail/StyleDetail.js";
-import { Routes } from "react-router-dom";
+import { Routes,Route } from "react-router-dom";
 import DesignIdea from "./components/DesignIdea/DesignIdea.js";
 
 
@@ -17,14 +17,14 @@ function App() {
       <div className="container-fluid">
         <Header />
         {/* <FreeQuote/> */}
-        {/* <HomePage /> */}
-        {/* <DesignDetail/> */}
-        <HomePage />
-        {/* <DesignIdea/> */}
         {/* <DesignDetail /> */}
-        <HomePage />
-        {/* <StyleDetail /> */}
-        {/* <DesignStyles/> */}
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/list-design" element={<DesignIdea/>} />
+          <Route path="/free-quote" element={<FreeQuote/>} />
+          <Route path="/design-detail/:id" element={<DesignDetail />} />
+        </Routes>
+        
         <Footer />
       </div >
     </>

@@ -7,7 +7,7 @@ function CommentDesign(props) {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch("data/products.json");
+                const response = await fetch("/data/products.json");
                 const data = await response.json();
                 setComments(data);
             } catch (err) {
@@ -16,9 +16,6 @@ function CommentDesign(props) {
         };
         fetchData();
     }, []);
-
-
-
 
     return (
         <div className='container-comment-design'>
