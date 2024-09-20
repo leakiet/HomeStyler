@@ -1,12 +1,13 @@
 // import HomePage from "./pages/HomePage/HomePage"
-import Header from "./components/Header/Header.jsx"
-import Footer from "./components/Footer/Footer.jsx"
-import DesignStyles from "./pages/DesignStyles/DesignStyles.jsx";
+import Header from "./components/Header/Header.jsx";
+import Footer from "./components/Footer/Footer.jsx";
 import HomePage from "./pages/HomePage/HomePage.jsx";
 import FreeQuote from "./components/FreeQuote/FreeQuote.js";
 import DesignDetail from "./pages/DesignDetail/DesignDetail.js";
 import StyleDetail from "./components/StyleDetail/StyleDetail.js";
 import DesignIdea from "./components/DesignIdea/DesignIdea.js";
+import Login from "./components/Login/Login.js";
+
 import DesignersGallery from "./pages/DesignersGallery/DesignersGallery.jsx";
 import React from "react";
 import { Routes, Route } from "react-router-dom";
@@ -43,7 +44,7 @@ function App() {
         <Footer />
       </div >
     </>
-  )
+  );
 }
 
 export default App;
