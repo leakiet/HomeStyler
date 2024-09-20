@@ -134,7 +134,7 @@ function App() {
         text: "Welcome back!",
         icon: "success"
       })
-      navigate('/cart')
+      navigate('/userpage')
     } else {
       // setErrorLogin(true);
       Swal.fire({
