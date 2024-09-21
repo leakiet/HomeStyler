@@ -107,7 +107,7 @@ function ProductsList() {
               <div class="form-group">
                 <label for="categoryFilter">Categories </label>
                 <select class="form-control" id="categoryFilter" onChange={handleCategoryChange}>
-                  <option value="">Tất cả</option>
+                  <option value="">---All categories---</option>
                   {cate1.length > 0 && cate1.map((item, index) => {
                     return (
                       <option key={index} value={item}>{item}</option>
