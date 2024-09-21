@@ -7,11 +7,16 @@ import HomeStylerLogo from '../../../assets/HomeStylerLogo.png'
 import { Link } from 'react-router-dom'
 import { DataContext } from '../../../context/DataContext'
 function NavBar({ itemsCartCount }) {
-  const {cart}  = useContext(DataContext)
+  const [showAccountLinks, setShowAccountLinks] = useState(false);
+  const { cart, userInfo } = useContext(DataContext)
   const getTotalItems = () => {
     return cart.reduce((sum, item) => sum + item.quantity, 0);
   };
-  
+
+  const handleAccount = () => {
+    setShowAccountLinks(!showAccountLinks);
+  }
+
   return (
     <div style={{
       height: '58px',
@@ -61,28 +66,38 @@ function NavBar({ itemsCartCount }) {
           </div>
         </div> */}
         <div >
-        <Link style={{ display: 'flex', alignItems: 'center', gap: 5 }}>
+          <Link style={{ display: 'flex', alignItems: 'center', gap: 5 }} onClick={handleAccount}>
             <i className="bi bi-person-fill" style={{ fontSize: '20px' }} />
-            <span>Account</span>
+            <span >Account</span>
           </Link>
 
-          <div className='account-links'>
-                <>
-                  <Link to="/profile">My Profile</Link>
-                  <Link to="/login">Sign out</Link>
-                </>
+          <div className='account-links' style={{ display: showAccountLinks ? 'block' : 'none' }}>
+            {(userInfo === null) ? (
 
-                <>
+              <>
+                <div className='account-item'>
                   <Link to="/login">Sign in</Link>
                   <Link to='/Signup'>Register</Link>
-                </>
+                </div>
+
+              </>
+            ) : (
+              <>
+                <div className='account-item'>
+
+                  <Link to="/profile">My Profile</Link>
+                  <Link to="/login">Sign out</Link>
+                </div>
+              </>
+            )}
+
           </div>
         </div>
 
-          <Link to="/cart"  style={{ display: 'flex', alignItems: 'center', gap: 5 }}>
-            <i className="bi bi-cart-fill" style={{ fontSize: '20px' }} />
-            <span>Cart {getTotalItems()}</span>
-          </Link>
+        <Link to="/cart" style={{ display: 'flex', alignItems: 'center', gap: 5 }}>
+          <i className="bi bi-cart-fill" style={{ fontSize: '20px' }} />
+          <span>Cart {getTotalItems()}</span>
+        </Link>
 
       </div>
     </div>

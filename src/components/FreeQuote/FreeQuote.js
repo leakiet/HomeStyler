@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import './freeQuote.css';
+import Swal from 'sweetalert2';
+import { Navigate, useNavigate } from 'react-router-dom';
 
 function FreeQuote(props) {
   const [name, setName] = useState('');
@@ -7,10 +9,16 @@ function FreeQuote(props) {
   const [number, setNumber] = useState('');
   const [location, setLocation] = useState('');
   const [updates, setUpdates] = useState(false);
+  const navigate = useNavigate()
 
   const handleSubmit = (e) => {
     e.preventDefault(); // Ngăn chặn reload trang
-    alert(`Name: ${name}, Email: ${email}, Number: ${number}, Location: ${location}, Updates on WhatsApp: ${updates}`);
+    Swal.fire({
+      title: 'Success!',
+      text: 'We will contact you soon!  ',
+      icon: 'success',
+      confirmButtonText: 'OK'
+    })
 
     // Reset các ô input sau khi submit
     setName('');
@@ -18,6 +26,7 @@ function FreeQuote(props) {
     setNumber('');
     setLocation('');
     setUpdates(false);
+    navigate('/')
   };
 
   return (

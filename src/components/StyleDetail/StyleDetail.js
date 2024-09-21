@@ -60,10 +60,6 @@ function StyleDetail(props) {
                         ) : (
                             <p>No image available</p>
                         )}
-                        <i
-                            onClick={handleAddFavorite}
-                            className="fa-solid fa-bookmark icon-favorite"
-                        ></i>
                     </div>
                     <div className="sd-list-item col-lg-5 col-sm-6">
                         <div className="sd-list-item-title">

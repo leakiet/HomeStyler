@@ -1,115 +1,118 @@
 .SearchInput {
-    border: 1px solid #dee2e6;
-    border-radius: 5px;
-    outline: none; 
-    color: #73868A;
-    z-index: 1;
-    margin: auto;
-    background: #F8F9FA;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  outline: none;
+  color: #73868a;
+  z-index: 1;
+  margin: auto;
+  background: #f8f9fa;
 }
 
 .SearchText {
-    margin: auto;
+  margin: auto;
 }
 
 .SearchInput:focus {
-    border: none;
-    border-radius: 5px;
-    outline: solid 2px #73868A ; 
-    color: #73868A ;
-    z-index: 1;
+  border: none;
+  border-radius: 5px;
+  outline: solid 2px #73868a;
+  color: #73868a;
+  z-index: 1;
 }
 
 input::placeholder {
-    color: #73868A   !important;
+  color: #73868a !important;
 }
 
 .btnDropdown a {
-    position: relative;
-    text-decoration: none;
-    color: #73868A ;
+  position: relative;
+  text-decoration: none;
+  color: #73868a;
 }
 
 .btnDropdown a:hover {
-    color: #39463A ;
-    font-weight: bold;
-    text-decoration: underline;
+  color: #39463a;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 a {
-    position: relative;
-    text-decoration: none;
-    color: #73868A ;
+  position: relative;
+  text-decoration: none;
+  color: #73868a;
 }
 
 .AppBar-right {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
 }
 
 .AppBar-right a:hover {
-    color: #39463A ;
-    font-weight: bold;
+  color: #39463a;
+  font-weight: bold;
 }
 
 .AppBar-right a::after {
-    content: '';
-    position: absolute;
-    width: 0;
-    height: 1px;
-    bottom: 0;
-    left: 0;
-    background-color: #73868A;
-    transition: width 0.3s ease;
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: #73868a;
+  transition: width 0.3s ease;
 }
 
 .AppBar-right a:hover::after {
-    width: 100%;
+  width: 100%;
+}
+
+.account-item{
+    display: grid;
 }
 
 .account-links {
-    display: flex;
-    /* display: none; */
-    flex-direction: column;
-    position: absolute;
-    border-radius: 10px;
-    background-color: hsla(0, 0%, 100%,1); 
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); 
-    z-index: 1000; 
-    gap: 10px;
-    padding: 20px;
-    cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  border-radius: 10px;
+  background-color: hsla(0, 0%, 100%, 1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  gap: 10px;
+  padding: 20px;
+  cursor: pointer;
 }
 
 /* Ban đầu ẩn tất cả các dropdown menu */
 .dropdown-menu {
-    display: none;
+  display: none;
 }
 
 /* Hiển thị menu chính khi hover vào Products */
 .btnDropdown:hover > .dropdown-menu {
-    display: block;
-    position: absolute;
-    top: 100%;
-    left: 0;
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
 }
 
 /* Hiển thị submenu khi hover vào phần tử cha có class dropend */
 .dropend:hover > .dropdown-menu {
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 100%; /* Hiển thị submenu ngay bên cạnh phần tử cha */
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 100%; /* Hiển thị submenu ngay bên cạnh phần tử cha */
 }
 
 /* Ngăn các menu con hiển thị đè lên nhau */
 .dropdown-menu > .dropdown-item:hover {
-    background-color: #f8f9fa;
+  background-color: #f8f9fa;
 }
 
 /* Bỏ mũi tên mặc định của Bootstrap */
 .dropdown-toggle::after {
-    display: none;
+  display: none;
 }

@@ -10,7 +10,7 @@ function DesignIdea() {
     const { favoriteStyle, setFavoriteStyle } = useContext(DataContext);
     const params = useParams();
     const slug = params.slug;
-    
+
 
     useEffect(() => {
         const fetchData = async () => {
@@ -25,7 +25,7 @@ function DesignIdea() {
         fetchData();
     }, []);
 
-    
+
     useEffect(() => {
         const results = designStyles.filter(designStyle =>
             designStyle.type === slug &&
@@ -69,33 +69,36 @@ function DesignIdea() {
             <div className='container-designidea-card'>
                 {filteredDesigns.length > 0 ? (
                     filteredDesigns.map((designStyle, index) => {
-                        const isFavorite = favoriteStyle.some(fav => fav.id === designStyle.id);
+                        // const isFavorite = favoriteStyle.some(fav => fav.id === designStyle.id);
                         return (
+
                             <div className='di-card' key={index}>
-                                <div className='di-image'>
-                                    <span
+                                <Link to={`/design-detail/${designStyle.id}`}>
+                                    <div className='di-image'>
+                                        {/* <span
                                         className='di-love-image'
                                         style={{ color: isFavorite ? 'red' : 'black' }}
                                         onClick={() => handleLoveImage(designStyle)}
                                     >
                                         <i className="bi bi-heart-fill"></i>
-                                    </span>
-                                    {designStyle.image ? (
-                                        <img src={designStyle.image} alt={designStyle.name} />
-                                    ) : (
-                                        <p>No image available</p>
-                                    )}
-                                </div>
-                                <Link to={`/design-detail/${designStyle.id}`}>
-                                    <div className='di-text'>
+                                    </span> */}
+                                        {designStyle.image ? (
+                                            <img src={designStyle.image} alt={designStyle.name} />
+                                        ) : (
+                                            <p>No image available</p>
+                                        )}
+                                    </div>
+                                </Link>
+                                <div className='di-text'>
+                                    <Link to={`/design-detail/${designStyle.id}`}>
                                         <div className='di-title'>
                                             <p>{designStyle.name || "No name available"}</p>
                                         </div>
-                                        <div className='di-discription'>
-                                            Size: {designStyle.size || "No size available"}
-                                        </div>
+                                    </Link>
+                                    <div className='di-discription'>
+                                        Size: {designStyle.size || "No size available"}
                                     </div>
-                                </Link>
+                                </div>
                                 <div className='di-btn'>
                                     <Link to='/free-quote'>
                                         <button className='di-consultation btn btn-danger rounded-pill'>

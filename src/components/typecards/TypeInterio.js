@@ -32,16 +32,18 @@ function TypeInterio(props) {
                 <div className='container-card row'>
                     {cardHome.length > 0 && cardHome.map((card, index) => (
                         <div className="card" key={index}>
-                            <img className="card-img-bottom " src={card.image} alt={card.name} />
-                            <div className="card-body">
-                                <h4 className="card-title">{card.name}</h4>
-                                <p className="card-text">{card.description}</p>
+                            <Link to={'/design/' + card.type}>
+                                <img className="card-img-bottom " src={card.image} alt={card.name} />
+                                <div className="card-body">
+                                    <h4 className="card-title">{card.name}</h4>
+                                    <p className="card-text">{card.description}</p>
+                                </div>
                                 <Link to={'/design/' + card.type}>View</Link>
-                            </div>
+                            </Link>
                         </div>
                     ))}
                 </div>
-            </div>
+            </div >
         </>
 
     );

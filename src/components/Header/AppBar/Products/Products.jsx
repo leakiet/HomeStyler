@@ -9,7 +9,7 @@ function Products() {
                 <Link className="dropdown-toggle" to="/products" role="button" aria-expanded="false">
                     Products
                 </Link>
-                <ul className="dropdown-menu">
+                {/* <ul className="dropdown-menu">
                     <li className="dropdown dropend">
                         <Link className="dropdown-item dropdown-toggle" to="/products/bathroom" aria-haspopup="true" aria-expanded="false">Bathroom</Link>
                         <ul className="dropdown-menu">
@@ -64,7 +64,7 @@ function Products() {
                             <li><Link className="dropdown-item" to="/products/lighting/outdoor-lighting">Outdoor Lighting</Link></li>
                         </ul>
                     </li>
-                </ul>
+                </ul> */}
             </div>
         </div>
     );
