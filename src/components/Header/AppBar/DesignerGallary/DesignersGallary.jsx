@@ -29,7 +29,7 @@ function DesignerssGallary() {
       <ul className="dropdown-menu">
         {designers.length > 0 && designers.map((designer, index) => (
           <li key={index}>
-            <Link className="dropdown-item" to={'/designer/' + designer.name.toLowerCase().replace(' ', '-')}>{designer.name}</Link>
+            <Link className="dropdown-item" to={'/designer-list/' + designer.name.toLowerCase().replace(' ', '-')}>{designer.name}</Link>
           </li>
         ))}
       </ul>

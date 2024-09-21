@@ -4,7 +4,7 @@ import "./homePage.css";
 import WhyChoosenUs from "../../components/WhyChoosenUs/WhyChoosenUs";
 import Carousel from "../Carausel/Carausel";
 import Inspiration from "../../components/Inspiration/Inspiration";
-import DesignersCard from "../../components/DesignersList/DesignersCard";
+import DesignersHome from "../../components/DesignerHome/DesignerHome.js";
 function HomePage() {
   return (
     <div>
@@ -13,7 +13,7 @@ function HomePage() {
         <TypeInterio />
         <Inspiration />
         <WhyChoosenUs />
-        <DesignersCard />
+        <DesignersHome />
       </div>
     </div>
   );

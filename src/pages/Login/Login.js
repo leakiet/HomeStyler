@@ -27,13 +27,16 @@ function Login({ checkLogin }) {
     );
     if (user != null) {
       setUserInfo(user);
-      switch (location.state?.type) {
-        case "wproduct":
-          navigate("/products");
-          break;
-        default:
-          navigate("/");
-      }
+switch (location.state?.type) {
+  case "wproduct":
+    navigate("/products", { replace: true });
+    break;
+  case "wdesign":
+    navigate("/list-design", { replace: true });
+    break;
+  default:
+    navigate("/", { replace: true });
+}
     } else {
       Swal.fire({
         title: "Error!",

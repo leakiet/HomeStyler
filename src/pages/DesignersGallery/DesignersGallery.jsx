@@ -30,6 +30,8 @@ function DesignersGallery() {
     };
     fetchDesigner();
   }, [id]);
+  
+  
 
   if (loading) return <div className="loading">Loading...</div>;
   if (error) return <div className="error">Error: {error}</div>;
