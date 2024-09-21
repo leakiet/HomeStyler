@@ -32,8 +32,8 @@ function CommentDesign({ comment, id }) {
         if (comment ) {
             const newComment = {
                 comment: comment,
-                userName: userInfo ? userInfo.loginUsername : 'undefined user',
-                avatar: '/IMAGES/avatar/avatar.jpeg'
+                userName: userInfo ? userInfo.fullname : 'undefined user',
+                avatar: userInfo ? userInfo.avatar : 'undefined avatar'
             };
 
             setCommentUser((prevComments) => [...prevComments, newComment]);

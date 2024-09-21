@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./inspiration.css";
 import Carousel from "react-multi-carousel";
 import 'react-multi-carousel/lib/styles.css';
+import { Link } from "react-router-dom";
 
 function Inspiration(props) {
   const [inspirs, setInspirs] = useState([]);
@@ -57,8 +58,10 @@ function Inspiration(props) {
                     key={topIndex}
                     className={`top-item top-image-${topItem.typeSize}`}
                   >
-                    <img src={topItem.image} alt={topItem.designId} />
-                    <div className="label">{topItem.label}</div>
+                    <Link to={'/design/' + topItem.type}>
+                      <img src={topItem.image} alt={topItem.designId} />
+                    </Link>
+                      <div className="label">{topItem.label}</div>
                   </div>
                 ))}
               </div>
@@ -69,9 +72,11 @@ function Inspiration(props) {
                     className={`bottom-item bottom-image-${bottomItem.typeSize}`}
                   >
                     <div className="buttom-item-img">
-                      <img src={bottomItem.image} alt={bottomItem.designId} />
+                      <Link to={'/design/' + bottomItem.type}>
+                        <img src={bottomItem.image} alt={bottomItem.designId} />
+                      </Link>
                     </div>
-                    <div className="label">{bottomItem.label}</div>
+                      <div className="label">{bottomItem.label}</div>
                   </div>
                 ))}
               </div>

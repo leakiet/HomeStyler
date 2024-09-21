@@ -9,37 +9,37 @@ function Footer() {
           <section className="">
             <div className="row">
               <div className="col-lg-2 d-none d-md-block mt-2">
-                  <img src="https://mdbcdn.b-cdn.net/img/new/fluid/city/113.webp" className="item-photo" />
+                  <img src="/IMAGES/BATH_ROOM/p3.avif" className="item-photo" />
                   <a href="#!">
                     <div className="mask" style={{backgroundColor: "rgba(251, 251, 251, 0.2)"}}></div>
                   </a>
               </div>
               <div className="col-lg-2 d-none d-md-block mt-2">
-                  <img src="https://mdbcdn.b-cdn.net/img/new/fluid/city/113.webp" className="item-photo" />
+                  <img src="/IMAGES/BED_ROOM/p3.avif" className="item-photo" />
                   <a href="#!">
                     <div className="mask" style={{backgroundColor: "rgba(251, 251, 251, 0.2)"}}></div>
                   </a>
               </div>
               <div className="col-lg-2 d-none d-md-block mt-2">
-                  <img src="https://mdbcdn.b-cdn.net/img/new/fluid/city/113.webp" className="item-photo" />
+                  <img src="/IMAGES/CONTEMPORARY_STYLE/p4.avif" className="item-photo" />
                   <a href="#!">
                     <div className="mask" style={{backgroundColor: "rgba(251, 251, 251, 0.2)"}}></div>
                   </a>
               </div>
               <div className="col-lg-2 mt-2">
-                  <img src="https://mdbcdn.b-cdn.net/img/new/fluid/city/113.webp" className="item-photo" />
+                  <img src="/IMAGES/LIVING_ROOM/p3.avif" className="item-photo" />
                   <a href="#!">
                     <div className="mask" style={{backgroundColor: "rgba(251, 251, 251, 0.2)"}}></div>
                   </a>
               </div>
               <div className="col-lg-2 mt-2">
-                  <img src="https://mdbcdn.b-cdn.net/img/new/fluid/city/113.webp" className="item-photo" />
+                  <img src="/IMAGES/ELEGANT_LOCK_STYLE/p4.avif" className="item-photo" />
                   <a href="#!">
                     <div className="mask" style={{backgroundColor: "rgba(251, 251, 251, 0.2)"}}></div>
                   </a>
               </div>
               <div className="col-lg-2 mt-2">
-                  <img src="https://mdbcdn.b-cdn.net/img/new/fluid/city/113.webp" className="item-photo" />
+                  <img src="/IMAGES/KITCHEN/p3.avif" className="item-photo" />
                   <a href="#!">
                     <div className="mask" style={{backgroundColor: "rgba(251, 251, 251, 0.2)"}}></div>
                   </a>

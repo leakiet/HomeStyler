@@ -1,4 +1,5 @@
 import React from 'react';
+import Carousel from 'react-multi-carousel';
 import './carausel.css'
 
 
@@ -24,27 +25,28 @@ function Carausel(props) {
         <div className='container-banner'>
             <div id="carouselExample" className="carousel slide">
                 <div className="carousel-inner">
-                {/* <Carousel responsive={responsive}
-                autoPlay={true}
-                swipeable={true}
-                draggable={true}
-                showDots={false}
-                infinite={true}
-                partialVisible={true}
-                arrows={true}
-            > */}
-                    <div className="carousel-item active">
-                        <img src="/IMAGES/LIVING_ROOM/p1.avif" className="d-block w-100" alt="Living Room" />
-                    </div>
-                    <div className="carousel-item">
-                        <img src="/IMAGES/KITCHEN/p2.avif" className="d-block w-100" alt="Kitchen" />
-                    </div>
-                    <div className="carousel-item">
-                        <img src="/IMAGES/BED_ROOM/p2.avif" className="d-block w-100" alt="Bedroom" />
-                    </div>
+                    <Carousel responsive={responsive}
+                        autoPlay={true}
+                        swipeable={true}
+                        draggable={true}
+                        showDots={false}
+                        infinite={true}
+                        partialVisible={true}
+                        arrows={true}
+                    >
+                        <div className="carousel-item active">
+                            <img src="/IMAGES/LIVING_ROOM/p1.avif" className="d-block w-100" alt="Living Room" />
+                        </div>
+                        <div className="carousel-item">
+                            <img src="/IMAGES/KITCHEN/p2.avif" className="d-block w-100" alt="Kitchen" />
+                        </div>
+                        <div className="carousel-item">
+                            <img src="/IMAGES/BED_ROOM/p2.avif" className="d-block w-100" alt="Bedroom" />
+                        </div>
+                    </Carousel>
                 </div>
             </div>
-        </div>
+        </div >
     );
 }
 

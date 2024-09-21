@@ -6,6 +6,7 @@ import './starrating.css'
 import CommentDesign from '../CommentDesign/CommentDesign';
 import { DataContext } from "../../context/DataContext";
 import { useNavigate } from 'react-router-dom';
+import Swal from 'sweetalert2';
 
 function StarRating({id}) {
     
@@ -25,7 +26,7 @@ function StarRating({id}) {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        if (currentValue > 0 && userInfo !== null) {
+        if (textComment !== '' &&  userInfo !== null) {
             setComment(textComment)
             setCurrentValue(0)
             setTextCommnet('')
@@ -33,7 +34,7 @@ function StarRating({id}) {
             navigate('/login')
             console.log('bug',userInfo);
         } else {
-            alert('cuc')
+            Swal.fire("please fill not require!");
         }
     }
 

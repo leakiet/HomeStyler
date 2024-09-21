@@ -73,7 +73,6 @@ function NavBar({ itemsCartCount }) {
 
           <div className='account-links' style={{ display: showAccountLinks ? 'block' : 'none' }}>
             {(userInfo === null) ? (
-
               <>
                 <div className='account-item'>
                   <Link to="/login">Sign in</Link>

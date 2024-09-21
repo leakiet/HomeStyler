@@ -3,42 +3,48 @@
     "item": {
       "top": [
         {
-          "image": "../IMAGES/LIVING_ROOM/p1.avif",
-          "label": "Living room 1",
+          "image": "/IMAGES/LIVING_ROOM/p1.avif",
+          "label": "Living room morden",
           "typeSize": 1,
-          "designId": "design001_top1"
+          "designId": "design001_top1",
+          "type": "living-room"
         },
         {
-          "image": "../IMAGES/LIVING_ROOM/p2.avif",
-          "label": "Living room 4",
+          "image": "/IMAGES/LIVING_ROOM/p2.avif",
+          "label": "Living room Classics",
           "typeSize": 2,
-          "designId": "design002_top2"
+          "designId": "design002_top2",
+          "type": "living-room"
         },
         {
-          "image": "../IMAGES/LIVING_ROOM/p3.avif",
-          "label": "Living room 3",
+          "image": "/IMAGES/CONTEMPORARY_STYLE/p2.avif",
+          "label": "Comtemporary style morden",
           "typeSize": 1,
-          "designId": "design003_top3"
+          "designId": "design003_top3",
+          "type": "contemporary-styles"
         }
       ],
       "bottom": [
         {
-          "image": "../IMAGES/LIVING_ROOM/p4.avif",
-          "label": "Living room 2",
+          "image": "/IMAGES/CONTEMPORARY_STYLE/p4.avif",
+          "label": "Comtemporary style classic",
           "typeSize": 2,
-          "designId": "design001_bottom1"
+          "designId": "design001_bottom1",
+          "type": "contemporary-styles"
         },
         {
-          "image": "../IMAGES/LIVING_ROOM/p5.avif",
-          "label": "Living room 1",
+          "image": "/IMAGES/BED_ROOM/p1.avif",
+          "label": "Bed Room morden",
           "typeSize": 1,
-          "designId": "design002_bottom2"
+          "designId": "design002_bottom2",
+          "type": "bedroom"
         },
         {
-          "image": "../IMAGES/CONTEMPORARY_STYLE/p1.avif",
-          "label": "Contemporary 1",
+          "image": "/IMAGES/BED_ROOM/p3.avif",
+          "label": "Bed Room classics",
           "typeSize": 2,
-          "designId": "design003_bottom3"
+          "designId": "design003_bottom3",
+          "type": "bedroom"
         }
       ]
     }
@@ -47,174 +53,48 @@
     "item": {
       "top": [
         {
-          "image": "../IMAGES/BED_ROOM/p1.avif",
-          "label": "Label Top 4",
+          "image": "/IMAGES/BATH_ROOM/p1.avif",
+          "label": "Bath Room morden",
           "typeSize": 1,
-          "designId": "design004_top1"
+          "designId": "design004_top1",
+          "type": "bathroom"
         },
         {
-          "image": "../IMAGES/BED_ROOM/p2.avif",
-          "label": "Label Top 5",
+          "image": "/IMAGES/BATH_ROOM/p5.avif",
+          "label": "Bath Room classic",
           "typeSize": 2,
-          "designId": "design005_top2"
+          "designId": "design005_top2",
+          "type": "bathroom"
         },
         {
-          "image": "../IMAGES/BED_ROOM/p3.avif",
-          "label": "Label Top 6",
+          "image": "/IMAGES/ELEGANT_LOCK_STYLE/p1.avif",
+          "label": "Elegant Lock Style morden",
           "typeSize": 1,
-          "designId": "design006_top3"
+          "designId": "design006_top3",
+          "type": "elegant-look-styles"
         }
       ],
       "bottom": [
         {
-          "image": "../IMAGES/BED_ROOM/p4.avif",
-          "label": "Electronics",
+          "image": "/IMAGES/KITCHEN/p1.avif",
+          "label": "Kitchen Morden",
           "typeSize": 2,
-          "designId": "design004_bottom1"
+          "designId": "design004_bottom1",
+          "type": "kitchen"
         },
         {
-          "image": "../IMAGES/BED_ROOM/p5.avif",
-          "label": "Appliances",
+          "image": "/IMAGES/KITCHEN/p5.avif",
+          "label": "Kitchen Classic",
           "typeSize": 1,
-          "designId": "design005_bottom2"
+          "designId": "design005_bottom2",
+          "type": "kitchen"
         },
         {
-          "image": "../IMAGES/BATH_ROOM/p1.avif",
-          "label": "Clothing",
+          "image": "/IMAGES/ELEGANT_LOCK_STYLE/p5.avif",
+          "label": "Elegant Lock Style classic  ",
           "typeSize": 2,
-          "designId": "design006_bottom3"
-        }
-      ]
-    }
-  },
-  {
-    "item": {
-      "top": [
-        {
-          "image": "../IMAGES/BATH_ROOM/p2.avif",
-          "label": "Label Top 7",
-          "typeSize": 1,
-          "designId": "design007_top1"
-        },
-        {
-          "image": "../IMAGES/BATH_ROOM/p3.avif",
-          "label": "Label Top 8",
-          "typeSize": 2,
-          "designId": "design008_top2"
-        },
-        {
-          "image": "../IMAGES/BATH_ROOM/p4.avif",
-          "label": "Label Top 9",
-          "typeSize": 1,
-          "designId": "design009_top3"
-        }
-      ],
-      "bottom": [
-        {
-          "image": "../IMAGES/BATH_ROOM/p5.avif",
-          "label": "Books",
-          "typeSize": 2,
-          "designId": "design007_bottom1"
-        },
-        {
-          "image": "../IMAGES/KITCHEN/p1.avif",
-          "label": "Toys",
-          "typeSize": 1,
-          "designId": "design008_bottom2"
-        },
-        {
-          "image": "../IMAGES/KITCHEN/p2.avif",
-          "label": "Gardening",
-          "typeSize": 2,
-          "designId": "design009_bottom3"
-        }
-      ]
-    }
-  },
-  {
-    "item": {
-      "top": [
-        {
-          "image": "../IMAGES/KITCHEN/p3.avif",
-          "label": "Label Top 10",
-          "typeSize": 1,
-          "designId": "design010_top1"
-        },
-        {
-          "image": "../IMAGES/KITCHEN/p4.avif",
-          "label": "Label Top 11",
-          "typeSize": 2,
-          "designId": "design011_top2"
-        },
-        {
-          "image": "../IMAGES/KITCHEN/p5.avif",
-          "label": "Label Top 12",
-          "typeSize": 1,
-          "designId": "design012_top3"
-        }
-      ],
-      "bottom": [
-        {
-          "image": "../IMAGES/ELEGANT_LOCK_STYLE/p1.avif",
-          "label": "Sports",
-          "typeSize": 2,
-          "designId": "design010_bottom1"
-        },
-        {
-          "image": "../IMAGES/ELEGANT_LOCK_STYLE/p2.avif",
-          "label": "Music",
-          "typeSize": 1,
-          "designId": "design011_bottom2"
-        },
-        {
-          "image": "../IMAGES/ELEGANT_LOCK_STYLE/p3.avif",
-          "label": "Art",
-          "typeSize": 2,
-          "designId": "design012_bottom3"
-        }
-      ]
-    }
-  },
-  {
-    "item": {
-      "top": [
-        {
-          "image": "../IMAGES/ELEGANT_LOCK_STYLE/p4.avif",
-          "label": "Label Top 13",
-          "typeSize": 1,
-          "designId": "design013_top1"
-        },
-        {
-          "image": "../IMAGES/ELEGANT_LOCK_STYLE/p5.avif",
-          "label": "Label Top 14",
-          "typeSize": 2,
-          "designId": "design014_top2"
-        },
-        {
-          "image": "../IMAGES/CONTEMPORARY_STYLE/p2.avif",
-          "label": "Label Top 15",
-          "typeSize": 1,
-          "designId": "design015_top3"
-        }
-      ],
-      "bottom": [
-        {
-          "image": "../IMAGES/CONTEMPORARY_STYLE/p3.avif",
-          "label": "Photography",
-          "typeSize": 2,
-          "designId": "design013_bottom1"
-        },
-        {
-          "image": "../IMAGES/CONTEMPORARY_STYLE/p4.avif",
-          "label": "Cinema",
-          "typeSize": 1,
-          "designId": "design014_bottom2"
-        },
-        {
-          "image": "../IMAGES/CONTEMPORARY_STYLE/p5.avif",
-          "label": "Travel",
-          "typeSize": 2,
-          "designId": "design015_bottom3"
+          "designId": "design006_bottom3",
+          "type": "elegant-look-styles"
         }
       ]
     }
