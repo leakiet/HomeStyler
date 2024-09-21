@@ -5,8 +5,6 @@ import HomePage from "./pages/HomePage/HomePage.jsx";
 import { Route, Routes, useNavigate } from "react-router-dom";
 import ProductsList from "./pages/ProductsList/ProductsList.jsx";
 import CartList from "./pages/Cart/CartList.jsx";
-import Login from "./pages/Login/Login.js";
-import Signup from "./pages/Login/Signup.js";
 import FreeQuote from "./components/FreeQuote/FreeQuote.js";
 import DesignDetail from "./pages/DesignDetail/DesignDetail.js";
 import DesignIdea from "./components/DesignIdea/DesignIdea.js";
@@ -20,6 +18,7 @@ import Profile from "./pages/Profile/Profile.jsx";
 import SiteMap from "./pages/Others/SiteMap/SiteMap.jsx";
 import DesignersHome from "./components/DesignerHome/DesignerHome.js";
 import DesignersGallery from "./pages/DesignersGallery/DesignersGallery.jsx";
+import Login from "./pages/Login/Login.js";
 
 function App() {
   const navigate = useNavigate();
@@ -35,7 +34,7 @@ function App() {
           <Route path="/cart" element={<CartList />} />
           <Route path="/checkout" element={<CheckOut />} />
           <Route path="/login" element={<Login />} />
-          <Route path="/signup" element={<Signup />} />
+          {/* <Route path="/signup" element={<Signup />} /> */}
           <Route path="/profile" element={<Profile />} />
           <Route path="/list-design" element={<DesignIdea />} />
           <Route path="/free-quote" element={<FreeQuote />} />

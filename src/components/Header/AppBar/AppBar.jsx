@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 import { DataContext } from '../../../context/DataContext'
 function NavBar({ itemsCartCount }) {
   const [showAccountLinks, setShowAccountLinks] = useState(false);
-  const { cart, userInfo } = useContext(DataContext)
+  const {userInfo,setUserInfo,setWishList,cart } = useContext(DataContext)
   const getTotalItems = () => {
     return cart.reduce((sum, item) => sum + item.quantity, 0);
   };
@@ -16,7 +16,10 @@ function NavBar({ itemsCartCount }) {
   const handleAccount = () => {
     setShowAccountLinks(!showAccountLinks);
   }
-
+function handleLogout(){
+  setWishList([])
+  setUserInfo(null);
+}
   return (
     <div style={{
       height: '58px',
@@ -76,7 +79,7 @@ function NavBar({ itemsCartCount }) {
               <>
                 <div className='account-item'>
                   <Link to="/login">Sign in</Link>
-                  <Link to='/Signup'>Register</Link>
+                  {/* <Link to='/Signup'>Register</Link> */}
                 </div>
 
               </>
@@ -85,7 +88,7 @@ function NavBar({ itemsCartCount }) {
                 <div className='account-item'>
 
                   <Link to="/profile">My Profile</Link>
-                  <Link to="/login">Sign out</Link>
+                  <Link to="/login" onClick={handleLogout}>Sign out</Link>
                 </div>
               </>
             )}

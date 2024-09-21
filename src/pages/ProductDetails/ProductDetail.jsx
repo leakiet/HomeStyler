@@ -41,7 +41,7 @@ console.log("proDetail: ",proDetail);
                         })}
                     </div>
                     <div className="product-feedback">
-                        <h5>Phản Hồi Khách Hàng</h5>
+                        <h5>Customer Feedback</h5>
                         {proDetail?.reviews && proDetail?.reviews.map((item, index) => {
                             return (
                                 <div className="feedback-item">
